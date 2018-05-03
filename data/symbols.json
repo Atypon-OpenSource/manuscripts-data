@@ -1,0 +1,1542 @@
+[
+  {
+    "UTF8": "α",
+    "TeX": "\\alpha",
+    "desc": "alpha",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:e1b8b3f6-1be9-4185-b894-1edc112d5b71"
+  },
+  {
+    "UTF8": "κ",
+    "TeX": "\\kappa",
+    "desc": "kappa",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:04f087e2-fd71-4230-92de-6d7bc2ee8914"
+  },
+  {
+    "UTF8": "ψ",
+    "TeX": "\\psi",
+    "desc": "psi",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:bb376bb8-6255-4c49-8b49-1474ed0118cc"
+  },
+  {
+    "UTF8": "z",
+    "TeX": "\\digamma",
+    "desc": "digamma",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:2cabb300-04af-40d5-bb09-286b94ebd184"
+  },
+  {
+    "UTF8": "∆",
+    "TeX": "\\Delta",
+    "desc": "Delta",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:e3ca2185-f0fa-4c2f-98f2-f36ec1d80237"
+  },
+  {
+    "UTF8": "Θ",
+    "TeX": "\\Theta",
+    "desc": "Theta",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:57bf416e-b6f2-43fc-a936-c6d1b0f42d15"
+  },
+  {
+    "UTF8": "β",
+    "TeX": "\\beta",
+    "desc": "beta",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:29a0b8db-48f5-468e-b385-2f2bc17f90b8"
+  },
+  {
+    "UTF8": "λ",
+    "TeX": "\\lambda",
+    "desc": "lambda",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:1ba01f27-26ba-44c5-b2ab-11955cff13f2"
+  },
+  {
+    "UTF8": "ρ",
+    "TeX": "\\rho",
+    "desc": "rho",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:1def787d-47b1-4391-85aa-90fecf49e17f"
+  },
+  {
+    "UTF8": "ε",
+    "TeX": "\\varepsilon",
+    "desc": "variant-of-epsilon",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:b2a56e64-c6fe-43f6-8da3-77abea3bb9ea"
+  },
+  {
+    "UTF8": "Γ",
+    "TeX": "\\Gamma",
+    "desc": "Gamma",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:4aadfac6-9e59-4da4-82fc-3c2dd76554bd"
+  },
+  {
+    "UTF8": "Υ",
+    "TeX": "\\Upsilon",
+    "desc": "Upsilon",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:f6b8994d-a5a3-479d-a831-07e03ec64638"
+  },
+  {
+    "UTF8": "χ",
+    "TeX": "\\chi",
+    "desc": "chi",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:e8fb9217-4a2e-4030-8920-37c24327f509"
+  },
+  {
+    "UTF8": "µ",
+    "TeX": "\\mu",
+    "desc": "mu",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:e6586378-62a5-4628-8e60-647a3450f04d"
+  },
+  {
+    "UTF8": "σ",
+    "TeX": "\\sigma",
+    "desc": "sigma",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:9e82d270-9f97-46a8-8ac1-34566330eb4a"
+  },
+  {
+    "UTF8": "κ",
+    "TeX": "\\varkappa",
+    "desc": "varkappa",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:5027e89f-b3d8-45b1-a9aa-3ef2ca9c1796"
+  },
+  {
+    "UTF8": "Λ",
+    "TeX": "\\Lambda",
+    "desc": "Lambda",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:c7a3b48b-d2a7-4f23-89d4-c703586b6bd4"
+  },
+  {
+    "UTF8": "Ξ",
+    "TeX": "\\Xi",
+    "desc": "Xi",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:35f927a3-16a9-4f60-98c5-647e37ff1f4b"
+  },
+  {
+    "UTF8": "δ",
+    "TeX": "\\delta",
+    "desc": "delta",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:d5249687-2897-4fe4-a550-b32e4e63b9a1"
+  },
+  {
+    "UTF8": "ν",
+    "TeX": "\\nu",
+    "desc": "nu",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:09f1e1bb-d71c-4847-ade7-6c27a0b5c3c2"
+  },
+  {
+    "UTF8": "τ",
+    "TeX": "\\tau",
+    "desc": "tau",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:2afc993a-961c-46bb-b5a0-9227b217d06d"
+  },
+  {
+    "UTF8": "ϕ",
+    "TeX": "\\varphi",
+    "desc": "variant-of-phi",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:90ca9f0e-4d54-4642-9558-837711c8f783"
+  },
+  {
+    "UTF8": "Ω",
+    "TeX": "\\Omega",
+    "desc": "Omega",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:5d9b5570-e698-42e0-b41b-4a80879df8db"
+  },
+  {
+    "UTF8": "ε",
+    "TeX": "\\epsilon",
+    "desc": "epsilon",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:60715ffe-b2ee-40ff-9865-1b2df3663d1b"
+  },
+  {
+    "UTF8": "o",
+    "TeX": "\\o",
+    "desc": "o",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:74e897d5-a7b2-4112-b80d-15cab2344871"
+  },
+  {
+    "UTF8": "θ",
+    "TeX": "\\theta",
+    "desc": "theta",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:2ed89254-8e1f-4dae-97ff-40d2d7c547a0"
+  },
+  {
+    "UTF8": "$",
+    "TeX": "\\varpi",
+    "desc": "varphi",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:4aee510e-f5ce-4447-b626-bf3683ab08ae"
+  },
+  {
+    "UTF8": "Φ",
+    "TeX": "\\Phi",
+    "desc": "Phi",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:171bdff7-31d1-4e9d-87fb-9cfe8afff03d"
+  },
+  {
+    "UTF8": "ℵ",
+    "TeX": "\\aleph",
+    "desc": "aleph",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:3915df33-9142-4165-9e52-2b7d87655658"
+  },
+  {
+    "UTF8": "η",
+    "TeX": "\\eta",
+    "desc": "eta",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:f5998db3-b0f2-4624-90fa-5b3dcd410557"
+  },
+  {
+    "UTF8": "ω",
+    "TeX": "\\omega",
+    "desc": "omega",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:ab469939-658f-4089-acd4-8a133b93430d"
+  },
+  {
+    "UTF8": "υ",
+    "TeX": "\\upsilon",
+    "desc": "upsilon",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:ef1ab690-9dfb-4d06-8e90-c4ecea4f7466"
+  },
+  {
+    "UTF8": "%",
+    "TeX": "\\varrho",
+    "desc": "variant-of-rho",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:0d968c7a-d156-4af3-9d21-9e5826aab323"
+  },
+  {
+    "UTF8": "Π",
+    "TeX": "\\Pi",
+    "desc": "Pi",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:6670a010-5e4c-426c-bfda-70781656084d"
+  },
+  {
+    "UTF8": "i",
+    "TeX": "\\beth",
+    "desc": "beth",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:ea1ff398-cdc2-410f-bf4b-2841e97daf0b"
+  },
+  {
+    "UTF8": "γ",
+    "TeX": "\\gamma",
+    "desc": "gamma",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:79298685-8159-4666-86e7-90e8a777c638"
+  },
+  {
+    "UTF8": "φ",
+    "TeX": "\\phi",
+    "desc": "phi",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:2a30ceb6-5a2d-47bc-ae8b-1e6ca39da485"
+  },
+  {
+    "UTF8": "ξ",
+    "TeX": "\\xi",
+    "desc": "xi",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:5bafc0f1-97ef-4a62-8a39-68000d1d47e8"
+  },
+  {
+    "UTF8": "ς",
+    "TeX": "\\varsigma",
+    "desc": "variant-of-sigma",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:ce9b967c-64df-42b2-9fa9-8f877a22622f"
+  },
+  {
+    "UTF8": "Ψ",
+    "TeX": "\\Psi",
+    "desc": "Psi",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:3f70ec15-8607-4187-94ed-81c98ce80d28"
+  },
+  {
+    "UTF8": "ﬢ",
+    "TeX": "\\daleth",
+    "desc": "daleth",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:ce3c043d-b0c1-4e50-b3a7-1923f025298b"
+  },
+  {
+    "UTF8": "ι",
+    "TeX": "\\iota",
+    "desc": "iota",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:8784e864-3d23-4f6a-805e-f05e8c53ef17"
+  },
+  {
+    "UTF8": "π",
+    "TeX": "\\pi",
+    "desc": "pi",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:f9119da4-479e-410e-b56e-a4ee808a8823"
+  },
+  {
+    "UTF8": "ζ",
+    "TeX": "\\zeta",
+    "desc": "zeta",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:7614c212-979c-4951-a781-0f824996ed91"
+  },
+  {
+    "UTF8": "ϑ",
+    "TeX": "\\vartheta",
+    "desc": "variant-of-theta",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:5ac516a7-4bd6-488d-a3c7-6787dea81579"
+  },
+  {
+    "UTF8": "Σ",
+    "TeX": "\\Sigma",
+    "desc": "Sigma",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:890ef275-4c9d-4658-92ba-4631ec577e3e"
+  },
+  {
+    "UTF8": "ג",
+    "TeX": "\\gimel",
+    "desc": "gimel",
+    "symbolType": "symbol",
+    "_id": "MPSymbol:fd8d9c69-ef36-4ac8-9f93-30e33ef36d24"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\sum",
+    "desc": "sum",
+    "symbolType": "var-size-symbol",
+    "_id": "MPSymbol:0a0b4018-7377-4353-bf1a-0214229bda51"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\int",
+    "desc": "integral",
+    "symbolType": "var-size-symbol",
+    "_id": "MPSymbol:256926da-5a32-4fec-b968-4b9712de4733"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\biguplus",
+    "desc": "var-size-symbol",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:1cb37858-a6d2-4fea-8e74-98ff77b5f672"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\bigoplus",
+    "desc": "W",
+    "symbolType": "var-size-symbol",
+    "_id": "MPSymbol:d3403c62-befe-4304-8aea-eb665ad1108c"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\bigvee",
+    "desc": "var-size-symbol",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:745783af-ada3-4a05-b023-df8f5400de85"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\prod",
+    "desc": "product",
+    "symbolType": "var-size-symbol",
+    "_id": "MPSymbol:94c76a7a-9526-4032-b8ca-891da7151a12"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\oint",
+    "desc": "contour integral",
+    "symbolType": "var-size-symbol",
+    "_id": "MPSymbol:8A299EB0-E84B-46F6-AFA3-071B1CEDE8DC"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\bigcap",
+    "desc": "intersection",
+    "symbolType": "var-size-symbol",
+    "_id": "MPSymbol:80a8c9b5-2578-44db-918d-249845ebc400"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\bigotimes",
+    "desc": "var-size-symbol",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:91472c21-54ee-4a84-8fbd-9563dde9ef28"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\bigwedge",
+    "desc": "var-size-symbol",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:7493cc97-8ad0-4a13-b7c8-6d4cdbb43da2"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\coprod",
+    "desc": "var-size-symbol",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:dc587685-08a2-4bcb-8fb0-69e298a79262"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\iint",
+    "desc": "var-size-symbol",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:d65ffb4e-27e9-4f6b-9e17-c403591c71b1"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\bigcup",
+    "desc": "union",
+    "symbolType": "var-size-symbol",
+    "_id": "MPSymbol:4e473390-9548-424a-bc16-50f7482575f1"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\bigodot",
+    "desc": "var-size-symbol",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:9f64b7dc-1233-4b3c-8877-2d09dcf5d4c3"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\bigsqcup",
+    "desc": "var-size-symbol",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:58a51f76-6d29-45a4-96f4-679178eeb757"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\pm",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:aa9f315e-64f3-4a32-ab76-ddf578e8a088"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\cap",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:54174f20-8018-4013-a02e-39d6f549cee3"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\mp",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:61d46201-8836-490f-884e-368d23f66abf"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\cup",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:8e02d881-9918-4fda-8bbe-223ba90d9966"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\setminus",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:50f785de-257d-4b06-816d-cd51379925d4"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\uplus",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:f472a7bc-da25-4a6c-8cf2-0270e94e2df3"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\cdot",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:a1234f3d-6fa9-4426-ae4c-569c0aa120c7"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\sqcap",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:d79ca0f6-e079-4acd-a032-ee495f3b3a5e"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\times",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:9056248f-7d56-4dee-9749-59847aa4d86f"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\sqcup",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:46dcfbbd-ee42-4600-b860-c1e7efbe05d1"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\ast",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:b86f93d8-252c-48a2-aa88-1ce4ac0aacc8"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\triangleleft",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:637fdaa2-6ff7-4d1a-939d-69bfddfd583d"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\star",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:f7c5945a-0851-4786-b5b8-e64bcf92903a"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\triangleright",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:b60be585-ee2f-4fa0-9a95-d58b50a2620a"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\diamond",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:be5635dd-8979-4ac1-a57e-6de2278830b3"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\wr",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:f297f182-78ee-42c6-bc63-d3e6f2a0408f"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\circ",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:72166475-a777-433e-8556-db3bd3012c06"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\bigcirc",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:c72c7898-136e-4866-8ff1-b9be2ee51b5a"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\bullet",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:5242f14a-2f8c-4464-8133-8f7331e3cdfc"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\bigtriangleup",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:765b55cc-88c8-4f1e-b90c-899955512f7a"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\div",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:24eee96b-a5e3-40f1-948a-a68143062a62"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\bigtriangledown",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:98744c77-f0f6-4a93-863a-0b288e3c976c"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\lhd",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:452bb688-9330-4d0a-8317-d6d326b1ea60"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\rhd",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:7334da72-8d1b-48a2-a55b-cf8bfaaee73f"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\vee",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:e6102c18-2296-4336-aa35-5f60c8c7685a"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\odot",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:5749254e-2d71-485e-9617-4f4d52d4273b"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\wedge",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:628c8dba-4acb-46f4-beb9-6d98734e81be"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\dagger",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:3c81fd7d-ea1d-4c18-961a-667ebba2d76a"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\oplus",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:ee2b8bd3-b324-48a4-88e8-2af8ae11138a"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\ddagger",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:0042ba51-47e5-4771-a2b9-2f7a25c0e521"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\ominus",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:662d8da0-6681-42e9-a098-ac5889e6273e"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\amalg",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:197dca7e-9ca9-4103-987f-b6f93919e1c9"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\otimes",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:b94a9897-78fc-4c81-9792-3d136ad38f24"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\unlhd",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:88756724-0a18-49b2-8fe3-e420d20e7481"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\oslash",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:dba5f671-0bd1-40b7-8170-de6acd47d714"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\unrhd",
+    "desc": "binary-op",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:3a2fd30e-1890-4a6b-92e1-a645459828f5"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\leq",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:30733e32-7863-4e96-970d-465e60ec7964"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\geq",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:619cbfe4-7d8c-4068-b5e3-a5bb256df27f"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\prec",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:e4236ce6-59e1-430d-9f85-48c7160ff05e"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\succ",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:e2f3494d-a966-4cc4-8d25-8c332def50e5"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\preceq",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:e48363b2-9435-4dcf-bdf3-9403adb87f41"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\succeq",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:caf2ad31-7d19-463c-a304-754139d70feb"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\ll",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:c1f23ee2-fef3-401b-a470-1560fd1c0784"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\gg",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:e24d0120-b01d-41d3-a1c0-61c7921957f4"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\subset",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:4afba795-dbf1-43ae-bbae-d1500a47bcba"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\supset",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:ce61494a-375b-4041-9da1-71d3261e4a40"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\subseteq",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:f44dc010-5901-4f37-b79c-b9a0616a0903"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\supseteq",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:412609f3-d14d-473e-b9d9-9c48cb243ae4"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\sqsubset",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:3668c4b4-719d-48a5-908a-b407afecb8e7"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\sqsupset",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:5c9fded5-72dc-43ec-8cf4-3f691f1c139e"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\sqsubseteq",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:587b7270-f046-4014-8b81-e8bf173c7c2a"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\sqsupseteq",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:43870864-5bff-43ee-bae8-a92bd8c8ab3e"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\in",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:07174268-e4bc-4ac8-a8ad-a46f3bbee114"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\ni",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:3577bdfd-b1e9-4683-8e6a-8f67a25cab5e"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\vdash",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:5f9764e8-e8e3-40bf-b6f8-bb7efb7922e5"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\dashv",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:48a33f49-dbdf-4fd7-822f-0ad7fbf77eb7"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\smile",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:6e9d7cf9-e8c3-4f64-a9a8-1f7605e2db89"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\mid",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:8b006a4e-e44a-4b6d-a92a-426171f7475f"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\frown",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:f2df5f0f-8090-4aaa-950d-68f9f6850ba6"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\parallel",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:4707b637-4258-4789-9fb2-e39c2014b44c"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\neq",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:d49a5de1-5bac-4d23-b46b-0fad39a55ece"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\perp",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:bb061672-8175-441d-b269-c729f319233b"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\equiv",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:ae04be34-dfa4-45a7-8ddd-d973ef868cce"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\cong",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:9e81ad80-8302-4f9a-ad42-60a7d8af6c77"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\sim",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:18f27b83-c4a8-446c-b1fd-a4c59951d836"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\bowtie",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:a0d2f203-23b0-49a4-b777-ac90d9797719"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\simeq",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:8b733c16-f34d-45ff-bb04-f2c6e09d153e"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\propto",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:ea4038f1-7d6d-49e4-a92e-99f572b52a14"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\asymp",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:40cc4342-36d9-488c-aad4-ef8f115def17"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\models",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:5b505c23-8b0b-4396-8478-2351afc62a75"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\approx",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:b0d11f48-1f81-4367-8220-49316ff44414"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\doteq",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:1ef792d6-ad01-4eb1-94db-d95bfe99db8e"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\Join",
+    "desc": "relation",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:8702872f-c536-4c3d-b4d5-e0fad4baadb1"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\leftarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:01a31482-3b79-4c77-8c64-18af8a46c7fb"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\longleftarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:5113cb5d-67c1-4ab8-ac2c-3b6064ef6b45"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\Leftarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:d942efe2-fd6f-4468-aa03-a4ac81843161"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\Longleftarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:086572e8-4ded-44dc-aa64-0fbf34107201"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\rightarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:7ee7e602-6a23-45c3-80e9-b3dc0b9b72c4"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\longrightarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:b5491c21-de81-4e0a-a5ab-9fff2f7927d4"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\Rightarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:20303d73-f76f-44da-afcb-4d43b4dfc0ef"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\Longrightarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:e2f007b6-28ba-46d1-9548-a5bd69e77a25"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\leftrightarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:b0e9b03e-f120-4c9c-bfa2-afbdb5424154"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\longleftrightarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:3ffebdfc-0cea-4036-ab24-375b25fb8515"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\Leftrightarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:9d1e7f2c-c4b6-4997-bc83-e022ae33d114"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\Longleftrightarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:df09c6e6-d604-47cc-94ac-4d9c53642e21"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\mapsto",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:f9394871-0f59-4108-b12f-8417e0a8b99a"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\longmapsto",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:230cd81f-17ea-429a-a00b-6764823c1b05"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\hookleftarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:c15010d0-5bdf-4d0a-8627-e6767da2f1b0"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\hookrightarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:5d1004d5-906b-4274-94f2-0d644963ccc5"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\leftharpoonup",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:09eaad85-7eac-4ec9-90af-145d024b2c05"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\rightharpoonup",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:f32ad3bc-9e2f-456a-9832-13fbf6d18117"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\leftharpoondown",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:7357e7fc-3693-4d26-bf0f-0ba2e2339342"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\rightharpoondown",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:932cc7e1-10e8-466a-9041-17240740f852"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\rightleftharpoons",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:989da870-63c5-400d-b5b1-bb62a648302d"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\leadsto",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:0f573786-20a6-4c73-a417-52566673351d"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\Uparrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:c72d0185-765a-4d4f-a58d-b16fead8d402"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\Updownarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:bd211a0f-2730-4486-82c1-0f0bb5868881"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\Uparrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:94303433-1bcd-49d9-97ee-026860a481d6"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\nearrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:a6a292e7-fd75-431d-a434-5e0d75973488"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\downarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:ceca7f43-875b-43d7-8385-5ac946c7bc7b"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\searrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:69a783d4-b8f6-45a6-bc63-bd75307dd004"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\Downarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:c342d4f0-fcfd-4eb5-8308-faea903d8b56"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\swarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:5cf76ec2-1c04-43cb-a548-ec364506b996"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\updownarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:e3ed5e94-64dc-4470-af84-525a0fbd32bb"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\nwarrow",
+    "desc": "arrow",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:bf7c7c0b-2a9b-4491-902a-684f6c3a06c7"
+  },
+  {
+    "UTF8": "(",
+    "TeX": "(",
+    "desc": "delimiter",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:fba1b520-365d-4acc-a571-d4cafc45ac7a"
+  },
+  {
+    "UTF8": ")",
+    "TeX": ")",
+    "desc": "delimiter",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:f9c05463-94cb-4407-b2f9-e62806586eca"
+  },
+  {
+    "UTF8": "[",
+    "TeX": "[",
+    "desc": "delimiter",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:bb9cce54-1c4e-4ed8-8951-caedd44fdf9f"
+  },
+  {
+    "UTF8": "]",
+    "TeX": "]",
+    "desc": "delimiter",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:16af0dcc-e0d0-4ef2-9071-86be554402b2"
+  },
+  {
+    "UTF8": "{ {",
+    "TeX": "delimiter",
+    "desc": "undefined",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:15147223-f197-4e03-be97-eb16bf7a06d9"
+  },
+  {
+    "UTF8": "} }",
+    "TeX": "delimiter",
+    "desc": "undefined",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:9573c2ea-52c2-46c1-960b-02342280a843"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\lfloor",
+    "desc": "delimiter",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:76c2b04f-4580-4b02-8074-140f81cc8179"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\rfloor",
+    "desc": "delimiter",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:1c1aa7c9-14d8-4c94-af7f-3e9a7bfabc11"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\lceil",
+    "desc": "delimiter",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:9b05b9fd-b0d1-4a48-8695-539a8fa57276"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\rceil",
+    "desc": "delimiter",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:1afe2472-d4c3-45a0-8197-187dbc04666a"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\langle",
+    "desc": "delimiter",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:8906b85d-75ff-48e2-844a-b7c3f13409b4"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\rangle",
+    "desc": "delimiter",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:f92106f1-771a-45c7-8344-65f23c7704dd"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\backslash",
+    "desc": "delimiter",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:fdca6704-4f8e-420d-bcd7-a7d3424d21e0"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\vert",
+    "desc": "delimiter",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:fb2dba1e-43a0-4a98-86fc-f85d4f191b5b"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\Vert",
+    "desc": "delimiter",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:bb36791d-165f-4630-90d2-b7ba3dc1cbac"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\uparrow",
+    "desc": "delimiter",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:1c6f15f0-0ac5-412f-9215-4ec37c63fedb"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\Uparrow",
+    "desc": "delimiter",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:9bfe0206-0c3a-4fda-8cef-a96291976096"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\downarrow",
+    "desc": "delimiter",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:c455256b-e816-4386-b13b-a0ca61efd26a"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\Downarrow",
+    "desc": "delimiter",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:79fd20bf-8310-47fc-b0b1-62d761f1860a"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\updownarrow",
+    "desc": "delimiter",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:a5828785-8d7f-433c-92bb-2d981b05397e"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\Updownarrow",
+    "desc": "delimiter",
+    "symbolType": "undefined",
+    "_id": "MPSymbol:1ab0d3c3-78fa-432a-ad2d-8c8abf446e30"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\arccos",
+    "desc": "arccos",
+    "symbolType": "function",
+    "_id": "MPSymbol:2857bcaa-fe1e-41f3-a99c-8f6d84e167a7"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\arcsin",
+    "desc": "arcsin",
+    "symbolType": "function",
+    "_id": "MPSymbol:19ce115c-d36d-49eb-9f95-375b72ad640e"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\arctan",
+    "desc": "arctan",
+    "symbolType": "function",
+    "_id": "MPSymbol:d818bcb3-d195-4bb3-9255-3bb004304f44"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\arg",
+    "desc": "arg",
+    "symbolType": "function",
+    "_id": "MPSymbol:533e43f5-8fa5-498b-94bb-48ed1fd4d00d"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\cos",
+    "desc": "cos",
+    "symbolType": "function",
+    "_id": "MPSymbol:a19d2d3c-2f01-4247-8992-06681a6e0695"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\cosh",
+    "desc": "cosh",
+    "symbolType": "function",
+    "_id": "MPSymbol:1aafd2e1-5f65-4266-bb98-e893837ede66"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\cot",
+    "desc": "cot",
+    "symbolType": "function",
+    "_id": "MPSymbol:e53247f3-9c58-413b-8a05-93bc2a36b7ce"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\coth",
+    "desc": "coth",
+    "symbolType": "function",
+    "_id": "MPSymbol:0fdee272-999b-4b04-8ff2-11c9f5a4c93a"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\csc",
+    "desc": "csc",
+    "symbolType": "function",
+    "_id": "MPSymbol:9553f330-f951-435f-becd-f71a2e7d02a9"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\deg",
+    "desc": "deg",
+    "symbolType": "function",
+    "_id": "MPSymbol:8373b782-077f-42c9-b8ec-66f7c09f1aa6"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\det",
+    "desc": "det",
+    "symbolType": "function",
+    "_id": "MPSymbol:15ad4693-0b50-4909-ac04-c31493b7448a"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\dim",
+    "desc": "dim",
+    "symbolType": "function",
+    "_id": "MPSymbol:2fd8aece-5ecb-41e4-a14f-7fa8470443c5"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\exp",
+    "desc": "exp",
+    "symbolType": "function",
+    "_id": "MPSymbol:4d99cd50-a4a4-4317-bca9-a7e506d2cff6"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\gcd",
+    "desc": "gcd",
+    "symbolType": "function",
+    "_id": "MPSymbol:da4ecc6d-63a5-4146-b436-151be6e156df"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\hom",
+    "desc": "hom",
+    "symbolType": "function",
+    "_id": "MPSymbol:cfda1003-b770-4512-9cdb-e3bead9a42d0"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\inf",
+    "desc": "inf",
+    "symbolType": "function",
+    "_id": "MPSymbol:4831616e-e75b-48a2-a4b0-7f67999146da"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\ker",
+    "desc": "ker",
+    "symbolType": "function",
+    "_id": "MPSymbol:514c18dc-f9f5-446b-b3d0-64cda9c454d7"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\lg",
+    "desc": "lg",
+    "symbolType": "function",
+    "_id": "MPSymbol:ad936a84-21ad-469a-a485-0e1786a998af"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\lim",
+    "desc": "lim",
+    "symbolType": "function",
+    "_id": "MPSymbol:db945f32-133c-4003-aff8-773139ec4f89"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\liminf",
+    "desc": "lim-inf",
+    "symbolType": "function",
+    "_id": "MPSymbol:964ed127-8b4f-482b-94bf-f05c0e9c079c"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\limsup",
+    "desc": "lim-sup",
+    "symbolType": "function",
+    "_id": "MPSymbol:690d20da-c69c-455c-9e17-596b63ee35c1"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\ln",
+    "desc": "ln",
+    "symbolType": "function",
+    "_id": "MPSymbol:c4401360-31c0-4608-9b0c-e382ebca4186"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\log",
+    "desc": "log",
+    "symbolType": "function",
+    "_id": "MPSymbol:32adb3b8-3864-4546-bd49-53d4d3846d81"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\max",
+    "desc": "max",
+    "symbolType": "function",
+    "_id": "MPSymbol:2714ca89-5f10-4b0c-b5ca-217a3155f0e1"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\min",
+    "desc": "min",
+    "symbolType": "function",
+    "_id": "MPSymbol:42cddefb-08c4-411d-b4f4-f23e75987720"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\Pr",
+    "desc": "Pr",
+    "symbolType": "function",
+    "_id": "MPSymbol:2a5b014e-3cd4-40e4-a44f-4c49c936d788"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\sec",
+    "desc": "sec",
+    "symbolType": "function",
+    "_id": "MPSymbol:be957fe7-41d9-452c-97bc-73acd5935992"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\sin",
+    "desc": "sin",
+    "symbolType": "function",
+    "_id": "MPSymbol:1e070820-f25c-47f0-8db3-4f51e8502e7c"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\sinh",
+    "desc": "sinh",
+    "symbolType": "function",
+    "_id": "MPSymbol:2ce36a6c-dd52-4e8f-aa58-9eae6e86b8ae"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\sup",
+    "desc": "sup",
+    "symbolType": "function",
+    "_id": "MPSymbol:7fe0437a-b7fd-473f-bcfe-8114d093553e"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\tan",
+    "desc": "tan",
+    "symbolType": "function",
+    "_id": "MPSymbol:3ba5d38e-be3f-4fe5-b426-7412465afe71"
+  },
+  {
+    "UTF8": "",
+    "TeX": "\\tanh",
+    "desc": "tanh",
+    "symbolType": "function",
+    "_id": "MPSymbol:d8faae99-c15c-4093-a4d9-6cc42e15f8d9"
+  }
+]

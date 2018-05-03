@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "MPAphorism:kafka-book-is-like-a-key-to-unknown-chambers",
+    "body": "Many a book is like a key to unknown chambers within the castle of one's own self.",
+    "credit": "Frantz Kafka",
+    "objectType": "MPAphorism"
+  },
+  {
+    "_id": "MPAphorism:mann-order-and-simplification",
+    "body": "Order and simplification are the first steps towards the mastery of a subject.",
+    "credit": "Thomas Mann",
+    "objectType": "MPAphorism"
+  },
+  {
+    "_id": "MPAphorism:edison-i-have-not-failed",
+    "body": "I have not failed. I've just found 10.000 ways that won't work.",
+    "credit": "Thomas Edison",
+    "objectType": "MPAphorism"
+  },
+  {
+    "_id": "MPAphorism:bulwer-lytton-art-and-science",
+    "body": "Art and science have their meeting-point in method.",
+    "credit": "E.G. Bulwer-Lytton",
+    "objectType": "MPAphorism"
+  },
+  {
+    "_id": "MPAphorism:capek-a-true-adventure",
+    "body": "A true adventure starts when imagination collides with reality.",
+    "credit": "Karel Capek",
+    "objectType": "MPAphorism"
+  },
+  {
+    "_id": "MPAphorism:oppenheimer-there-is-something-irreversible-about-acquiring-knowledge",
+    "body": "There is something irreversible about acquiring knowledge; and the simulation of the search for it differs in a most profound way from the reality.",
+    "credit": "Robert Oppenheimer",
+    "objectType": "MPAphorism"
+  },
+  {
+    "_id": "MPAphorism:darwin-free-mind",
+    "body": "Free will is to mind what chance is to matter.",
+    "credit": "Charles Darwin",
+    "objectType": "MPAphorism"
+  },
+  {
+    "_id": "MPAphorism:pauling-have-lots-of-ideas",
+    "body": "Have lots of ideas and throw away the bad ones.",
+    "credit": "Linus Pauling",
+    "objectType": "MPAphorism"
+  },
+  {
+    "_id": "MPAphorism:live-long-and-prosper",
+    "body": "Live long and prosper.",
+    "credit": "Spock",
+    "objectType": "MPAphorism"
+  },
+  {
+    "_id": "MPAphorism:substitute-damn",
+    "body": "Substitute 'damn' every time you're inclined to write 'very;' your editor will delete it and the writing will be just as it should be.",
+    "credit": "Mark Twain",
+    "objectType": "MPAphorism"
+  },
+  {
+    "_id": "MPAphorism:only-describe",
+    "body": "Only describe, don't explain.",
+    "credit": "Ludwig Wittgenstein",
+    "objectType": "MPAphorism"
+  },
+  {
+    "_id": "MPAphorism:nietzsche-it-is-my-ambition",
+    "body": "It is my ambition to say in ten sentences what others say in a whole book.",
+    "credit": "Friedrich Nietzsche",
+    "objectType": "MPAphorism"
+  }
+]

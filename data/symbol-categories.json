@@ -1,0 +1,65 @@
+[
+  {
+    "_id": "MPSymbolCategory:symbol",
+    "objectType": "MPSymbolCategory",
+    "bundled": true,
+    "priority": 100,
+    "name": "Fixed size symbol",
+    "shortName": "Letters",
+    "isUserVisible": true
+  },
+  {
+    "_id": "MPSymbolCategory:var-size-symbol",
+    "objectType": "MPSymbolCategory",
+    "bundled": true,
+    "priority": 200,
+    "name": "Variable sized symbol",
+    "shortName": "Variable size",
+    "isUserVisible": true
+  },
+  {
+    "_id": "MPSymbolCategory:binary-operation",
+    "objectType": "MPSymbolCategory",
+    "bundled": true,
+    "priority": 300,
+    "name": "Binary operation",
+    "shortName": "Binary ops",
+    "isUserVisible": true
+  },
+  {
+    "_id": "MPSymbolCategory:relation",
+    "objectType": "MPSymbolCategory",
+    "bundled": true,
+    "priority": 400,
+    "name": "Relation",
+    "shortName": "Relations",
+    "isUserVisible": true
+  },
+  {
+    "_id": "MPSymbolCategory:arrow",
+    "objectType": "MPSymbolCategory",
+    "bundled": true,
+    "priority": 500,
+    "name": "Arrow",
+    "shortName": "Arrows",
+    "isUserVisible": true
+  },
+  {
+    "_id": "MPSymbolCategory:delimiter",
+    "objectType": "MPSymbolCategory",
+    "bundled": true,
+    "priority": 600,
+    "name": "Delimiter",
+    "shortName": "Delimiters",
+    "isUserVisible": true
+  },
+  {
+    "_id": "MPSymbolCategory:function",
+    "objectType": "MPSymbolCategory",
+    "bundled": true,
+    "priority": 700,
+    "name": "Function",
+    "shortName": "Functions",
+    "isUserVisible": false
+  }
+]

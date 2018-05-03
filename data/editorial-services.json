@@ -1,0 +1,166 @@
+[
+  {
+    "_id": "MPEditorialService:aje-standard-editing",
+    "objectType": "MPEditorialService",
+    "provider": "MPEditorialServiceProvider:aje",
+    "title": "Standard Editing",
+    "tagline": "Speedy and Accurate Editing",
+    "desc": "A subject-area expert will correct all grammar, punctuation, and word usage errors.",
+    "priority": 0,
+    "URL": "https://www.aje.com/en/services/editing",
+    "embeddedServicePrices": [
+      {
+        "_id": "MPEditorialServicePrice:aje-standard-editing-2-500-1500-2d",
+        "objectType": "MPEditorialServicePrice",
+        "price": "$283",
+        "deliveryDescription": "2 days",
+        "minWords": 500,
+        "maxWords": 1500
+      },
+      {
+        "_id": "MPEditorialServicePrice:aje-standard-editing-2-500-1500-4d",
+        "objectType": "MPEditorialServicePrice",
+        "price": "$217",
+        "deliveryDescription": "4 days",
+        "minWords": 500,
+        "maxWords": 1500
+      }
+    ]
+  },
+  {
+    "_id": "MPEditorialService:editage-advanced-editing",
+    "objectType": "MPEditorialService",
+    "provider": "MPEditorialServiceProvider:editage",
+    "title": "Advanced Editing",
+    "tagline": "Speedy and Accurate Editing",
+    "desc": "• Detailed language check\n• Free journal formatting\n• Free editing certificate",
+    "priority": 0,
+    "URL": "https://www.editage.com/pricing/?utm_source=manuscriptsapp&utm_medium=app-menu&utm_campaign=referral",
+    "embeddedServicePrices": [
+      {
+        "_id": "MPEditorialServicePrice:editage-advanced-editing-500-1500-2d",
+        "objectType": "MPEditorialServicePrice",
+        "price": "$150",
+        "deliveryDescription": "2 days",
+        "minWords": 500,
+        "maxWords": 1500
+      },
+      {
+        "_id": "MPEditorialServicePrice:editage-advanced-editing-1501-3500-2d",
+        "objectType": "MPEditorialServicePrice",
+        "price": "$200",
+        "deliveryDescription": "2 days",
+        "minWords": 1501,
+        "maxWords": 3500
+      },
+      {
+        "_id": "MPEditorialServicePrice:editage-advanced-editing-3501-6000-2d",
+        "objectType": "MPEditorialServicePrice",
+        "price": "$315",
+        "deliveryDescription": "2 days",
+        "minWords": 3501,
+        "maxWords": 6000
+      },
+      {
+        "_id": "MPEditorialServicePrice:editage-advanced-editing-6001-8000-2d",
+        "objectType": "MPEditorialServicePrice",
+        "price": "$465",
+        "deliveryDescription": "2 days",
+        "minWords": 6001,
+        "maxWords": 8000
+      },
+      {
+        "_id": "MPEditorialServicePrice:editage-advanced-editing-8001-10000-2d",
+        "objectType": "MPEditorialServicePrice",
+        "price": "$525",
+        "deliveryDescription": "2 days",
+        "minWords": 8001,
+        "maxWords": 10000
+      },
+      {
+        "_id": "MPEditorialServicePrice:editage-advanced-editing-10001-12000-2d",
+        "objectType": "MPEditorialServicePrice",
+        "price": "$585",
+        "deliveryDescription": "2 days",
+        "minWords": 10001,
+        "maxWords": 12000
+      },
+      {
+        "_id": "MPEditorialServicePrice:editage-advanced-editing-above-12000-2d",
+        "objectType": "MPEditorialServicePrice",
+        "price": "Custom Pricing",
+        "deliveryDescription": "Custom Delivery",
+        "minWords": 12000,
+        "maxWords": 500000
+      }
+    ]
+  },
+  {
+    "_id": "MPEditorialService:editage-premium-editing",
+    "objectType": "MPEditorialService",
+    "provider": "MPEditorialServiceProvider:editage",
+    "title": "Premium Editing",
+    "tagline": "Speedy and Accurate Editing",
+    "desc": "All Advanced Editing Features, as well as:\n• Presentation logic & style check\n• Free re-editing for 365 days\n• Customized cover letter",
+    "priority": 1,
+    "URL": "https://www.editage.com/pricing/?utm_source=manuscriptsapp&utm_medium=app-menu&utm_campaign=referral",
+    "embeddedServicePrices": [
+      {
+        "_id": "MPEditorialServicePrice:editage-premium-editing-500-1500-2d",
+        "objectType": "MPEditorialServicePrice",
+        "price": "$299",
+        "deliveryDescription": "3 days",
+        "minWords": 500,
+        "maxWords": 1500
+      },
+      {
+        "_id": "MPEditorialServicePrice:editage-premium-editing-1501-3500-2d",
+        "objectType": "MPEditorialServicePrice",
+        "price": "$399",
+        "deliveryDescription": "3 days",
+        "minWords": 1501,
+        "maxWords": 3500
+      },
+      {
+        "_id": "MPEditorialServicePrice:editage-premium-editing-3501-6000-2d",
+        "objectType": "MPEditorialServicePrice",
+        "price": "$508",
+        "deliveryDescription": "3 days",
+        "minWords": 3501,
+        "maxWords": 6000
+      },
+      {
+        "_id": "MPEditorialServicePrice:editage-premium-editing-6001-8000-2d",
+        "objectType": "MPEditorialServicePrice",
+        "price": "$564",
+        "deliveryDescription": "2 days",
+        "minWords": 6001,
+        "maxWords": 8000
+      },
+      {
+        "_id": "MPEditorialServicePrice:editage-premium-editing-8001-10000-2d",
+        "objectType": "MPEditorialServicePrice",
+        "price": "$620",
+        "deliveryDescription": "3 days",
+        "minWords": 8001,
+        "maxWords": 10000
+      },
+      {
+        "_id": "MPEditorialServicePrice:editage-premium-editing-10001-12000-2d",
+        "objectType": "MPEditorialServicePrice",
+        "price": "$676",
+        "deliveryDescription": "3 days",
+        "minWords": 10001,
+        "maxWords": 12000
+      },
+      {
+        "_id": "MPEditorialServicePrice:editage-premium-editing-above-12000-2d",
+        "objectType": "MPEditorialServicePrice",
+        "price": "Custom Pricing",
+        "deliveryDescription": "Custom Delivery",
+        "minWords": 12000,
+        "maxWords": 500000
+      }
+    ]
+  }
+]

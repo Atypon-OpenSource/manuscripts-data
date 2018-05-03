@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "MPContributorCategory:0082AAF9-2A26-4A5F-AD76-B8BA718D140D",
+    "name": "Author",
+    "desc": "A writer who has written a part of the document.",
+    "objectType": "MPContributorCategory",
+    "bundled": true
+  },
+  {
+    "_id": "MPContributorCategory:C401811B-2348-4BCC-9054-A989088BF7A1",
+    "name": "Supervisor",
+    "desc": "A person who supervises or has charge and direction of the project.",
+    "objectType": "MPContributorCategory",
+    "bundled": true
+  },
+  {
+    "_id": "MPContributorCategory:829EA7C4-4477-4561-B0F7-11D91485C1EA",
+    "name": "Editor",
+    "desc": "A person who is in charge of and determines the final content of a text.",
+    "objectType": "MPContributorCategory",
+    "bundled": true
+  }
+]

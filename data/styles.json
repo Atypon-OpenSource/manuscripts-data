@@ -1,0 +1,929 @@
+[
+  {
+    "_id": "MPPageLayout:defaultA4",
+    "objectType": "MPPageLayout",
+    "bundled": true,
+    "beginChaptersOnRightHandPages": true,
+    "bottomMargin": 20,
+    "defaultParagraphStyle": "MPParagraphStyle:bodyText",
+    "displayUnits": "mm",
+    "leftMargin": 20,
+    "mirrorPagesHorizontally": true,
+    "embeddedNumberingStyle": {
+      "_id": "MPNumberingStyle:CB6FF724-7F91-454A-9A3C-30293471E039",
+      "objectType": "MPNumberingStyle",
+      "startIndex": 1,
+      "prefix": "[",
+      "numberingScheme": "decimal",
+      "suffix": "]",
+      "priority": 99
+    },
+    "pageSize": "a4",
+    "rightMargin": 20,
+    "topMargin": 20
+  },
+  {
+    "_id": "MPBorderStyle:EBBB68B9-16A9-4EA2-8817-43755FF1B7A1",
+    "name": "solid",
+    "title": "Solid",
+    "objectType": "MPBorderStyle",
+    "bundled": true,
+    "priority": 10
+  },
+  {
+    "_id": "MPBorderStyle:E28AA90C-4379-434F-AF58-E2D8C8ED1EB4",
+    "name": "dashed",
+    "title": "Dashed",
+    "objectType": "MPBorderStyle",
+    "bundled": true,
+    "pattern": [
+      2,
+      2
+    ],
+    "priority": 20
+  },
+  {
+    "_id": "MPBorderStyle:00FD8810-B85D-4FC5-8C23-8022A36E07BD",
+    "name": "dotted",
+    "title": "Dotted",
+    "objectType": "MPBorderStyle",
+    "bundled": true,
+    "pattern": [
+      1,
+      1
+    ],
+    "priority": 30
+  },
+  {
+    "_id": "MPBorderStyle:16583262-A260-4E35-A508-3F960F70074F",
+    "name": "double",
+    "title": "Double Lines",
+    "objectType": "MPBorderStyle",
+    "bundled": true,
+    "doubleLines": true,
+    "priority": 40
+  },
+  {
+    "_id": "MPColor:black",
+    "name": "black",
+    "title": "Black",
+    "objectType": "MPColor",
+    "bundled": true,
+    "value": "#000000",
+    "priority": 10
+  },
+  {
+    "_id": "MPColor:gray",
+    "name": "gray",
+    "title": "Gray",
+    "objectType": "MPColor",
+    "bundled": true,
+    "value": "#b0b0b0",
+    "priority": 50
+  },
+  {
+    "_id": "MPColor:verylightgray",
+    "name": "verylightgray",
+    "title": "Very Light Gray",
+    "objectType": "MPColor",
+    "bundled": true,
+    "value": "#f4f4f4",
+    "priority": 50
+  },
+  {
+    "_id": "MPColor:verylightblue",
+    "name": "verylightblue",
+    "title": "Very Light Blue",
+    "objectType": "MPColor",
+    "bundled": true,
+    "value": "#f0f0ff",
+    "priority": 50
+  },
+  {
+    "_id": "MPColor:white",
+    "name": "white",
+    "title": "White",
+    "objectType": "MPColor",
+    "bundled": true,
+    "value": "#ffffff",
+    "priority": 100
+  },
+  {
+    "_id": "MPColor:red",
+    "name": "red",
+    "title": "Red",
+    "objectType": "MPColor",
+    "bundled": true,
+    "value": "#ff0000",
+    "priority": 110
+  },
+  {
+    "_id": "MPColor:green",
+    "name": "green",
+    "title": "Green",
+    "objectType": "MPColor",
+    "bundled": true,
+    "value": "#00ff00",
+    "priority": 120
+  },
+  {
+    "_id": "MPColor:blue",
+    "name": "blue",
+    "title": "Blue",
+    "objectType": "MPColor",
+    "bundled": true,
+    "value": "#0000ff",
+    "priority": 130
+  },
+  {
+    "_id": "MPColorScheme:default",
+    "objectType": "MPColorScheme",
+    "name": "Manuscripts default colour scheme",
+    "colors": [
+      "MPColor:black",
+      "MPColor:gray",
+      "MPColor:verylightgray",
+      "MPColor:verylightblue",
+      "MPColor:white",
+      "MPColor:red",
+      "MPColor:green",
+      "MPColor:blue"
+    ]
+  },
+  {
+    "_id": "MPTableStyle:default",
+    "name": "default",
+    "title": "Default Table Style",
+    "objectType": "MPTableStyle",
+    "bundled": true,
+    "headerBackgroundColor": "MPColor:verylightgray",
+    "headerTopBorder": {
+      "color": "MPColor:black",
+      "style": "MPBorderStyle:EBBB68B9-16A9-4EA2-8817-43755FF1B7A1",
+      "width": 2,
+      "_id": "MPBorder:6BC92907-B7DF-4542-84CF-1456246EFEA9",
+      "objectType": "MPBorder"
+    },
+    "headerBottomBorder": {
+      "color": "MPColor:black",
+      "style": "MPBorderStyle:EBBB68B9-16A9-4EA2-8817-43755FF1B7A1",
+      "width": 1,
+      "_id": "MPBorder:EB6A90B8-E464-4016-A6E7-90F704EC63C2",
+      "objectType": "MPBorder"
+    },
+    "headerBottomSpacing": 3,
+    "bodyBackgroundColor": "MPColor:white",
+    "bodyBackgroundAlternateColor": "MPColor:white",
+    "bodyColumnSeparatorBorder": {
+      "color": "MPColor:black",
+      "style": "MPBorderStyle:00FD8810-B85D-4FC5-8C23-8022A36E07BD",
+      "width": 1,
+      "_id": "MPBorder:EBB5D0B3-A9FE-49B3-ADAD-2CC5851D91F9",
+      "objectType": "MPBorder"
+    },
+    "footerTopSpacing": 3,
+    "footerBackgroundColor": "MPColor:white",
+    "footerTopBorder": {
+      "color": "MPColor:black",
+      "style": "MPBorderStyle:EBBB68B9-16A9-4EA2-8817-43755FF1B7A1",
+      "width": 1,
+      "_id": "MPBorder:2338AB83-D20B-4118-8C38-D0F330E85F23",
+      "objectType": "MPBorder"
+    },
+    "footerBottomBorder": {
+      "color": "MPColor:black",
+      "style": "MPBorderStyle:EBBB68B9-16A9-4EA2-8817-43755FF1B7A1",
+      "width": 1,
+      "_id": "MPBorder:EC933CA4-ABBB-49D0-A2EF-4B0B2D1DA786",
+      "objectType": "MPBorder"
+    },
+    "priority": 10
+  },
+  {
+    "_id": "MPParagraphStyle:manuscriptTitle",
+    "kind": "title",
+    "preferredXHTMLElement": "h1",
+    "name": "manuscriptTitle",
+    "title": "Manuscript Title",
+    "objectType": "MPParagraphStyle",
+    "bundled": true,
+    "nextStyle": "MPParagraphStyle:bodyText",
+    "textStyling": {
+      "_id": "MPTextStyling:BBA06E82-F724-419F-A81E-1886644AA4B9",
+      "objectType": "MPTextStyling",
+      "fontFamily": "Charter",
+      "fontSize": 20,
+      "bold": true,
+      "italic": false,
+      "color": "MPColor:black"
+    },
+    "alignment": "left",
+    "bottomSpacing": 10,
+    "firstLineIndent": 0,
+    "lineSpacing": 1.5,
+    "headIndent": 0,
+    "tailIndent": 0,
+    "topSpacing": 10,
+    "priority": 19,
+    "partOfTOC": false
+  },
+  {
+    "_id": "MPParagraphStyle:H1",
+    "kind": "heading",
+    "preferredXHTMLElement": "h1",
+    "name": "heading1",
+    "title": "Section Heading",
+    "objectType": "MPParagraphStyle",
+    "bundled": true,
+    "nextStyle": "MPParagraphStyle:bodyText",
+    "textStyling": {
+      "_id": "MPTextStyling:2E2D93EB-2474-4494-AD92-B5EAD46A38BE",
+      "objectType": "MPTextStyling",
+      "fontFamily": "Charter",
+      "fontSize": 16,
+      "bold": true,
+      "italic": false,
+      "color": "MPColor:black"
+    },
+    "alignment": "left",
+    "bottomSpacing": 5,
+    "firstLineIndent": 0,
+    "lineSpacing": 1.5,
+    "headIndent": 0,
+    "tailIndent": 0,
+    "topSpacing": 8,
+    "priority": 20,
+    "partOfTOC": true
+  },
+  {
+    "_id": "MPParagraphStyle:H2",
+    "kind": "heading",
+    "preferredXHTMLElement": "h2",
+    "name": "heading2",
+    "title": "Subsection Heading",
+    "objectType": "MPParagraphStyle",
+    "bundled": true,
+    "nextStyle": "MPParagraphStyle:bodyText",
+    "textStyling": {
+      "_id": "MPTextStyling:0A37ACFF-1D8A-4068-ABD0-0594C99C8EE0",
+      "objectType": "MPTextStyling",
+      "fontFamily": "Charter",
+      "fontSize": 14,
+      "bold": true,
+      "italic": false,
+      "color": "MPColor:black"
+    },
+    "alignment": "left",
+    "bottomSpacing": 5,
+    "firstLineIndent": 0,
+    "lineSpacing": 1.5,
+    "headIndent": 0,
+    "tailIndent": 0,
+    "topSpacing": 8,
+    "priority": 21,
+    "partOfTOC": true
+  },
+  {
+    "_id": "MPParagraphStyle:H3",
+    "kind": "heading",
+    "preferredXHTMLElement": "h3",
+    "name": "heading3",
+    "title": "Subsubsection Heading",
+    "objectType": "MPParagraphStyle",
+    "bundled": true,
+    "nextStyle": "MPParagraphStyle:bodyText",
+    "textStyling": {
+      "_id": "MPTextStyling:055123F5-3704-49FE-B59B-D801598C67C4",
+      "objectType": "MPTextStyling",
+      "fontFamily": "Charter",
+      "fontSize": 12,
+      "bold": true,
+      "italic": false,
+      "color": "MPColor:black"
+    },
+    "alignment": "left",
+    "bottomSpacing": 5,
+    "firstLineIndent": 0,
+    "lineSpacing": 1.5,
+    "headIndent": 0,
+    "tailIndent": 0,
+    "topSpacing": 8,
+    "priority": 22,
+    "partOfTOC": false
+  },
+  {
+    "_id": "MPParagraphStyle:H4",
+    "kind": "heading",
+    "preferredXHTMLElement": "h4",
+    "name": "heading4",
+    "title": "Subsubsubsection Heading",
+    "objectType": "MPParagraphStyle",
+    "bundled": true,
+    "nextStyle": "MPParagraphStyle:bodyText",
+    "textStyling": {
+      "_id": "MPTextStyling:A3F0EF28-7A3F-4208-9205-5BD3FF8C1066",
+      "objectType": "MPTextStyling",
+      "fontFamily": "Charter",
+      "fontSize": 12,
+      "bold": true,
+      "italic": false,
+      "color": "MPColor:black"
+    },
+    "alignment": "left",
+    "bottomSpacing": 5,
+    "firstLineIndent": 0,
+    "lineSpacing": 1.5,
+    "headIndent": 0,
+    "tailIndent": 0,
+    "topSpacing": 8,
+    "priority": 23,
+    "partOfTOC": false
+  },
+  {
+    "_id": "MPParagraphStyle:H5",
+    "kind": "heading",
+    "preferredXHTMLElement": "h5",
+    "name": "heading5",
+    "title": "Subsubsubsubsection Heading",
+    "objectType": "MPParagraphStyle",
+    "bundled": true,
+    "nextStyle": "MPParagraphStyle:bodyText",
+    "textStyling": {
+      "_id": "MPTextStyling:6094A8B5-2751-489F-B4A5-699E54B57DC3",
+      "objectType": "MPTextStyling",
+      "fontFamily": "Charter",
+      "fontSize": 12,
+      "bold": true,
+      "italic": false,
+      "color": "MPColor:black"
+    },
+    "alignment": "left",
+    "bottomSpacing": 5,
+    "firstLineIndent": 0,
+    "lineSpacing": 1.5,
+    "headIndent": 0,
+    "tailIndent": 0,
+    "topSpacing": 8,
+    "priority": 24,
+    "partOfTOC": false
+  },
+  {
+    "_id": "MPParagraphStyle:H6",
+    "kind": "heading",
+    "preferredXHTMLElement": "h6",
+    "name": "heading6",
+    "title": "Subsubsubsubsubsection Heading",
+    "objectType": "MPParagraphStyle",
+    "bundled": true,
+    "nextStyle": "MPParagraphStyle:bodyText",
+    "textStyling": {
+      "_id": "MPTextStyling:5507294C-AD8D-48EC-B86A-A4E5AE6C34D5",
+      "objectType": "MPTextStyling",
+      "fontFamily": "Charter",
+      "fontSize": 10,
+      "bold": true,
+      "italic": false,
+      "color": "MPColor:black"
+    },
+    "alignment": "left",
+    "bottomSpacing": 5,
+    "firstLineIndent": 0,
+    "lineSpacing": 1.5,
+    "headIndent": 0,
+    "tailIndent": 0,
+    "topSpacing": 8,
+    "priority": 25,
+    "partOfTOC": false
+  },
+  {
+    "_id": "MPParagraphStyle:bodyText",
+    "kind": "body",
+    "preferredXHTMLElement": "p",
+    "name": "bodyText",
+    "title": "Body Text",
+    "objectType": "MPParagraphStyle",
+    "bundled": true,
+    "nextStyle": "MPParagraphStyle:bodyText",
+    "textStyling": {
+      "_id": "MPTextStyling:A6E169AC-4610-44C6-A979-7FD95AE787CC",
+      "objectType": "MPTextStyling",
+      "fontFamily": "Charter",
+      "fontSize": 12,
+      "bold": false,
+      "italic": false,
+      "color": "MPColor:black"
+    },
+    "listHeadIndent": 30,
+    "listItemIndentPerLevel": 30,
+    "listTailIndent": 0,
+    "hierarchicalListNumbering": false,
+    "hideListNumberingSuffixForLastLevel": true,
+    "embeddedListItemBulletStyles": {
+      "1": {
+        "_id": "MPListItemBulletStyle:0E9110F4-8426-4B66-B97A-9053CFC9C77A",
+        "objectType": "MPListItemBulletStyle",
+        "bulletStyle": "disc"
+      },
+      "2": {
+        "_id": "MPListItemBulletStyle:1066DC6B-704F-4CA0-B807-72F461F5E0BA",
+        "objectType": "MPListItemBulletStyle",
+        "bulletStyle": "circle"
+      }
+    },
+    "embeddedListItemNumberingStyles": {
+      "1": {
+        "_id": "MPNumberingStyle:5A479546-C898-4C4B-9836-202EA34332A8",
+        "objectType": "MPNumberingStyle",
+        "startIndex": 1,
+        "prefix": "",
+        "numberingScheme": "decimal",
+        "suffix": "."
+      },
+      "2": {
+        "_id": "MPNumberingStyle:BE16BD50-9F21-49A7-8F66-15011A3DBCEE",
+        "objectType": "MPNumberingStyle",
+        "startIndex": 1,
+        "prefix": "",
+        "numberingScheme": "decimal",
+        "suffix": "."
+      },
+      "3": {
+        "_id": "MPNumberingStyle:5AC47239-EDA2-4314-8BE5-8A5399F379DF",
+        "objectType": "MPNumberingStyle",
+        "startIndex": 1,
+        "prefix": "",
+        "numberingScheme": "decimal",
+        "suffix": "."
+      }
+    },
+    "alignment": "left",
+    "bottomSpacing": 10,
+    "firstLineIndent": 0,
+    "lineSpacing": 2,
+    "headIndent": 0,
+    "tailIndent": 0,
+    "topSpacing": 10,
+    "priority": 10,
+    "partOfTOC": false
+  },
+  {
+    "_id": "MPParagraphStyle:contributorList",
+    "kind": "title",
+    "preferredXHTMLElement": "p",
+    "name": "contributorList",
+    "title": "Author List",
+    "objectType": "MPParagraphStyle",
+    "bundled": true,
+    "nextStyle": "MPParagraphStyle:bodyText",
+    "textStyling": {
+      "_id": "MPTextStyling:E430B8EE-411D-4218-82E3-C30269D1803A",
+      "objectType": "MPTextStyling",
+      "fontFamily": "Charter",
+      "fontSize": 12,
+      "bold": false,
+      "italic": false,
+      "color": "MPColor:black"
+    },
+    "alignment": "left",
+    "bottomSpacing": 10,
+    "firstLineIndent": 0,
+    "lineSpacing": 1.5,
+    "headIndent": 0,
+    "tailIndent": 0,
+    "topSpacing": 10,
+    "priority": 20,
+    "partOfTOC": false
+  },
+  {
+    "_id": "MPParagraphStyle:toc",
+    "kind": "body",
+    "preferredXHTMLElement": "p",
+    "name": "bodyText",
+    "title": "Table of Contents",
+    "objectType": "MPParagraphStyle",
+    "bundled": true,
+    "nextStyle": "MPParagraphStyle:bodyText",
+    "textStyling": {
+      "_id": "MPTextStyling:2E79D76D-CAC1-492F-8709-DAD9FD369B8B",
+      "objectType": "MPTextStyling",
+      "fontFamily": "Charter",
+      "fontSize": 12,
+      "bold": false,
+      "italic": false,
+      "color": "MPColor:black"
+    },
+    "listHeadIndent": 30,
+    "listItemIndentPerLevel": 30,
+    "listTailIndent": 0,
+    "hierarchicalListNumbering": false,
+    "hideListNumberingSuffixForLastLevel": true,
+    "embeddedListItemBulletStyles": {
+      "1": {
+        "_id": "MPListItemBulletStyle:DD563297-776A-42C6-9408-21501DD0B0AC",
+        "objectType": "MPListItemBulletStyle",
+        "bulletStyle": "none"
+      },
+      "2": {
+        "_id": "MPListItemBulletStyle:EC293DED-80AD-414C-9988-9EF62A9A4EF4",
+        "objectType": "MPListItemBulletStyle",
+        "bulletStyle": "none"
+      }
+    },
+    "embeddedListItemNumberingStyles": {
+      "1": {
+        "_id": "MPNumberingStyle:43D2A1BA-0ED9-4B8E-8C29-265B17B9F1DD",
+        "objectType": "MPNumberingStyle",
+        "startIndex": 1,
+        "prefix": "",
+        "numberingScheme": "none",
+        "suffix": "."
+      },
+      "2": {
+        "_id": "MPNumberingStyle:9D6F6970-0273-4C53-BC7A-8B2FAA784D4A",
+        "objectType": "MPNumberingStyle",
+        "startIndex": 1,
+        "prefix": "",
+        "numberingScheme": "none",
+        "suffix": "."
+      },
+      "3": {
+        "_id": "MPNumberingStyle:AAB86A8A-5D9D-4C37-995F-F0226E22E10D",
+        "objectType": "MPNumberingStyle",
+        "startIndex": 1,
+        "prefix": "",
+        "numberingScheme": "none",
+        "suffix": "."
+      }
+    },
+    "alignment": "left",
+    "bottomSpacing": 10,
+    "firstLineIndent": 0,
+    "lineSpacing": 2,
+    "headIndent": 0,
+    "tailIndent": 0,
+    "topSpacing": 10,
+    "priority": 20,
+    "partOfTOC": false
+  },
+  {
+    "_id": "MPParagraphStyle:footnote",
+    "kind": "footnote",
+    "preferredXHTMLElement": "p",
+    "name": "footnote",
+    "title": "Footnote",
+    "objectType": "MPParagraphStyle",
+    "bundled": true,
+    "nextStyle": "MPParagraphStyle:footnote",
+    "textStyling": {
+      "_id": "MPTextStyling:A6E169AC-4610-44C6-A979-7FD95AE787CC",
+      "objectType": "MPTextStyling",
+      "fontFamily": "Charter",
+      "fontSize": 10,
+      "bold": false,
+      "italic": false,
+      "color": "MPColor:black"
+    },
+    "listHeadIndent": 30,
+    "listItemIndentPerLevel": 30,
+    "listTailIndent": 0,
+    "hierarchicalListNumbering": false,
+    "hideListNumberingSuffixForLastLevel": true,
+    "embeddedListItemBulletStyles": {
+      "1": {
+        "_id": "MPListItemBulletStyle:0E9110F4-8426-4B66-B97A-9053CFC9C77A",
+        "objectType": "MPListItemBulletStyle",
+        "bulletStyle": "disc"
+      },
+      "2": {
+        "_id": "MPListItemBulletStyle:1066DC6B-704F-4CA0-B807-72F461F5E0BA",
+        "objectType": "MPListItemBulletStyle",
+        "bulletStyle": "circle"
+      }
+    },
+    "embeddedListItemNumberingStyles": {
+      "1": {
+        "_id": "MPNumberingStyle:5A479546-C898-4C4B-9836-202EA34332A8",
+        "objectType": "MPNumberingStyle",
+        "startIndex": 1,
+        "prefix": "",
+        "numberingScheme": "decimal",
+        "suffix": "."
+      },
+      "2": {
+        "_id": "MPNumberingStyle:BE16BD50-9F21-49A7-8F66-15011A3DBCEE",
+        "objectType": "MPNumberingStyle",
+        "startIndex": 1,
+        "prefix": "",
+        "numberingScheme": "decimal",
+        "suffix": "."
+      },
+      "3": {
+        "_id": "MPNumberingStyle:5AC47239-EDA2-4314-8BE5-8A5399F379DF",
+        "objectType": "MPNumberingStyle",
+        "startIndex": 1,
+        "prefix": "",
+        "numberingScheme": "decimal",
+        "suffix": "."
+      }
+    },
+    "alignment": "left",
+    "bottomSpacing": 10,
+    "firstLineIndent": 0,
+    "lineSpacing": 2,
+    "headIndent": 0,
+    "tailIndent": 0,
+    "topSpacing": 10,
+    "priority": 100,
+    "partOfTOC": false
+  },
+  {
+    "_id": "MPParagraphStyle:listing",
+    "kind": "listing",
+    "preferredXHTMLElement": "pre",
+    "name": "listing",
+    "title": "Listing",
+    "objectType": "MPParagraphStyle",
+    "bundled": true,
+    "nextStyle": "MPParagraphStyle:listing",
+    "textStyling": {
+      "_id": "MPTextStyling:38ED2127-F6B6-4465-B739-09A3701A832D",
+      "objectType": "MPTextStyling",
+      "fontFamily": "Menlo",
+      "fontSize": 11,
+      "bold": false,
+      "italic": false,
+      "color": "MPColor:black"
+    },
+    "alignment": "left",
+    "bottomSpacing": 10,
+    "firstLineIndent": 0,
+    "lineSpacing": 1.5,
+    "headIndent": 0,
+    "tailIndent": 0,
+    "topSpacing": 10,
+    "priority": 110,
+    "partOfTOC": false
+  },
+  {
+    "_id": "MPFigureStyle:default",
+    "preferredXHTMLElement": "figure",
+    "name": "default",
+    "title": "Default",
+    "objectType": "MPFigureStyle",
+    "bundled": true,
+    "captionPosition": "below",
+    "innerBorder": {
+      "color": "MPColor:black",
+      "style": "MPBorderStyle:EBBB68B9-16A9-4EA2-8817-43755FF1B7A1",
+      "width": 0,
+      "_id": "MPBorder:0FFF4CDC-9D5C-4B7D-A606-F0374354FB7F",
+      "objectType": "MPBorder"
+    },
+    "outerBorder": {
+      "width": 0,
+      "_id": "MPBorder:0FFF4CDC-9D5C-4B7D-A606-F0374354FB7F",
+      "objectType": "MPBorder"
+    },
+    "priority": 10
+  },
+  {
+    "_id": "MPFigureStyle:borderless-caption-below",
+    "preferredXHTMLElement": "figure",
+    "name": "borderless_caption_below",
+    "title": "Borderless, Caption Below",
+    "objectType": "MPFigureStyle",
+    "bundled": true,
+    "captionPosition": "below",
+    "innerBorder": {
+      "color": "MPColor:black",
+      "style": "MPBorderStyle:EBBB68B9-16A9-4EA2-8817-43755FF1B7A1",
+      "width": 0,
+      "_id": "MPBorder:0FFF4CDC-9D5C-4B7D-A606-F0374354FB7F",
+      "objectType": "MPBorder"
+    },
+    "innerSpacing": 1,
+    "outerBorder": {
+      "width": 0,
+      "_id": "MPBorder:1D66EC86-50A7-430B-A22F-EF025071C5D3",
+      "objectType": "MPBorder"
+    },
+    "outerSpacing": 0,
+    "priority": 20
+  },
+  {
+    "_id": "MPFigureStyle:bordered-caption-below",
+    "preferredXHTMLElement": "figure",
+    "name": "bordered_caption_below",
+    "title": "Bordered, Caption Below",
+    "objectType": "MPFigureStyle",
+    "bundled": true,
+    "captionPosition": "below",
+    "innerBorder": {
+      "color": "MPColor:black",
+      "style": "MPBorderStyle:EBBB68B9-16A9-4EA2-8817-43755FF1B7A1",
+      "width": 1,
+      "_id": "MPBorder:0FFF4CDC-9D5C-4B7D-A606-F0374354FB7F",
+      "objectType": "MPBorder"
+    },
+    "innerSpacing": 1,
+    "priority": 30
+  },
+  {
+    "_id": "MPFigureStyle:borderless-caption-above",
+    "preferredXHTMLElement": "figure",
+    "name": "borderless_caption_above",
+    "title": "Borderless, Caption Above",
+    "objectType": "MPFigureStyle",
+    "bundled": true,
+    "captionPosition": "above",
+    "innerBorder": {
+      "color": "MPColor:black",
+      "style": "MPBorderStyle:EBBB68B9-16A9-4EA2-8817-43755FF1B7A1",
+      "width": 0,
+      "_id": "MPBorder:0FFF4CDC-9D5C-4B7D-A606-F0374354FB7F",
+      "objectType": "MPBorder"
+    },
+    "outerBorder": {
+      "color": "MPColor:black",
+      "style": "MPBorderStyle:EBBB68B9-16A9-4EA2-8817-43755FF1B7A1",
+      "width": 0,
+      "_id": "MPBorder:617000AE-D9C8-498C-A4F3-A000CCD2DD72",
+      "objectType": "MPBorder"
+    },
+    "priority": 90
+  },
+  {
+    "_id": "MPFigureStyle:bordered-caption-above",
+    "preferredXHTMLElement": "figure",
+    "name": "bordered_caption_above",
+    "title": "Bordered, Caption Above",
+    "objectType": "MPFigureStyle",
+    "bundled": true,
+    "captionPosition": "above",
+    "innerBorder": {
+      "color": "MPColor:black",
+      "style": "MPBorderStyle:EBBB68B9-16A9-4EA2-8817-43755FF1B7A1",
+      "width": 1,
+      "_id": "MPBorder:0FFF4CDC-9D5C-4B7D-A606-F0374354FB7F",
+      "objectType": "MPBorder"
+    },
+    "outerBorder": {
+      "color": "MPColor:black",
+      "style": "MPBorderStyle:EBBB68B9-16A9-4EA2-8817-43755FF1B7A1",
+      "width": 0,
+      "_id": "MPBorder:617000AE-D9C8-498C-A4F3-A000CCD2DD72",
+      "objectType": "MPBorder"
+    },
+    "priority": 90
+  },
+  {
+    "_id": "MPCaptionStyle:default",
+    "name": "default",
+    "title": "Default",
+    "objectType": "MPCaptionStyle",
+    "bundled": true,
+    "priority": 10,
+    "embeddedCaptionComponents": [
+      {
+        "_id": "MPStyleableStringComponent:E43EAFE4-7C81-468E-BF88-8CEF41435062",
+        "objectType": "MPStyleableStringComponent",
+        "bold": true,
+        "italic": false,
+        "placeholderString": "${kind} ${elementIndex}:"
+      },
+      {
+        "_id": "MPStyleableStringComponent:A6F4C1B4-597F-4206-A21A-4CA60F6C7A2E",
+        "objectType": "MPStyleableStringComponent",
+        "bold": false,
+        "italic": false,
+        "placeholderString": "${caption}",
+        "editable": true
+      }
+    ],
+    "embeddedFigureTitleComponents": [
+      {
+        "_id": "MPStyleableStringComponent:E5CB691A-EE39-41BD-8D78-22E02BD7782A",
+        "objectType": "MPStyleableStringComponent",
+        "bold": true,
+        "italic": false,
+        "placeholderString": "${figureIndex}. "
+      },
+      {
+        "_id": "MPStyleableStringComponent:9E4DDC68-4667-49C8-9F3E-600E0258A53A",
+        "objectType": "MPStyleableStringComponent",
+        "bold": false,
+        "italic": false,
+        "placeholderString": "${title}",
+        "editable": true
+      }
+    ],
+    "figureTitleNumberingScheme": "decimal"
+  },
+  {
+    "_id": "MPAuxiliaryObjectReferenceStyle:default",
+    "name": "default",
+    "title": "Default",
+    "objectType": "MPAuxiliaryObjectReferenceStyle",
+    "bundled": true,
+    "priority": 10,
+    "embeddedReferenceStringComponents": [
+      {
+        "_id": "MPStyleableStringComponent:B8CF9955-0956-4114-AAC7-F9C6CC99688F",
+        "objectType": "MPStyleableStringComponent",
+        "bold": true,
+        "italic": false,
+        "placeholderString": "${kind} ${elementIndex}"
+      }
+    ]
+  },
+  {
+    "_id": "MPFigureLayout:default",
+    "name": "default",
+    "title": "Single Figure",
+    "objectType": "MPFigureLayout",
+    "bundled": true,
+    "columns": 1,
+    "rows": 1,
+    "priority": 10
+  },
+  {
+    "_id": "MPFigureLayout:two_figures",
+    "name": "two_figures",
+    "title": "Two Figures Side by Side",
+    "objectType": "MPFigureLayout",
+    "bundled": true,
+    "columns": 2,
+    "rows": 1,
+    "priority": 20
+  },
+  {
+    "_id": "MPFigureLayout:two_figures_stacked",
+    "name": "two_figures_stacked",
+    "title": "Two Figures Stacked",
+    "objectType": "MPFigureLayout",
+    "columns": 1,
+    "rows": 2,
+    "bundled": true,
+    "priority": 25
+  },
+  {
+    "_id": "MPFigureLayout:three_figures",
+    "name": "three_figures",
+    "title": "Three Figures in a Row",
+    "objectType": "MPFigureLayout",
+    "bundled": true,
+    "columns": 3,
+    "rows": 1,
+    "priority": 30
+  },
+  {
+    "_id": "MPFigureLayout:three_figures_stacked",
+    "name": "three_figures_stacked",
+    "title": "Three Figures Stacked",
+    "objectType": "MPFigureLayout",
+    "columns": 1,
+    "rows": 3,
+    "bundled": true,
+    "priority": 35
+  },
+  {
+    "_id": "MPFigureLayout:four_figures",
+    "name": "four_figures",
+    "title": "Four figures (2×2)",
+    "objectType": "MPFigureLayout",
+    "columns": 2,
+    "rows": 2,
+    "bundled": true,
+    "priority": 40
+  },
+  {
+    "_id": "MPFigureLayout:3_by_2",
+    "name": "3_by_2",
+    "title": "Six Figures (3×2)",
+    "objectType": "MPFigureLayout",
+    "columns": 3,
+    "rows": 2,
+    "bundled": true,
+    "priority": 60
+  },
+  {
+    "_id": "MPFigureLayout:2_by_3",
+    "name": "2_by_3",
+    "title": "Six Figures (2×3)",
+    "objectType": "MPFigureLayout",
+    "columns": 2,
+    "rows": 3,
+    "bundled": true,
+    "priority": 65
+  },
+  {
+    "_id": "MPFigureLayout:nine_figures",
+    "name": "nine_figures",
+    "title": "Nine Figures (3×3)",
+    "objectType": "MPFigureLayout",
+    "columns": 3,
+    "rows": 3,
+    "bundled": true,
+    "priority": 90
+  }
+]

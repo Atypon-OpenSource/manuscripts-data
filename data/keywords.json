@@ -1,0 +1,224 @@
+[
+  {
+    "_id": "MPStatusLabel:done",
+    "objectType": "MPStatusLabel",
+    "name": "Done",
+    "bundled": true,
+    "priority": 10,
+    "color": "MPColor:green"
+  },
+  {
+    "_id": "MPStatusLabel:started",
+    "objectType": "MPStatusLabel",
+    "name": "Started",
+    "bundled": true,
+    "priority": 20,
+    "color": "MPColor:verylightgray"
+  },
+  {
+    "_id": "MPStatusLabel:ongoing",
+    "objectType": "MPStatusLabel",
+    "name": "Ongoing",
+    "bundled": true,
+    "priority": 30,
+    "color": "MPColor:gray"
+  },
+  {
+    "_id": "MPStatusLabel:draft",
+    "objectType": "MPStatusLabel",
+    "name": "Draft",
+    "bundled": true,
+    "priority": 40,
+    "color": "MPColor:verylightblue"
+  },
+  {
+    "_id": "MPStatusLabel:proof",
+    "objectType": "MPStatusLabel",
+    "name": "Proof",
+    "bundled": true,
+    "priority": 50,
+    "color": "MPColor:blue"
+  },
+  {
+    "_id": "MPResearchField:anthropology",
+    "objectType": "MPResearchField",
+    "name": "Anthropology",
+    "priority": 100,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:astronomy",
+    "objectType": "MPResearchField",
+    "name": "Astronomy",
+    "priority": 150,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:biology",
+    "objectType": "MPResearchField",
+    "name": "Biology",
+    "priority": 200,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:botany",
+    "objectType": "MPResearchField",
+    "name": "Botany",
+    "priority": 250,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:science",
+    "objectType": "MPResearchField",
+    "name": "Science",
+    "priority": 300,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:zoology",
+    "objectType": "MPResearchField",
+    "name": "Zoology",
+    "priority": 350,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:geography",
+    "objectType": "MPResearchField",
+    "name": "Geography",
+    "priority": 400,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:chemistry",
+    "objectType": "MPResearchField",
+    "name": "Chemistry",
+    "priority": 450,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:engineering",
+    "objectType": "MPResearchField",
+    "name": "Engineering",
+    "priority": 500,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:generic-base",
+    "objectType": "MPResearchField",
+    "name": "Generic base",
+    "priority": 550,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:geology",
+    "objectType": "MPResearchField",
+    "name": "Geology",
+    "priority": 600,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:medicine",
+    "objectType": "MPResearchField",
+    "name": "Medicine",
+    "priority": 650,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:physics",
+    "objectType": "MPResearchField",
+    "name": "Physics",
+    "priority": 700,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:communications",
+    "objectType": "MPResearchField",
+    "name": "Communications",
+    "priority": 750,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:linguistics",
+    "objectType": "MPResearchField",
+    "name": "Linguistics",
+    "priority": 800,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:political_science",
+    "objectType": "MPResearchField",
+    "name": "Political science",
+    "priority": 850,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:social_science",
+    "objectType": "MPResearchField",
+    "name": "Social science",
+    "priority": 900,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:philosophy",
+    "objectType": "MPResearchField",
+    "name": "Philosophy",
+    "priority": 950,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:psychology",
+    "objectType": "MPResearchField",
+    "name": "Psychology",
+    "priority": 975,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:theology",
+    "objectType": "MPResearchField",
+    "name": "Theology",
+    "priority": 1000,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:math",
+    "objectType": "MPResearchField",
+    "name": "Math",
+    "priority": 1050,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:sociology",
+    "objectType": "MPResearchField",
+    "name": "Sociology",
+    "priority": 1100,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:history",
+    "objectType": "MPResearchField",
+    "name": "History",
+    "priority": 1200,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:humanities",
+    "objectType": "MPResearchField",
+    "name": "Humanities",
+    "priority": 1250,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:law",
+    "objectType": "MPResearchField",
+    "name": "Law",
+    "priority": 1300,
+    "bundled": true
+  },
+  {
+    "_id": "MPResearchField:literature",
+    "objectType": "MPResearchField",
+    "name": "Literature",
+    "priority": 1350,
+    "bundled": true
+  }
+]
