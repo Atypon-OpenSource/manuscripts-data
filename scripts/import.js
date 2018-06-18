@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 require('dotenv-safe').config()
 const axios = require('axios')
 const Promise = require('bluebird')
@@ -8,9 +10,9 @@ Promise.map(
   globby('data/*.json'),
   file => fs.readJSON(file).then(docs => axios({
     method: 'post',
-    url: `${process.env.SYNC_GATEWAY_URL}${process.env.SHARED_DATA_BUCKET}/_bulk_docs`,
+    url: `${process.env.SYNC_GATEWAY_URL}/${process.env.SHARED_DATA_BUCKET}/_bulk_docs`,
     auth: {
-      username: `${process.env.SHARED_DATA_BUCKET}_admin`,
+      username: process.env.COUCHBASE_RBAC_USERNAME,
       password: process.env.COUCHBASE_RBAC_PASSWORD,
     },
     data: ({
