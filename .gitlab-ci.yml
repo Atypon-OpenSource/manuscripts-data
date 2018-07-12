@@ -7,4 +7,5 @@ build:
   stage: build
   script:
   - yarn install
-  - ./scripts/import.js
+  - yarn run extract
+  - yarn run import

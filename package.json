@@ -2,14 +2,19 @@
   "name": "manuscripts-data",
   "version": "0.0.1",
   "license": "MIT",
+  "files": [
+    "data"
+  ],
   "dependencies": {
     "axios": "^0.18.0",
+    "better-sqlite3": "^4.1.4",
     "bluebird": "^3.5.1",
     "dotenv-safe": "^5.0.1",
     "fs-extra": "^6.0.0",
     "globby": "^8.0.1"
   },
   "scripts": {
-    "import-data": "node scripts/import.js"
+    "extract": "node scripts/extract.js",
+    "import": "node scripts/import.js"
   }
 }

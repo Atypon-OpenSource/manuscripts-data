@@ -1,0 +1,1682 @@
+[
+  {
+    "_id": "MPSymbol:alpha",
+    "TeXRepresentation": "\\alpha",
+    "desc": "alpha",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "α",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:kappa",
+    "TeXRepresentation": "\\kappa",
+    "desc": "kappa",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "κ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:psi",
+    "TeXRepresentation": "\\psi",
+    "desc": "psi",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "ψ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:digamma",
+    "TeXRepresentation": "\\digamma",
+    "desc": "digamma",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "z",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:Delta-capital",
+    "TeXRepresentation": "\\Delta",
+    "desc": "Delta",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "∆",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:Theta-capital",
+    "TeXRepresentation": "\\Theta",
+    "desc": "Theta",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "Θ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:beta",
+    "TeXRepresentation": "\\beta",
+    "desc": "beta",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "β",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:lambda",
+    "TeXRepresentation": "\\lambda",
+    "desc": "lambda",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "λ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:rho",
+    "TeXRepresentation": "\\rho",
+    "desc": "rho",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "ρ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:variant-of-epsilon",
+    "TeXRepresentation": "\\varepsilon",
+    "desc": "variant-of-epsilon",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "ε",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:Gamma-capital",
+    "TeXRepresentation": "\\Gamma",
+    "desc": "Gamma",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "Γ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:Upsilon-capital",
+    "TeXRepresentation": "\\Upsilon",
+    "desc": "Upsilon",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "Υ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:chi",
+    "TeXRepresentation": "\\chi",
+    "desc": "chi",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "χ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:mu",
+    "TeXRepresentation": "\\mu",
+    "desc": "mu",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "µ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:sigma",
+    "TeXRepresentation": "\\sigma",
+    "desc": "sigma",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "σ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:varkappa",
+    "TeXRepresentation": "\\varkappa",
+    "desc": "varkappa",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "κ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:Lambda-capital",
+    "TeXRepresentation": "\\Lambda",
+    "desc": "Lambda",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "Λ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:Xi-capital",
+    "TeXRepresentation": "\\Xi",
+    "desc": "Xi",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "Ξ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:delta",
+    "TeXRepresentation": "\\delta",
+    "desc": "delta",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "δ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:nu",
+    "TeXRepresentation": "\\nu",
+    "desc": "nu",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "ν",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:tau",
+    "TeXRepresentation": "\\tau",
+    "desc": "tau",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "τ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:variant-of-phi",
+    "TeXRepresentation": "\\varphi",
+    "desc": "variant-of-phi",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "ϕ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:Omega-capital",
+    "TeXRepresentation": "\\Omega",
+    "desc": "Omega",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "Ω",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:epsilon",
+    "TeXRepresentation": "\\epsilon",
+    "desc": "epsilon",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "ε",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:o",
+    "TeXRepresentation": "\\o",
+    "desc": "o",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "o",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:theta",
+    "TeXRepresentation": "\\theta",
+    "desc": "theta",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "θ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:varphi",
+    "TeXRepresentation": "\\varpi",
+    "desc": "varphi",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "$",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:Phi-capital",
+    "TeXRepresentation": "\\Phi",
+    "desc": "Phi",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "Φ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:aleph",
+    "TeXRepresentation": "\\aleph",
+    "desc": "aleph",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "ℵ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:eta",
+    "TeXRepresentation": "\\eta",
+    "desc": "eta",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "η",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:omega",
+    "TeXRepresentation": "\\omega",
+    "desc": "omega",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "ω",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:upsilon",
+    "TeXRepresentation": "\\upsilon",
+    "desc": "upsilon",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "υ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:variant-of-rho",
+    "TeXRepresentation": "\\varrho",
+    "desc": "variant-of-rho",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "%",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:Pi-capital",
+    "TeXRepresentation": "\\Pi",
+    "desc": "Pi",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "Π",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:beth",
+    "TeXRepresentation": "\\beth",
+    "desc": "beth",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "i",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:gamma",
+    "TeXRepresentation": "\\gamma",
+    "desc": "gamma",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "γ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:phi",
+    "TeXRepresentation": "\\phi",
+    "desc": "phi",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "φ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:xi",
+    "TeXRepresentation": "\\xi",
+    "desc": "xi",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "ξ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:variant-of-sigma",
+    "TeXRepresentation": "\\varsigma",
+    "desc": "variant-of-sigma",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "ς",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:Psi-capital",
+    "TeXRepresentation": "\\Psi",
+    "desc": "Psi",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "Ψ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:daleth",
+    "TeXRepresentation": "\\daleth",
+    "desc": "daleth",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "ﬢ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:iota",
+    "TeXRepresentation": "\\iota",
+    "desc": "iota",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "ι",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:pi",
+    "TeXRepresentation": "\\pi",
+    "desc": "pi",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "π",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:zeta",
+    "TeXRepresentation": "\\zeta",
+    "desc": "zeta",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "ζ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:variant-of-theta",
+    "TeXRepresentation": "\\vartheta",
+    "desc": "variant-of-theta",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "ϑ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:Sigma-capital",
+    "TeXRepresentation": "\\Sigma",
+    "desc": "Sigma",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "Σ",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:gimel",
+    "TeXRepresentation": "\\gimel",
+    "desc": "gimel",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "ג",
+    "symbolCategory": "MPSymbolCategory:symbol"
+  },
+  {
+    "_id": "MPSymbol:sum",
+    "TeXRepresentation": "\\sum",
+    "desc": "sum",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:var-size-symbol"
+  },
+  {
+    "_id": "MPSymbol:integral",
+    "TeXRepresentation": "\\int",
+    "desc": "integral",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:var-size-symbol"
+  },
+  {
+    "_id": "MPSymbol:big-u-plus",
+    "TeXRepresentation": "\\biguplus",
+    "desc": "big-u-plus",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:var-size-symbol"
+  },
+  {
+    "_id": "MPSymbol:big-o-plus",
+    "TeXRepresentation": "\\bigoplus",
+    "desc": "big-o-plus",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:var-size-symbol"
+  },
+  {
+    "_id": "MPSymbol:bigvee",
+    "TeXRepresentation": "\\bigvee",
+    "desc": "bigvee",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:var-size-symbol"
+  },
+  {
+    "_id": "MPSymbol:product",
+    "TeXRepresentation": "\\prod",
+    "desc": "product",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:var-size-symbol"
+  },
+  {
+    "_id": "MPSymbol:contour-integral",
+    "TeXRepresentation": "\\oint",
+    "desc": "contour-integral",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:var-size-symbol"
+  },
+  {
+    "_id": "MPSymbol:intersection",
+    "TeXRepresentation": "\\bigcap",
+    "desc": "intersection",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:var-size-symbol"
+  },
+  {
+    "_id": "MPSymbol:bigotimes",
+    "TeXRepresentation": "\\bigotimes",
+    "desc": "bigotimes",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:var-size-symbol"
+  },
+  {
+    "_id": "MPSymbol:bigwedge",
+    "TeXRepresentation": "\\bigwedge",
+    "desc": "bigwedge",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:var-size-symbol"
+  },
+  {
+    "_id": "MPSymbol:coprod",
+    "TeXRepresentation": "\\coprod",
+    "desc": "coprod",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:var-size-symbol"
+  },
+  {
+    "_id": "MPSymbol:iint",
+    "TeXRepresentation": "\\iint",
+    "desc": "iint",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:var-size-symbol"
+  },
+  {
+    "_id": "MPSymbol:union",
+    "TeXRepresentation": "\\bigcup",
+    "desc": "union",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:var-size-symbol"
+  },
+  {
+    "_id": "MPSymbol:bigodot",
+    "TeXRepresentation": "\\bigodot",
+    "desc": "bigodot",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:var-size-symbol"
+  },
+  {
+    "_id": "MPSymbol:bigsqcup",
+    "TeXRepresentation": "\\bigsqcup",
+    "desc": "bigsqcup",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:var-size-symbol"
+  },
+  {
+    "_id": "MPSymbol:pm",
+    "TeXRepresentation": "\\pm",
+    "desc": "pm",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:cap",
+    "TeXRepresentation": "\\cap",
+    "desc": "cap",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:mp",
+    "TeXRepresentation": "\\mp",
+    "desc": "mp",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:cup",
+    "TeXRepresentation": "\\cup",
+    "desc": "cup",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:setminus",
+    "TeXRepresentation": "\\setminus",
+    "desc": "setminus",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:uplus",
+    "TeXRepresentation": "\\uplus",
+    "desc": "uplus",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:cdot",
+    "TeXRepresentation": "\\cdot",
+    "desc": "cdot",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:sq-cap",
+    "TeXRepresentation": "\\sqcap",
+    "desc": "sq-cap",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:times",
+    "TeXRepresentation": "\\times",
+    "desc": "times",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:sqcup",
+    "TeXRepresentation": "\\sqcup",
+    "desc": "sqcup",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:ast",
+    "TeXRepresentation": "\\ast",
+    "desc": "ast",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:triangle-left",
+    "TeXRepresentation": "\\triangleleft",
+    "desc": "triangle-left",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:star",
+    "TeXRepresentation": "\\star",
+    "desc": "star",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:triangle-right",
+    "TeXRepresentation": "\\triangleright",
+    "desc": "triangle-right",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:diamond",
+    "TeXRepresentation": "\\diamond",
+    "desc": "diamond",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:wr",
+    "TeXRepresentation": "\\wr",
+    "desc": "wr",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:circle",
+    "TeXRepresentation": "\\circ",
+    "desc": "circle",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:big-circle",
+    "TeXRepresentation": "\\bigcirc",
+    "desc": "big-circle",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:bullet",
+    "TeXRepresentation": "\\bullet",
+    "desc": "bullet",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:big-triangle-up",
+    "TeXRepresentation": "\\bigtriangleup",
+    "desc": "big-triangle-up",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:division",
+    "TeXRepresentation": "\\div",
+    "desc": "division",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:big-triangle-down",
+    "TeXRepresentation": "\\bigtriangledown",
+    "desc": "big-triangle-down",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:lhd",
+    "TeXRepresentation": "\\lhd",
+    "desc": "lhd",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:rhd",
+    "TeXRepresentation": "\\rhd",
+    "desc": "rhd",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:vee",
+    "TeXRepresentation": "\\vee",
+    "desc": "vee",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:odot",
+    "TeXRepresentation": "\\odot",
+    "desc": "odot",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:wedge",
+    "TeXRepresentation": "\\wedge",
+    "desc": "wedge",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:dagger",
+    "TeXRepresentation": "\\dagger",
+    "desc": "dagger",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:oplus",
+    "TeXRepresentation": "\\oplus",
+    "desc": "oplus",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:ddagger",
+    "TeXRepresentation": "\\ddagger",
+    "desc": "ddagger",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:ominus",
+    "TeXRepresentation": "\\ominus",
+    "desc": "ominus",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:amalg",
+    "TeXRepresentation": "\\amalg",
+    "desc": "amalg",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:otimes",
+    "TeXRepresentation": "\\otimes",
+    "desc": "otimes",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:unlhd",
+    "TeXRepresentation": "\\unlhd",
+    "desc": "unlhd",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:oslash",
+    "TeXRepresentation": "\\oslash",
+    "desc": "oslash",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:unrhd",
+    "TeXRepresentation": "\\unrhd",
+    "desc": "unrhd",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:binary-operation"
+  },
+  {
+    "_id": "MPSymbol:leq",
+    "TeXRepresentation": "\\leq",
+    "desc": "leq",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:geq",
+    "TeXRepresentation": "\\geq",
+    "desc": "geq",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:prec",
+    "TeXRepresentation": "\\prec",
+    "desc": "prec",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:succ",
+    "TeXRepresentation": "\\succ",
+    "desc": "succ",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:precisely-equals",
+    "TeXRepresentation": "\\preceq",
+    "desc": "precisely-equals",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:succeq",
+    "TeXRepresentation": "\\succeq",
+    "desc": "succeq",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:ll",
+    "TeXRepresentation": "\\ll",
+    "desc": "ll",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:gg",
+    "TeXRepresentation": "\\gg",
+    "desc": "gg",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:subset",
+    "TeXRepresentation": "\\subset",
+    "desc": "subset",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:supset",
+    "TeXRepresentation": "\\supset",
+    "desc": "supset",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:subset-eq",
+    "TeXRepresentation": "\\subseteq",
+    "desc": "subset-eq",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:supset-eq",
+    "TeXRepresentation": "\\supseteq",
+    "desc": "supset-eq",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:sq-subset",
+    "TeXRepresentation": "\\sqsubset",
+    "desc": "sq-subset",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:sq-supset",
+    "TeXRepresentation": "\\sqsupset",
+    "desc": "sq-supset",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:sq-subseteq",
+    "TeXRepresentation": "\\sqsubseteq",
+    "desc": "sq-subseteq",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:sq-supseteq",
+    "TeXRepresentation": "\\sqsupseteq",
+    "desc": "sq-supseteq",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:in",
+    "TeXRepresentation": "\\in",
+    "desc": "in",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:ni",
+    "TeXRepresentation": "\\ni",
+    "desc": "ni",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:vdash",
+    "TeXRepresentation": "\\vdash",
+    "desc": "vdash",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:dashv",
+    "TeXRepresentation": "\\dashv",
+    "desc": "dashv",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:smile",
+    "TeXRepresentation": "\\smile",
+    "desc": "smile",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:mid",
+    "TeXRepresentation": "\\mid",
+    "desc": "mid",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:frown",
+    "TeXRepresentation": "\\frown",
+    "desc": "frown",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:parallel",
+    "TeXRepresentation": "\\parallel",
+    "desc": "parallel",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:not-equal",
+    "TeXRepresentation": "\\neq",
+    "desc": "not-equal",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:perp",
+    "TeXRepresentation": "\\perp",
+    "desc": "perp",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:equivalence",
+    "TeXRepresentation": "\\equiv",
+    "desc": "equivalence",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:cong",
+    "TeXRepresentation": "\\cong",
+    "desc": "cong",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:sim",
+    "TeXRepresentation": "\\sim",
+    "desc": "sim",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:bowtie",
+    "TeXRepresentation": "\\bowtie",
+    "desc": "bowtie",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:sim-eq",
+    "TeXRepresentation": "\\simeq",
+    "desc": "sim-eq",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:prop-to",
+    "TeXRepresentation": "\\propto",
+    "desc": "prop-to",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:asymptotic",
+    "TeXRepresentation": "\\asymp",
+    "desc": "asymptotic",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:models",
+    "TeXRepresentation": "\\models",
+    "desc": "models",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:approximates",
+    "TeXRepresentation": "\\approx",
+    "desc": "approximates",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:dot-equals",
+    "TeXRepresentation": "\\doteq",
+    "desc": "dot-equals",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:Join",
+    "TeXRepresentation": "\\Join",
+    "desc": "Join",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:relation"
+  },
+  {
+    "_id": "MPSymbol:left-arrow",
+    "TeXRepresentation": "\\leftarrow",
+    "desc": "left-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:long-left-arrow",
+    "TeXRepresentation": "\\longleftarrow",
+    "desc": "long-left-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:Left-arrow",
+    "TeXRepresentation": "\\Leftarrow",
+    "desc": "Left-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:Long-left-arrow-capital",
+    "TeXRepresentation": "\\Longleftarrow",
+    "desc": "Long-left-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:right-arrow",
+    "TeXRepresentation": "\\rightarrow",
+    "desc": "right-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:long-right-arrow",
+    "TeXRepresentation": "\\longrightarrow",
+    "desc": "long-right-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:Right-arrow",
+    "TeXRepresentation": "\\Rightarrow",
+    "desc": "Right-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:Long-right-arrow-capital",
+    "TeXRepresentation": "\\Longrightarrow",
+    "desc": "Long-right-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:left-right-arrow",
+    "TeXRepresentation": "\\leftrightarrow",
+    "desc": "left-right-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:long-left-right-arrow",
+    "TeXRepresentation": "\\longleftrightarrow",
+    "desc": "long-left-right-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:Left-right-arrow-capital",
+    "TeXRepresentation": "\\Leftrightarrow",
+    "desc": "Left-right-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:Long-left-right-arrow-capital",
+    "TeXRepresentation": "\\Longleftrightarrow",
+    "desc": "Long-left-right-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:maps-to",
+    "TeXRepresentation": "\\mapsto",
+    "desc": "maps-to",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:long-maps-to",
+    "TeXRepresentation": "\\longmapsto",
+    "desc": "long-maps-to",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:hook-left-arrow",
+    "TeXRepresentation": "\\hookleftarrow",
+    "desc": "hook-left-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:hook-right-arrow",
+    "TeXRepresentation": "\\hookrightarrow",
+    "desc": "hook-right-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:left-harpoon-up",
+    "TeXRepresentation": "\\leftharpoonup",
+    "desc": "left-harpoon-up",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:right-harpoon-up",
+    "TeXRepresentation": "\\rightharpoonup",
+    "desc": "right-harpoon-up",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:left-harpoon-down",
+    "TeXRepresentation": "\\leftharpoondown",
+    "desc": "left-harpoon-down",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:right-harpoon-down",
+    "TeXRepresentation": "\\rightharpoondown",
+    "desc": "right-harpoon-down",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:right-left-harpoons",
+    "TeXRepresentation": "\\rightleftharpoons",
+    "desc": "right-left-harpoons",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:leads-to",
+    "TeXRepresentation": "\\leadsto",
+    "desc": "leads-to",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:arrow"
+  },
+  {
+    "_id": "MPSymbol:opening-bracket",
+    "TeXRepresentation": "(",
+    "desc": "opening-bracket",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:closing-bracket",
+    "TeXRepresentation": ")",
+    "desc": "closing-bracket",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:opening-square-bracket",
+    "TeXRepresentation": "[",
+    "desc": "opening-square-bracket",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:closing-square-bracket",
+    "TeXRepresentation": "]",
+    "desc": "closing-square-bracket",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:opening-brace",
+    "TeXRepresentation": "\\{",
+    "desc": "opening-brace",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:closing-brace",
+    "TeXRepresentation": "\\}",
+    "desc": "closing-brace",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:left-floor",
+    "TeXRepresentation": "\\lfloor",
+    "desc": "left-floor",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:right-floor",
+    "TeXRepresentation": "\\rfloor",
+    "desc": "right-floor",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:left-ceiling",
+    "TeXRepresentation": "\\lceil",
+    "desc": "left-ceiling",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:right-ceiling",
+    "TeXRepresentation": "\\rceil",
+    "desc": "right-ceiling",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:left-angle",
+    "TeXRepresentation": "\\langle",
+    "desc": "left-angle",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:right-angle",
+    "TeXRepresentation": "\\rangle",
+    "desc": "right-angle",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:backslash",
+    "TeXRepresentation": "\\backslash",
+    "desc": "backslash",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:vert",
+    "TeXRepresentation": "\\vert",
+    "desc": "vert",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:Vert",
+    "TeXRepresentation": "\\Vert",
+    "desc": "Vert",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:up-arrow",
+    "TeXRepresentation": "\\uparrow",
+    "desc": "up-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:Up-arrow-capital",
+    "TeXRepresentation": "\\Uparrow",
+    "desc": "Up-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:down-arrow",
+    "TeXRepresentation": "\\downarrow",
+    "desc": "down-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:Down-arrow-capital",
+    "TeXRepresentation": "\\Downarrow",
+    "desc": "Down-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:up-down-arrow",
+    "TeXRepresentation": "\\updownarrow",
+    "desc": "up-down-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:Up-down-arrow-capital",
+    "TeXRepresentation": "\\Updownarrow",
+    "desc": "Up-down-arrow",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:delimiter"
+  },
+  {
+    "_id": "MPSymbol:arccos",
+    "TeXRepresentation": "\\arccos",
+    "desc": "arccos",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:arcsin",
+    "TeXRepresentation": "\\arcsin",
+    "desc": "arcsin",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:arctan",
+    "TeXRepresentation": "\\arctan",
+    "desc": "arctan",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:arg",
+    "TeXRepresentation": "\\arg",
+    "desc": "arg",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:cos",
+    "TeXRepresentation": "\\cos",
+    "desc": "cos",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:cosh",
+    "TeXRepresentation": "\\cosh",
+    "desc": "cosh",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:cot",
+    "TeXRepresentation": "\\cot",
+    "desc": "cot",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:coth",
+    "TeXRepresentation": "\\coth",
+    "desc": "coth",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:csc",
+    "TeXRepresentation": "\\csc",
+    "desc": "csc",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:deg",
+    "TeXRepresentation": "\\deg",
+    "desc": "deg",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:det",
+    "TeXRepresentation": "\\det",
+    "desc": "det",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:dim",
+    "TeXRepresentation": "\\dim",
+    "desc": "dim",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:exp",
+    "TeXRepresentation": "\\exp",
+    "desc": "exp",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:gcd",
+    "TeXRepresentation": "\\gcd",
+    "desc": "gcd",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:hom",
+    "TeXRepresentation": "\\hom",
+    "desc": "hom",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:inf",
+    "TeXRepresentation": "\\inf",
+    "desc": "inf",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:ker",
+    "TeXRepresentation": "\\ker",
+    "desc": "ker",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:lg",
+    "TeXRepresentation": "\\lg",
+    "desc": "lg",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:lim",
+    "TeXRepresentation": "\\lim",
+    "desc": "lim",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:lim-inf",
+    "TeXRepresentation": "\\liminf",
+    "desc": "lim-inf",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:lim-sup",
+    "TeXRepresentation": "\\limsup",
+    "desc": "lim-sup",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:ln",
+    "TeXRepresentation": "\\ln",
+    "desc": "ln",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:log",
+    "TeXRepresentation": "\\log",
+    "desc": "log",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:max",
+    "TeXRepresentation": "\\max",
+    "desc": "max",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:min",
+    "TeXRepresentation": "\\min",
+    "desc": "min",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:Pr-capital",
+    "TeXRepresentation": "\\Pr",
+    "desc": "Pr",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:sec",
+    "TeXRepresentation": "\\sec",
+    "desc": "sec",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:sin",
+    "TeXRepresentation": "\\sin",
+    "desc": "sin",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:sinh",
+    "TeXRepresentation": "\\sinh",
+    "desc": "sinh",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:sup",
+    "TeXRepresentation": "\\sup",
+    "desc": "sup",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:tan",
+    "TeXRepresentation": "\\tan",
+    "desc": "tan",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  },
+  {
+    "_id": "MPSymbol:tanh",
+    "TeXRepresentation": "\\tanh",
+    "desc": "tanh",
+    "objectType": "MPSymbol",
+    "stringRepresentation": "",
+    "symbolCategory": "MPSymbolCategory:function"
+  }
+]
