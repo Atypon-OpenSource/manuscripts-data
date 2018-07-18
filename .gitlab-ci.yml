@@ -1,11 +1,21 @@
-image: node:8
+image: registry.gitlab.com/mpapp-private/manuscripts-frontend/node8-aws
 
 stages:
-- build
+  - deploy
 
-build:
-  stage: build
-  script:
-  - yarn install
-  - yarn run extract
-  - yarn run import
+deploy:
+  stage: deploy
+  script: scripts/deploy.sh
+  tags:
+    - nodejs-8
+    - awscli
+  only:
+    - master
+
+deploy_manual:
+  stage: deploy
+  script: scripts/deploy.sh
+  tags:
+    - nodejs-8
+    - awscli
+  when: manual
