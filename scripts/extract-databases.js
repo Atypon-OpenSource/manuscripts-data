@@ -6,6 +6,8 @@ const fs = require('fs-extra')
 const globby = require('globby')
 const path = require('path')
 
+fs.ensureDirSync('dist/shared')
+
 Promise.map(
   globby('couchbase/*.cblite'),
   file => {
@@ -22,13 +24,13 @@ Promise.map(
 
     const basename = path.basename(file, '.cblite')
 
-    return fs.writeJSON(`./data/${basename}.json`, docs, {
+    return fs.writeJSON(`dist/shared/${basename}.json`, docs, {
       spaces: 2
     })
   },
   { concurrency: 1 }
 ).then(() => {
-  console.log('finished importing')
+  console.info('Finished extracting databases.')
 }).catch(error => {
   console.error(error.message)
 })

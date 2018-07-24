@@ -1,10 +1,28 @@
 image: registry.gitlab.com/mpapp-private/manuscripts-frontend/node8-aws
 
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
 stages:
+  - build
   - deploy
+
+build:
+  stage: build
+  script:
+    - yarn install --frozen-lockfile --production
+    - scripts/build.sh
+  artifacts:
+      paths:
+        - dist
+      expire_in: 1 hour
+  tags:
+    - nodejs-8
 
 deploy:
   stage: deploy
+  dependencies:
+    - build
   script: scripts/deploy.sh
   tags:
     - nodejs-8
@@ -14,8 +32,45 @@ deploy:
 
 deploy_manual:
   stage: deploy
+  dependencies:
+    - build
   script: scripts/deploy.sh
   tags:
     - nodejs-8
     - awscli
+  when: manual
+
+invalidate_manual:
+  stage: deploy
+  script: scripts/invalidate.sh
+  tags:
+    - nodejs-8
+    - awscli
+  when: manual
+
+publish_image:
+  stage: deploy
+  dependencies:
+    - build
+  environment:
+    name: docker
+  variables:
+    CONTAINER_IMAGE: registry.gitlab.com/mpapp-private/manuscripts-data/manuscripts-data:latest
+  script: scripts/publish-image.sh
+  tags:
+    - docker-ce
+  only:
+    - master
+
+publish_image_manual:
+  stage: deploy
+  dependencies:
+    - build
+  environment:
+    name: docker
+  variables:
+    CONTAINER_IMAGE: registry.gitlab.com/mpapp-private/manuscripts-data/manuscripts-data:latest
+  script: scripts/publish-image.sh
+  tags:
+    - docker-ce
   when: manual
