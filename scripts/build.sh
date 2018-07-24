@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e # exit if any step fails
+
 # copy CSL styles
 mkdir -p dist/csl/styles
 find csl/styles -name '*.csl' -exec cp "{}" dist/csl/styles/ \;
