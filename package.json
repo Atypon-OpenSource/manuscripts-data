@@ -15,6 +15,6 @@
     "serve": "^9.3.0"
   },
   "scripts": {
-    "dev": "serve"
+    "dev": "serve -l tcp://0.0.0.0:8020"
   }
 }
