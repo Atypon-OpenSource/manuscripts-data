@@ -19,7 +19,10 @@ build:
   tags:
     - nodejs-8
 
-deploy:
+deploy_dev:
+  environment:
+    name: dev
+    url: https://dev.manuscripts.io/data
   stage: deploy
   dependencies:
     - build
@@ -30,7 +33,10 @@ deploy:
   only:
     - master
 
-deploy_manual:
+deploy_dev_manual:
+  environment:
+    name: dev
+    url: https://dev.manuscripts.io/data
   stage: deploy
   dependencies:
     - build
@@ -40,12 +46,39 @@ deploy_manual:
     - awscli
   when: manual
 
-invalidate_manual:
+deploy_production_manual:
+  environment:
+    name: production
+    url: https://www.manuscripts.io/data
   stage: deploy
+  dependencies:
+  - build
+  script: scripts/deploy.sh
+  tags:
+  - nodejs-8
+  - awscli
+  when: manual
+
+invalidate_dev_manual:
+  stage: deploy
+  environment:
+    name: dev
+    url: https://dev.manuscripts.io/data
   script: scripts/invalidate.sh
   tags:
     - nodejs-8
     - awscli
+  when: manual
+
+invalidate_production_manual:
+  stage: deploy
+  environment:
+    name: production
+    url: https://www.manuscripts.io/data
+  script: scripts/invalidate.sh
+  tags:
+  - nodejs-8
+  - awscli
   when: manual
 
 publish_image:
