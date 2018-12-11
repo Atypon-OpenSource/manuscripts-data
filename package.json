@@ -17,6 +17,7 @@
     "serve": "^10.1.1"
   },
   "scripts": {
+    "build": "scripts/build.sh",
     "dev": "serve -l tcp://0.0.0.0:8020"
   }
 }
