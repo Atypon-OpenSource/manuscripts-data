@@ -24,6 +24,14 @@ Promise.map(
 
     const basename = path.basename(file, '.cblite')
 
+    // remove derived data from templates JSON, to save space
+    if (basename === 'templates-v2') {
+      docs.forEach(doc => {
+        delete doc.requirements
+        delete doc.styles
+      })
+    }
+
     return fs.writeJSON(`dist/shared/${basename}.json`, docs, {
       spaces: 2
     })

@@ -10,7 +10,7 @@ stages:
 build:
   stage: build
   script:
-    - yarn install --frozen-lockfile --production
+    - yarn install --frozen-lockfile --non-interactive --production
     - scripts/build.sh
   artifacts:
       paths:
