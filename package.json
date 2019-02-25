@@ -1,10 +1,11 @@
 {
-  "name": "manuscripts-data",
+  "name": "@manuscripts/data",
   "version": "0.0.1",
   "license": "MIT",
   "files": [
     "dist"
   ],
+  "private": true,
   "dependencies": {
     "better-sqlite3": "^4.1.4",
     "bluebird": "^3.5.1",
