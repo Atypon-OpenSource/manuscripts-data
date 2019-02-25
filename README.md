@@ -34,4 +34,4 @@ TODO: bring in scripts that were used to generate these files from earlier sourc
 
 The Docker image contains the data files behind an nginx server exposed on port `8020`.
  
-The image is published to `registry.gitlab.com/mpapp-private/manuscripts-data/manuscripts-data` by `scripts/publish-image.js`.
+The image is published to `registry.gitlab.com/mpapp-public/manuscripts-data/manuscripts-data` by `scripts/publish-image.js`.

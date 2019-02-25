@@ -1,4 +1,4 @@
-image: registry.gitlab.com/mpapp-private/manuscripts-frontend/node8-aws
+#image: registry.gitlab.com/mpapp-public/manuscripts-frontend/node8-aws
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
@@ -88,7 +88,7 @@ publish_image:
   environment:
     name: docker
   variables:
-    CONTAINER_IMAGE: registry.gitlab.com/mpapp-private/manuscripts-data/manuscripts-data:latest
+    CONTAINER_IMAGE: registry.gitlab.com/mpapp-public/manuscripts-data/manuscripts-data:latest
   script: scripts/publish-image.sh
   tags:
     - docker-ce
@@ -102,7 +102,7 @@ publish_image_manual:
   environment:
     name: docker
   variables:
-    CONTAINER_IMAGE: registry.gitlab.com/mpapp-private/manuscripts-data/manuscripts-data:latest
+    CONTAINER_IMAGE: registry.gitlab.com/mpapp-public/manuscripts-data/manuscripts-data:latest
   script: scripts/publish-image.sh
   tags:
     - docker-ce
