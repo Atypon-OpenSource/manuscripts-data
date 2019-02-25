@@ -4,7 +4,9 @@ This repository contains source data for use by Manuscripts client applications,
 
 ## Data sources
 
-### Git submodules
+### CSL submodules
+
+The CSL locale and style files are published by [the CSL project](https://citationstyles.org/).
 
 * `csl/locales` - the official [Citation Style Language (CSL) locale files](https://github.com/citation-style-language/locales).
 * `csl/styles` - the official [distribution of validated CSL citation styles](https://github.com/citation-style-language/styles-distribution).
