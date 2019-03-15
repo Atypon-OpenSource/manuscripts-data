@@ -1,44 +1,71 @@
 #!/usr/bin/env node
 
-const Promise = require('bluebird')
 const Database = require('better-sqlite3')
 const fs = require('fs-extra')
-const globby = require('globby')
 const path = require('path')
 
 fs.ensureDirSync('dist/shared')
 
-Promise.map(
-  globby('couchbase/*.cblite'),
-  file => {
-    const db = new Database(file, {
-      readonly: true,
+// NOTE: need to extract bundles before templates
+const files = ['bundles', 'templates-v2', 'symbols-v2', 'funders']
+
+const bundleIDs = new Set()
+
+for (const file of files) {
+  const db = new Database(`couchbase/${file}.cblite`, {
+    readonly: true,
+  })
+
+  let docs = db.prepare('SELECT * FROM docs INNER JOIN revs on docs.doc_id = revs.doc_id WHERE revs.current=1 AND revs.deleted=0')
+    .all()
+    .map(({ json, docid }) => ({
+      _id: docid,
+      ...JSON.parse(json.toString()),
+    }))
+
+  // remove bundles that reference missing CSL
+  if (file === 'bundles') {
+    docs = docs.filter(doc => {
+      if (doc.csl) {
+        const id = path.basename(doc.csl.cslIdentifier)
+
+        if (!fs.existsSync(`dist/csl/styles/${id}.csl`)) {
+          console.warn(`Removed bundle ${id} (${doc.csl.title})`)
+          return false
+        }
+      }
+
+      return true
     })
 
-    const docs = db.prepare('SELECT * FROM docs INNER JOIN revs on docs.doc_id = revs.doc_id WHERE revs.current=1 AND revs.deleted=0')
-      .all()
-      .map(({ json, docid }) => ({
-        _id: docid,
-        ...JSON.parse(json.toString()),
-      }))
-
-    const basename = path.basename(file, '.cblite')
-
-    // remove derived data from templates JSON, to save space
-    if (basename === 'templates-v2') {
-      docs.forEach(doc => {
-        delete doc.requirements
-        delete doc.styles
-      })
-    }
-
-    return fs.writeJSON(`dist/shared/${basename}.json`, docs, {
-      spaces: 2
+    docs.forEach(doc => {
+      bundleIDs.add(doc._id)
     })
-  },
-  { concurrency: 1 }
-).then(() => {
-  console.info('Finished extracting databases.')
-}).catch(error => {
-  console.error(error.message)
-})
+  }
+
+  // remove derived data and invalid bundles from templates JSON
+  if (file === 'templates-v2') {
+    docs = docs.filter(doc => {
+      if (doc.objectType === 'MPManuscriptTemplate') {
+        if (doc.bundle && !bundleIDs.has(doc.bundle)) {
+          console.warn(`Removed template ${doc._id} (${doc.title})`)
+          return false
+        }
+      }
+
+      return true
+    })
+
+    docs.forEach(doc => {
+      delete doc.requirements
+      delete doc.styles
+    })
+  }
+
+  fs.writeJSONSync(`dist/shared/${file}.json`, docs, {
+    spaces: 2
+  })
+}
+
+console.info('Finished extracting databases.')
+

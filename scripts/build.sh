@@ -22,3 +22,6 @@ find shared -maxdepth 1 -name '*.json' -exec cp "{}" dist/shared/ \;
 # extract shared data from databases
 node scripts/extract-databases.js
 
+# verify extracted data
+node scripts/verify-bundles.js
+node scripts/verify-templates.js

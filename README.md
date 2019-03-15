@@ -29,7 +29,7 @@ TODO: bring in scripts that were used to generate these files from earlier sourc
 
 ## Development
 
-1. Run `scripts/build.sh` to generate and populate the `dist` directory.
+1. Run `yarn build` to generate and populate the `dist` directory.
 1. Run `yarn dev` to serve the files from the `dist` directory.
 
 ## Docker

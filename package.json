@@ -8,9 +8,7 @@
   "private": true,
   "dependencies": {
     "better-sqlite3": "^4.1.4",
-    "bluebird": "^3.5.1",
     "fs-extra": "^6.0.0",
-    "globby": "^8.0.1",
     "got": "^9.3.2",
     "neat-csv": "^4.0.0"
   },
