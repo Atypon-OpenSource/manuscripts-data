@@ -10,7 +10,7 @@ stages:
 build:
   stage: build
   script:
-    - yarn install --frozen-lockfile --non-interactive --production
+    - yarn install --frozen-lockfile --non-interactive
     - scripts/build.sh
   artifacts:
       paths:
@@ -107,3 +107,13 @@ publish_image_manual:
   tags:
     - docker-ce
   when: manual
+
+publish_npm:
+  stage: deploy
+  script:
+    - scripts/publish-npm.js
+  tags:
+    - nodejs-8
+  only:
+    refs:
+      - master

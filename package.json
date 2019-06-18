@@ -1,18 +1,16 @@
 {
   "name": "@manuscripts/data",
   "version": "0.0.1",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "files": [
-    "dist"
+    "shared"
   ],
-  "private": true,
-  "dependencies": {
+  "repository": "gitlab:mpapp-public/manuscripts-data",
+  "devDependencies": {
     "better-sqlite3": "^5.4.0",
     "fs-extra": "^8.0.1",
     "got": "^9.6.0",
-    "neat-csv": "^5.0.0"
-  },
-  "devDependencies": {
+    "neat-csv": "^5.0.0",
     "serve": "^11.0.1"
   },
   "scripts": {
