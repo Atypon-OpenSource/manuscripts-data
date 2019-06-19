@@ -111,7 +111,7 @@ publish_image_manual:
 publish_npm:
   stage: deploy
   script:
-    - scripts/publish-npm.js
+    - npx @manuscripts/publish
   tags:
     - nodejs-8
   only:

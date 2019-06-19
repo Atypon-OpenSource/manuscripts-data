@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@manuscripts/publish@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.npmjs.org/@manuscripts/publish/-/publish-0.2.1.tgz#0e3d2d546c173a86ef77e68c8b3d9de80c369bba"
+  integrity sha512-47AqfcK6rEfopHaapi6quzspHxykWWMAS8eIvMQknTCw1bjAWzK96t2wRiKHcVTjjRq5czrATfm3VO6O/iFtaw==
+  dependencies:
+    node-fetch "^2.6.0"
+
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
   resolved "https://registry.npmjs.org/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
@@ -633,6 +640,11 @@ nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.npmjs.org/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
+
+node-fetch@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
+  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
 
 normalize-url@^4.1.0:
   version "4.3.0"
