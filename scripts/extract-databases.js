@@ -40,6 +40,10 @@ for (const file of files) {
 
     docs.forEach(doc => {
       bundleIDs.add(doc._id)
+
+      if (doc.csl) {
+        delete doc.csl.objectType
+      }
     })
   }
 
