@@ -26,6 +26,8 @@ deploy_dev:
   stage: deploy
   dependencies:
     - build
+  variables:
+    S3_BUCKET: '$S3_BUCKET_DEV'
   script: scripts/deploy.sh
   tags:
     - nodejs-8
@@ -40,6 +42,23 @@ deploy_dev_manual:
   stage: deploy
   dependencies:
     - build
+  variables:
+    S3_BUCKET: '$S3_BUCKET_DEV'
+  script: scripts/deploy.sh
+  tags:
+    - nodejs-8
+    - awscli
+  when: manual
+
+deploy_test_manual:
+  environment:
+    name: test
+    url: https://test.manuscripts.io/data
+  stage: deploy
+  dependencies:
+    - build
+  variables:
+    S3_BUCKET: '$S3_BUCKET_TEST'
   script: scripts/deploy.sh
   tags:
     - nodejs-8
@@ -52,11 +71,13 @@ deploy_production_manual:
     url: https://www.manuscripts.io/data
   stage: deploy
   dependencies:
-  - build
+    - build
+  variables:
+    S3_BUCKET: '$S3_BUCKET_PROD'
   script: scripts/deploy.sh
   tags:
-  - nodejs-8
-  - awscli
+    - nodejs-8
+    - awscli
   when: manual
 
 invalidate_dev_manual:
@@ -64,6 +85,21 @@ invalidate_dev_manual:
   environment:
     name: dev
     url: https://dev.manuscripts.io/data
+  variables:
+    CLOUDFRONT_ID: '$CLOUDFRONT_ID_DEV'
+  script: scripts/invalidate.sh
+  tags:
+    - nodejs-8
+    - awscli
+  when: manual
+
+invalidate_test_manual:
+  stage: deploy
+  environment:
+    name: test
+    url: https://test.manuscripts.io/data
+  variables:
+    CLOUDFRONT_ID: '$CLOUDFRONT_ID_TEST'
   script: scripts/invalidate.sh
   tags:
     - nodejs-8
@@ -75,6 +111,8 @@ invalidate_production_manual:
   environment:
     name: production
     url: https://www.manuscripts.io/data
+  variables:
+    CLOUDFRONT_ID: '$CLOUDFRONT_ID_PROD'
   script: scripts/invalidate.sh
   tags:
   - nodejs-8
