@@ -151,6 +151,16 @@
     ]
   },
   {
+    "_id": "MPColorScheme:defaultStyle",
+    "objectType": "MPColorScheme",
+    "name": "Manuscripts default style colour scheme",
+    "colors": [
+      "MPColor:black",
+      "MPColor:gray",
+      "MPColor:verylightgray"
+    ]
+  },
+  {
     "_id": "MPTableStyle:default",
     "name": "default",
     "title": "Default Table Style",
