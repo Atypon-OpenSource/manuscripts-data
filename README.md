@@ -29,6 +29,7 @@ TODO: bring in scripts that were used to generate these files from earlier sourc
 
 ## Development
 
+1. Clone this repository and run `git submodule update --init --recursive`.
 1. Run `yarn build` to generate and populate the `dist` directory.
 1. Run `yarn dev` to serve the files from the `dist` directory.
 
