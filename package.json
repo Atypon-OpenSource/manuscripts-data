@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "license": "Apache-2.0",
   "files": [
-    "shared"
+    "dist/shared"
   ],
   "repository": "gitlab:mpapp-public/manuscripts-data",
   "devDependencies": {

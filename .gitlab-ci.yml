@@ -15,7 +15,7 @@ build:
   artifacts:
       paths:
         - dist
-      expire_in: 1 hour
+      expire_in: 1 day
   tags:
     - nodejs-8
 
@@ -148,6 +148,8 @@ publish_image_manual:
 
 publish_npm:
   stage: deploy
+  dependencies:
+    - build
   script:
     - npx @manuscripts/publish
   tags:
