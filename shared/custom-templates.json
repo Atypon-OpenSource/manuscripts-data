@@ -8,7 +8,7 @@
     "category": "MPManuscriptCategory:research-article",
     "desc": "Use this template for any Original Research article submissions",
     "bundle": "MPBundle:www-zotero-org-styles-american-journal-of-respiratory-and-critical-care-medicine",
-    "publisher": "MPPublisher:wiley",
+    "publisher": "MPPublisher:ats",
     "maxWordCountRequirement": "MPMaximumManuscriptWordCountRequirement:79583D82-4017-4464-A443-FA93F5A598B0",
     "authorInstructionsURL": "https://www.atsjournals.org/page/ajrcmb/instructions",
     "bodyLineSpacing": 2,
