@@ -1,13 +1,13 @@
 [
   {
-    "_id": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-and-critical-care-medicine-Original-Research-Article",
-    "title": "Original Research Manuscript",
+    "_id": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-cell-and-molecular-biology-Original-Research-Article",
+    "title": "Original Research Article",
     "objectType": "MPManuscriptTemplate",
     "createdAt": 1566382174223.0,
     "updatedAt": 1566382174223.0,
     "category": "MPManuscriptCategory:research-article",
     "desc": "Use this template for any Original Research article submissions",
-    "bundle": "MPBundle:www-zotero-org-styles-american-journal-of-respiratory-and-critical-care-medicine",
+    "bundle": "MPBundle:www-zotero-org-styles-american-journal-of-respiratory-cell-and-molecular-biology",
     "publisher": "MPPublisher:ats",
     "maxWordCountRequirement": "MPMaximumManuscriptWordCountRequirement:79583D82-4017-4464-A443-FA93F5A598B0",
     "authorInstructionsURL": "https://www.atsjournals.org/page/ajrcmb/instructions",
@@ -65,7 +65,7 @@
         "sectionCategory": "MPSectionCategory:abstract"
       }
     ],
-    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-and-critical-care-medicine-Original-Research-Article",
+    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-cell-and-molecular-biology-Original-Research-Article",
     "objectType": "MPMandatorySubsectionsRequirement",
     "severity": 0,
     "updatedAt": 1566382174223.0
@@ -82,7 +82,7 @@
         "sectionCategory": "MPSectionCategory:keywords"
       }
     ],
-    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-and-critical-care-medicine-Original-Research-Article",
+    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-cell-and-molecular-biology-Original-Research-Article",
     "objectType": "MPMandatorySubsectionsRequirement",
     "severity": 0,
     "updatedAt": 1566382174223.0
@@ -98,7 +98,7 @@
         "sectionCategory": "MPSectionCategory:introduction"
       }
     ],
-    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-and-critical-care-medicine-Original-Research-Article",
+    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-cell-and-molecular-biology-Original-Research-Article",
     "objectType": "MPMandatorySubsectionsRequirement",
     "severity": 0,
     "updatedAt": 1566382174223.0
@@ -115,7 +115,7 @@
         "sectionCategory": "MPSectionCategory:materials-method"
       }
     ],
-    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-and-critical-care-medicine-Original-Research-Article",
+    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-cell-and-molecular-biology-Original-Research-Article",
     "objectType": "MPMandatorySubsectionsRequirement",
     "severity": 0,
     "updatedAt": 1566382174223.0
@@ -131,7 +131,7 @@
         "sectionCategory": "MPSectionCategory:results"
       }
     ],
-    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-and-critical-care-medicine-Original-Research-Article",
+    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-cell-and-molecular-biology-Original-Research-Article",
     "objectType": "MPMandatorySubsectionsRequirement",
     "severity": 0,
     "updatedAt": 1566382174223.0
@@ -147,7 +147,7 @@
         "sectionCategory": "MPSectionCategory:discussion"
       }
     ],
-    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-and-critical-care-medicine-Original-Research-Article",
+    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-cell-and-molecular-biology-Original-Research-Article",
     "objectType": "MPMandatorySubsectionsRequirement",
     "severity": 0,
     "updatedAt": 1566382174223.0
@@ -163,7 +163,7 @@
         "sectionCategory": "MPSectionCategory:acknowledgement"
       }
     ],
-    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-and-critical-care-medicine-Original-Research-Article",
+    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-cell-and-molecular-biology-Original-Research-Article",
     "objectType": "MPMandatorySubsectionsRequirement",
     "severity": 0,
     "updatedAt": 1566382174223.0
