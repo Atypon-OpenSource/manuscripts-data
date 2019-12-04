@@ -139,6 +139,7 @@
     "_id": "MPColorScheme:default",
     "objectType": "MPColorScheme",
     "name": "Manuscripts default colour scheme",
+    "bundled": true,
     "colors": [
       "MPColor:black",
       "MPColor:gray",
