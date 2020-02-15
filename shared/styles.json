@@ -890,7 +890,7 @@
   {
     "_id": "MPFigureLayout:four_figures",
     "name": "four_figures",
-    "title": "Four figures (2×2)",
+    "title": "Four Figures (2×2)",
     "objectType": "MPFigureLayout",
     "columns": 2,
     "rows": 2,
