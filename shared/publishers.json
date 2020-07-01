@@ -151,5 +151,13 @@
     "websiteURL": "http://www.hindawi.com",
     "synonyms": [],
     "bundled": true
+  },
+  {
+    "_id": "MPPublisher:ats",
+    "objectType": "MPPublisher",
+    "name": "American Thoracic Society",
+    "websiteURL": "https://www.thoracic.org",
+    "synonyms": [],
+    "bundled": true
   }
 ]

@@ -6,6 +6,9 @@ const path = require('path')
 
 fs.ensureDirSync('dist/shared')
 
+const customBundles = fs.readJSONSync('dist/shared/custom-bundles.json')
+const customTemplates = fs.readJSONSync('dist/shared/custom-templates.json')
+
 // NOTE: need to extract bundles before templates
 const files = ['bundles', 'templates-v2', 'symbols-v2', 'funders']
 
@@ -25,6 +28,8 @@ for (const file of files) {
 
   // remove bundles that reference missing CSL
   if (file === 'bundles') {
+    docs.push(...customBundles)
+
     docs = docs.filter(doc => {
       if (doc.csl) {
         const id = path.basename(doc.csl.cslIdentifier)
@@ -49,6 +54,8 @@ for (const file of files) {
 
   // remove derived data and invalid bundles from templates JSON
   if (file === 'templates-v2') {
+    docs.push(...customTemplates)
+
     docs = docs.filter(doc => {
       if (doc.objectType === 'MPManuscriptTemplate') {
         if (doc.bundle && !bundleIDs.has(doc.bundle)) {
@@ -63,6 +70,23 @@ for (const file of files) {
     docs.forEach(doc => {
       delete doc.requirements
       delete doc.styles
+    })
+
+    // verify that all the _id values are unique
+    const ids = new Set()
+
+    docs.forEach(doc => {
+      if (!doc._id) {
+        throw new Error('Missing ID')
+      }
+
+      if (ids.has(doc._id)) {
+        throw new Error(`Duplicate ID ${doc._id}`)
+      }
+
+      ids.add(doc._id)
+
+      // TODO: validate _id values of nested objects
     })
   }
 

@@ -1,0 +1,171 @@
+[
+  {
+    "_id": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-cell-and-molecular-biology-Original-Research-Article",
+    "title": "Original Research Article",
+    "objectType": "MPManuscriptTemplate",
+    "createdAt": 1566382174223.0,
+    "updatedAt": 1566382174223.0,
+    "category": "MPManuscriptCategory:research-article",
+    "desc": "Use this template for any Original Research article submissions",
+    "bundle": "MPBundle:www-zotero-org-styles-american-journal-of-respiratory-cell-and-molecular-biology",
+    "publisher": "MPPublisher:ats",
+    "maxWordCountRequirement": "MPMaximumManuscriptWordCountRequirement:79583D82-4017-4464-A443-FA93F5A598B0",
+    "authorInstructionsURL": "https://www.atsjournals.org/page/ajrcmb/instructions",
+    "bodyLineSpacing": 2,
+    "includePageNumbering": {
+      "required": true
+    },
+    "priority": 6600,
+    "maxFigureCountRequirement": "MPMaximumFigureCountRequirement:A373470D-8194-41BD-9A88-2CC3EE86ADF7",
+    "minFigureScreenDPIRequirement": "MPMinimumFigureDPIRequirement:3EE66EC2-7096-4C0E-BE6F-DC9B5ED4BDEA",
+    "requirementIDs": [
+      "MPMandatorySubsectionsRequirement:C18AD6AB-ED3D-4024-991A-A830B60EE984",
+      "MPMandatorySubsectionsRequirement:A06E8F3B-36EB-4102-B2A8-C74CC866954C",
+      "MPMandatorySubsectionsRequirement:E8E67EA9-AE17-445E-86F4-109DFAC41171",
+      "MPMandatorySubsectionsRequirement:C9C7B96D-4613-4699-B13D-39D265258864",
+      "MPMandatorySubsectionsRequirement:5CB235CD-7926-419C-BE79-13E7570678AF",
+      "MPMandatorySubsectionsRequirement:36017C8E-5D82-4585-8184-6CEC7B9C0846",
+      "MPMandatorySubsectionsRequirement:0D100033-7D9E-4AA6-B6AB-A44D43CDD53D"
+    ]
+  },
+  {
+    "_id": "MPMaximumManuscriptWordCountRequirement:79583D82-4017-4464-A443-FA93F5A598B0",
+    "count": 5000,
+    "createdAt": 1566382174223.0,
+    "objectType": "MPMaximumManuscriptWordCountRequirement",
+    "severity": 0,
+    "updatedAt": 1566382174223.0
+  },
+  {
+    "_id": "MPMaximumFigureCountRequirement:A373470D-8194-41BD-9A88-2CC3EE86ADF7",
+    "count": 4,
+    "createdAt": 1566382174223.0,
+    "objectType": "MPMaximumFigureCountRequirement",
+    "severity": 0,
+    "updatedAt": 1566382174223.0
+  },
+  {
+    "_id": "MPMinimumFigureDPIRequirement:3EE66EC2-7096-4C0E-BE6F-DC9B5ED4BDEA",
+    "count": 300,
+    "createdAt": 1566382174223.0,
+    "objectType": "MPMinimumFigureDPIRequirement",
+    "outputMedium": 1,
+    "severity": 0,
+    "updatedAt": 1566382174223.0
+  },
+  {
+    "_id": "MPMandatorySubsectionsRequirement:C18AD6AB-ED3D-4024-991A-A830B60EE984",
+    "createdAt": 1566382174223.0,
+    "embeddedSectionDescriptions": [
+      {
+        "_id": "MPSectionDescription:24063E00-B3ED-46E8-9F6F-739290EF9C83",
+        "maxWordCount": 250,
+        "objectType": "MPSectionDescription",
+        "required": true,
+        "sectionCategory": "MPSectionCategory:abstract"
+      }
+    ],
+    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-cell-and-molecular-biology-Original-Research-Article",
+    "objectType": "MPMandatorySubsectionsRequirement",
+    "severity": 0,
+    "updatedAt": 1566382174223.0
+  },
+  {
+    "_id": "MPMandatorySubsectionsRequirement:A06E8F3B-36EB-4102-B2A8-C74CC866954C",
+    "createdAt": 1566382174223.0,
+    "embeddedSectionDescriptions": [
+      {
+        "_id": "MPSectionDescription:B609BC3F-60C9-4E8A-B1E2-AF5E121F3792",
+        "maxKeywordCount": 5,
+        "objectType": "MPSectionDescription",
+        "required": true,
+        "sectionCategory": "MPSectionCategory:keywords"
+      }
+    ],
+    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-cell-and-molecular-biology-Original-Research-Article",
+    "objectType": "MPMandatorySubsectionsRequirement",
+    "severity": 0,
+    "updatedAt": 1566382174223.0
+  },
+  {
+    "_id": "MPMandatorySubsectionsRequirement:E8E67EA9-AE17-445E-86F4-109DFAC41171",
+    "createdAt": 1566382174223.0,
+    "embeddedSectionDescriptions": [
+      {
+        "_id": "MPSectionDescription:CD6A12D1-4EE0-47BC-BED2-AF780A78E097",
+        "objectType": "MPSectionDescription",
+        "required": true,
+        "sectionCategory": "MPSectionCategory:introduction"
+      }
+    ],
+    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-cell-and-molecular-biology-Original-Research-Article",
+    "objectType": "MPMandatorySubsectionsRequirement",
+    "severity": 0,
+    "updatedAt": 1566382174223.0
+  },
+  {
+    "_id": "MPMandatorySubsectionsRequirement:C9C7B96D-4613-4699-B13D-39D265258864",
+    "createdAt": 1566382174223.0,
+    "embeddedSectionDescriptions": [
+      {
+        "_id": "MPSectionDescription:6D1C4AF5-7C68-4FBA-852C-CDD56608CB88",
+        "maxWordCount": 500,
+        "objectType": "MPSectionDescription",
+        "required": true,
+        "sectionCategory": "MPSectionCategory:materials-method"
+      }
+    ],
+    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-cell-and-molecular-biology-Original-Research-Article",
+    "objectType": "MPMandatorySubsectionsRequirement",
+    "severity": 0,
+    "updatedAt": 1566382174223.0
+  },
+  {
+    "_id": "MPMandatorySubsectionsRequirement:5CB235CD-7926-419C-BE79-13E7570678AF",
+    "createdAt": 1566382174223.0,
+    "embeddedSectionDescriptions": [
+      {
+        "_id": "MPSectionDescription:07BA0410-E079-49C9-B9C1-F39FDF3959C6",
+        "objectType": "MPSectionDescription",
+        "required": true,
+        "sectionCategory": "MPSectionCategory:results"
+      }
+    ],
+    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-cell-and-molecular-biology-Original-Research-Article",
+    "objectType": "MPMandatorySubsectionsRequirement",
+    "severity": 0,
+    "updatedAt": 1566382174223.0
+  },
+  {
+    "_id": "MPMandatorySubsectionsRequirement:36017C8E-5D82-4585-8184-6CEC7B9C0846",
+    "createdAt": 1566382174223.0,
+    "embeddedSectionDescriptions": [
+      {
+        "_id": "MPSectionDescription:2EA00605-A5AE-40E4-859A-D1F692EF6CAA",
+        "objectType": "MPSectionDescription",
+        "required": true,
+        "sectionCategory": "MPSectionCategory:discussion"
+      }
+    ],
+    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-cell-and-molecular-biology-Original-Research-Article",
+    "objectType": "MPMandatorySubsectionsRequirement",
+    "severity": 0,
+    "updatedAt": 1566382174223.0
+  },
+  {
+    "_id": "MPMandatorySubsectionsRequirement:0D100033-7D9E-4AA6-B6AB-A44D43CDD53D",
+    "createdAt": 1566382174223.0,
+    "embeddedSectionDescriptions": [
+      {
+        "_id": "MPSectionDescription:9647A303-A977-44DF-8789-63806BE50337",
+        "objectType": "MPSectionDescription",
+        "required": false,
+        "sectionCategory": "MPSectionCategory:acknowledgement"
+      }
+    ],
+    "evaluatedObject": "MPManuscriptTemplate:www-zotero-org-styles-american-journal-of-respiratory-cell-and-molecular-biology-Original-Research-Article",
+    "objectType": "MPMandatorySubsectionsRequirement",
+    "severity": 0,
+    "updatedAt": 1566382174223.0
+  }
+]
