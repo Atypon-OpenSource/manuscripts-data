@@ -1,11 +1,11 @@
-#image: registry.gitlab.com/mpapp-public/manuscripts-frontend/node8-aws
+image: node:12-buster
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
 stages:
   - build
-  - deploy
+  - publish
 
 build:
   stage: build
@@ -13,147 +13,16 @@ build:
     - yarn install --frozen-lockfile --non-interactive
     - scripts/build.sh
   artifacts:
-      paths:
-        - dist
-      expire_in: 1 day
-  tags:
-    - nodejs-8
+    paths:
+      - dist
+    expire_in: 1 day
 
-deploy_dev:
-  environment:
-    name: dev
-    url: https://dev.manuscripts.io/data
-  stage: deploy
-  dependencies:
-    - build
-  variables:
-    S3_BUCKET: '$S3_BUCKET_DEV'
-  script: scripts/deploy.sh
-  tags:
-    - nodejs-8
-    - awscli
-  only:
-    - master
-
-deploy_dev_manual:
-  environment:
-    name: dev
-    url: https://dev.manuscripts.io/data
-  stage: deploy
-  dependencies:
-    - build
-  variables:
-    S3_BUCKET: '$S3_BUCKET_DEV'
-  script: scripts/deploy.sh
-  tags:
-    - nodejs-8
-    - awscli
-  when: manual
-
-deploy_test_manual:
-  environment:
-    name: test
-    url: https://test.manuscripts.io/data
-  stage: deploy
-  dependencies:
-    - build
-  variables:
-    S3_BUCKET: '$S3_BUCKET_TEST'
-  script: scripts/deploy.sh
-  tags:
-    - nodejs-8
-    - awscli
-  when: manual
-
-deploy_production_manual:
-  environment:
-    name: production
-    url: https://www.manuscripts.io/data
-  stage: deploy
-  dependencies:
-    - build
-  variables:
-    S3_BUCKET: '$S3_BUCKET_PROD'
-  script: scripts/deploy.sh
-  tags:
-    - nodejs-8
-    - awscli
-  when: manual
-
-invalidate_dev_manual:
-  stage: deploy
-  environment:
-    name: dev
-    url: https://dev.manuscripts.io/data
-  variables:
-    CLOUDFRONT_ID: '$CLOUDFRONT_ID_DEV'
-  script: scripts/invalidate.sh
-  tags:
-    - nodejs-8
-    - awscli
-  when: manual
-
-invalidate_test_manual:
-  stage: deploy
-  environment:
-    name: test
-    url: https://test.manuscripts.io/data
-  variables:
-    CLOUDFRONT_ID: '$CLOUDFRONT_ID_TEST'
-  script: scripts/invalidate.sh
-  tags:
-    - nodejs-8
-    - awscli
-  when: manual
-
-invalidate_production_manual:
-  stage: deploy
-  environment:
-    name: production
-    url: https://www.manuscripts.io/data
-  variables:
-    CLOUDFRONT_ID: '$CLOUDFRONT_ID_PROD'
-  script: scripts/invalidate.sh
-  tags:
-  - nodejs-8
-  - awscli
-  when: manual
-
-publish_image:
-  stage: deploy
-  dependencies:
-    - build
-  environment:
-    name: docker
-  variables:
-    CONTAINER_IMAGE: registry.gitlab.com/mpapp-public/manuscripts-data/manuscripts-data:latest
-  script: scripts/publish-image.sh
-  tags:
-    - docker-ce
-  only:
-    - master
-
-publish_image_manual:
-  stage: deploy
-  dependencies:
-    - build
-  environment:
-    name: docker
-  variables:
-    CONTAINER_IMAGE: registry.gitlab.com/mpapp-public/manuscripts-data/manuscripts-data:latest
-  script: scripts/publish-image.sh
-  tags:
-    - docker-ce
-  when: manual
-
-publish_npm:
-  stage: deploy
+publish:
+  stage: publish
   dependencies:
     - build
   script:
     - npx @manuscripts/publish
-  tags:
-    - nodejs-8
   only:
     refs:
       - master
