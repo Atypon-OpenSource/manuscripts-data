@@ -1,43 +1,24 @@
 [
   {
-    "_id": "MPStatusLabel:done",
+    "_id": "MPStatusLabel:completed",
     "objectType": "MPStatusLabel",
-    "name": "Done",
+    "name": "Completed",
     "bundled": true,
-    "priority": 10,
-    "color": "MPColor:green"
+    "priority": 3
   },
   {
-    "_id": "MPStatusLabel:started",
+    "_id": "MPStatusLabel:doing",
     "objectType": "MPStatusLabel",
-    "name": "Started",
+    "name": "Doing",
     "bundled": true,
-    "priority": 20,
-    "color": "MPColor:verylightgray"
+    "priority": 2
   },
   {
-    "_id": "MPStatusLabel:ongoing",
+    "_id": "MPStatusLabel:todo",
     "objectType": "MPStatusLabel",
-    "name": "Ongoing",
+    "name": "To Do",
     "bundled": true,
-    "priority": 30,
-    "color": "MPColor:gray"
-  },
-  {
-    "_id": "MPStatusLabel:draft",
-    "objectType": "MPStatusLabel",
-    "name": "Draft",
-    "bundled": true,
-    "priority": 40,
-    "color": "MPColor:verylightblue"
-  },
-  {
-    "_id": "MPStatusLabel:proof",
-    "objectType": "MPStatusLabel",
-    "name": "Proof",
-    "bundled": true,
-    "priority": 50,
-    "color": "MPColor:blue"
+    "priority": 1
   },
   {
     "_id": "MPResearchField:anthropology",

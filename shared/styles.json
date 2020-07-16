@@ -79,7 +79,16 @@
     "objectType": "MPColor",
     "bundled": true,
     "value": "#b0b0b0",
-    "priority": 50
+    "priority": 20
+  },
+  {
+    "_id": "MPColor:lightgray",
+    "name": "lightgray",
+    "title": "Light Gray",
+    "objectType": "MPColor",
+    "bundled": true,
+    "value": "#E2E2E2",
+    "priority": 30
   },
   {
     "_id": "MPColor:verylightgray",
@@ -88,7 +97,7 @@
     "objectType": "MPColor",
     "bundled": true,
     "value": "#f4f4f4",
-    "priority": 50
+    "priority": 40
   },
   {
     "_id": "MPColor:verylightblue",
@@ -109,22 +118,13 @@
     "priority": 100
   },
   {
-    "_id": "MPColor:red",
-    "name": "red",
-    "title": "Red",
+    "_id": "MPColor:lightblue",
+    "name": "lightblue",
+    "title": "Light Blue",
     "objectType": "MPColor",
     "bundled": true,
-    "value": "#ff0000",
+    "value": "#ddf3fa",
     "priority": 110
-  },
-  {
-    "_id": "MPColor:green",
-    "name": "green",
-    "title": "Green",
-    "objectType": "MPColor",
-    "bundled": true,
-    "value": "#00ff00",
-    "priority": 120
   },
   {
     "_id": "MPColor:blue",
@@ -132,8 +132,80 @@
     "title": "Blue",
     "objectType": "MPColor",
     "bundled": true,
-    "value": "#0000ff",
+    "value": "#1A9BC7",
+    "priority": 120
+  },
+  {
+    "_id": "MPColor:orange",
+    "name": "orange",
+    "title": "Orange",
+    "objectType": "MPColor",
+    "bundled": true,
+    "value": "#FE8F1F",
     "priority": 130
+  },
+  {
+    "_id": "MPColor:purple",
+    "name": "purple",
+    "title": "Purple",
+    "objectType": "MPColor",
+    "bundled": true,
+    "value": "#B3A1FC",
+    "priority": 140
+  },
+  {
+    "_id": "MPColor:teagreen",
+    "name": "teagreen",
+    "title": "Tea Green",
+    "objectType": "MPColor",
+    "bundled": true,
+    "value": "#D5FFC4",
+    "priority": 150
+  },
+  {
+    "_id": "MPColor:pink",
+    "name": "pink",
+    "title": "Pink",
+    "objectType": "MPColor",
+    "bundled": true,
+    "value": "#F5C1B7",
+    "priority": 160
+  },
+  {
+    "_id": "MPColor:darkpink",
+    "name": "darkpink",
+    "title": "Dark Pink",
+    "objectType": "MPColor",
+    "bundled": true,
+    "value": "#F474AE",
+    "priority": 170
+  },
+  {
+    "_id": "MPColor:green",
+    "name": "green",
+    "title": "Green",
+    "objectType": "MPColor",
+    "bundled": true,
+    "value": "#8DD439",
+    "priority": 180
+  },
+  {
+    "_id": "MPColor:yellow",
+    "name": "yellow",
+    "title": "Yellow",
+    "objectType": "MPColor",
+    "bundled": true,
+    "value": "#FFFCDB",
+    "priority": 190
+  },
+  {
+    "_id": "MPColor:red",
+    "name": "red",
+    "title": "Red",
+    "objectType": "MPColor",
+    "bundled": true,
+    "value": "#F35143",
+    "priority": 200
   },
   {
     "_id": "MPColorScheme:default",
@@ -147,8 +219,16 @@
       "MPColor:verylightblue",
       "MPColor:white",
       "MPColor:red",
+      "MPColor:lightblue",
+      "MPColor:orange",
+      "MPColor:purple",
+      "MPColor:teagreen",
+      "MPColor:pink",
+      "MPColor:darkpink",
       "MPColor:green",
-      "MPColor:blue"
+      "MPColor:blue",
+      "MPColor:lightgray",
+      "MPColor:yellow"
     ]
   },
   {
