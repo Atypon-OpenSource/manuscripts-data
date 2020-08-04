@@ -56,6 +56,7 @@ for (const file of files) {
   if (file === 'templates-v2') {
     docs.push(...customTemplates)
 
+    // filter out templates with unavailable bundle IDs
     docs = docs.filter(doc => {
       if (doc.objectType === 'MPManuscriptTemplate') {
         if (doc.bundle && !bundleIDs.has(doc.bundle)) {
@@ -68,6 +69,21 @@ for (const file of files) {
     })
 
     docs.forEach(doc => {
+      if (doc.objectType === 'MPManuscriptTemplate') {
+        // fix template objects that have requirementIDs but not mandatorySubsectionRequirements
+        if (!doc.mandatorySectionRequirements && Array.isArray(doc.requirementIDs)) {
+          doc.mandatorySectionRequirements = doc.requirementIDs.filter(id => id.startsWith('MPMandatorySubsectionsRequirement:'))
+        }
+
+        // delete unused data
+        if (doc.bundle && doc.bundle.scimago) {
+          delete doc.bundle.scimago
+        }
+      }
+    })
+
+    docs.forEach(doc => {
+      delete doc.requirementIDs
       delete doc.requirements
       delete doc.styles
     })
