@@ -69,16 +69,30 @@ for (const file of files) {
     })
 
     docs.forEach(doc => {
-      if (doc.objectType === 'MPManuscriptTemplate') {
-        // fix template objects that have requirementIDs but not mandatorySubsectionRequirements
-        if (!doc.mandatorySectionRequirements && Array.isArray(doc.requirementIDs)) {
-          doc.mandatorySectionRequirements = doc.requirementIDs.filter(id => id.startsWith('MPMandatorySubsectionsRequirement:'))
-        }
+      switch (doc.objectType) {
+        case 'MPManuscriptTemplate': {
+          // fix template objects that have requirementIDs but not mandatorySubsectionRequirements
+          if (!doc.mandatorySectionRequirements && Array.isArray(doc.requirementIDs)) {
+            doc.mandatorySectionRequirements = doc.requirementIDs.filter(id => id.startsWith('MPMandatorySubsectionsRequirement:'))
+          }
 
-        // delete unused data
-        if (doc.bundle && doc.bundle.scimago) {
-          delete doc.bundle.scimago
+          // rename *CharCountRequirement properties
+          if (doc.maxCharCountRequirement !== undefined) {
+            doc.maxCharacterCountRequirement = doc.maxCharCountRequirement
+            delete doc.maxCharCountRequirement
+          }
+
+          if (doc.minCharCountRequirement !== undefined) {
+            doc.minCharacterCountRequirement = doc.minCharCountRequirement
+            delete doc.minCharCountRequirement
+          }
+
+          // delete unused data
+          if (doc.bundle && doc.bundle.scimago) {
+            delete doc.bundle.scimago
+          }
         }
+        break
       }
     })
 
