@@ -35,9 +35,22 @@ for (const file of files) {
         const id = path.basename(doc.csl.cslIdentifier)
 
         if (!fs.existsSync(`dist/csl/styles/${id}.csl`)) {
-          console.warn(`Removed bundle ${id} (${doc.csl.title})`)
+          console.warn(`Removed bundle ${id} (${doc.csl.title}) due to missing style`)
           return false
         }
+
+        const parentURL = doc.csl['independent-parent-URL']
+
+        if (parentURL) {
+          const parentID = path.basename(parentURL)
+
+          if (!fs.existsSync(`dist/csl/styles/${parentID}.csl`)) {
+            console.warn(`Removed bundle ${id} (${doc.csl.title}) due to missing parent style ${parentID}`)
+            return false
+          }
+        }
+      } else {
+        console.log(doc)
       }
 
       return true
