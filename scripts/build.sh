@@ -12,6 +12,9 @@ mkdir -p dist/csl/locales
 cp csl/locales/locales.json dist/csl/locales/
 find csl/locales -maxdepth 1 -name '*.xml' -exec cp "{}" dist/csl/locales/ \;
 
+# fetch published templates
+node scripts/fetch-published-templates.js
+
 # copy shared data
 mkdir -p dist/shared
 find shared -maxdepth 1 -name '*.json' -exec cp "{}" dist/shared/ \;

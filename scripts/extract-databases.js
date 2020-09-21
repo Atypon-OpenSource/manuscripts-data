@@ -8,6 +8,9 @@ fs.ensureDirSync('dist/shared')
 
 const customBundles = fs.readJSONSync('dist/shared/custom-bundles.json')
 const customTemplates = fs.readJSONSync('dist/shared/custom-templates.json')
+const publishedTemplates = fs.readJSONSync(
+  'dist/shared/published-templates.json'
+)
 
 // NOTE: need to extract bundles before templates
 const files = ['bundles', 'templates-v2', 'symbols-v2', 'funders']
@@ -19,7 +22,10 @@ for (const file of files) {
     readonly: true,
   })
 
-  let docs = db.prepare('SELECT * FROM docs INNER JOIN revs on docs.doc_id = revs.doc_id WHERE revs.current=1 AND revs.deleted=0')
+  let docs = db
+    .prepare(
+      'SELECT * FROM docs INNER JOIN revs on docs.doc_id = revs.doc_id WHERE revs.current=1 AND revs.deleted=0'
+    )
     .all()
     .map(({ json, docid }) => ({
       _id: docid,
@@ -30,12 +36,14 @@ for (const file of files) {
   if (file === 'bundles') {
     docs.push(...customBundles)
 
-    docs = docs.filter(doc => {
+    docs = docs.filter((doc) => {
       if (doc.csl) {
         const id = path.basename(doc.csl.cslIdentifier)
 
         if (!fs.existsSync(`dist/csl/styles/${id}.csl`)) {
-          console.warn(`Removed bundle ${id} (${doc.csl.title}) due to missing style`)
+          console.warn(
+            `Removed bundle ${id} (${doc.csl.title}) due to missing style`
+          )
           return false
         }
 
@@ -45,7 +53,9 @@ for (const file of files) {
           const parentID = path.basename(parentURL)
 
           if (!fs.existsSync(`dist/csl/styles/${parentID}.csl`)) {
-            console.warn(`Removed bundle ${id} (${doc.csl.title}) due to missing parent style ${parentID}`)
+            console.warn(
+              `Removed bundle ${id} (${doc.csl.title}) due to missing parent style ${parentID}`
+            )
             return false
           }
         }
@@ -56,7 +66,7 @@ for (const file of files) {
       return true
     })
 
-    docs.forEach(doc => {
+    docs.forEach((doc) => {
       bundleIDs.add(doc._id)
 
       if (doc.csl) {
@@ -68,9 +78,10 @@ for (const file of files) {
   // remove derived data and invalid bundles from templates JSON
   if (file === 'templates-v2') {
     docs.push(...customTemplates)
+    docs.push(...publishedTemplates)
 
     // filter out templates with unavailable bundle IDs
-    docs = docs.filter(doc => {
+    docs = docs.filter((doc) => {
       if (doc.objectType === 'MPManuscriptTemplate') {
         if (doc.bundle && !bundleIDs.has(doc.bundle)) {
           console.warn(`Removed template ${doc._id} (${doc.title})`)
@@ -81,35 +92,41 @@ for (const file of files) {
       return true
     })
 
-    docs.forEach(doc => {
+    docs.forEach((doc) => {
       switch (doc.objectType) {
-        case 'MPManuscriptTemplate': {
-          // fix template objects that have requirementIDs but not mandatorySubsectionRequirements
-          if (!doc.mandatorySectionRequirements && Array.isArray(doc.requirementIDs)) {
-            doc.mandatorySectionRequirements = doc.requirementIDs.filter(id => id.startsWith('MPMandatorySubsectionsRequirement:'))
-          }
+        case 'MPManuscriptTemplate':
+          {
+            // fix template objects that have requirementIDs but not mandatorySubsectionRequirements
+            if (
+              !doc.mandatorySectionRequirements &&
+              Array.isArray(doc.requirementIDs)
+            ) {
+              doc.mandatorySectionRequirements = doc.requirementIDs.filter(
+                (id) => id.startsWith('MPMandatorySubsectionsRequirement:')
+              )
+            }
 
-          // rename *CharCountRequirement properties
-          if (doc.maxCharCountRequirement !== undefined) {
-            doc.maxCharacterCountRequirement = doc.maxCharCountRequirement
-            delete doc.maxCharCountRequirement
-          }
+            // rename *CharCountRequirement properties
+            if (doc.maxCharCountRequirement !== undefined) {
+              doc.maxCharacterCountRequirement = doc.maxCharCountRequirement
+              delete doc.maxCharCountRequirement
+            }
 
-          if (doc.minCharCountRequirement !== undefined) {
-            doc.minCharacterCountRequirement = doc.minCharCountRequirement
-            delete doc.minCharCountRequirement
-          }
+            if (doc.minCharCountRequirement !== undefined) {
+              doc.minCharacterCountRequirement = doc.minCharCountRequirement
+              delete doc.minCharCountRequirement
+            }
 
-          // delete unused data
-          if (doc.bundle && doc.bundle.scimago) {
-            delete doc.bundle.scimago
+            // delete unused data
+            if (doc.bundle && doc.bundle.scimago) {
+              delete doc.bundle.scimago
+            }
           }
-        }
-        break
+          break
       }
     })
 
-    docs.forEach(doc => {
+    docs.forEach((doc) => {
       delete doc.requirementIDs
       delete doc.requirements
       delete doc.styles
@@ -118,7 +135,7 @@ for (const file of files) {
     // verify that all the _id values are unique
     const ids = new Set()
 
-    docs.forEach(doc => {
+    docs.forEach((doc) => {
       if (!doc._id) {
         throw new Error('Missing ID')
       }
@@ -131,12 +148,16 @@ for (const file of files) {
 
       // TODO: validate _id values of nested objects
     })
+
+    const templates = docs.filter(
+      (doc) => doc.objectType === 'MPManuscriptTemplate'
+    )
+    console.log(`${templates.length} templates`)
   }
 
   fs.writeJSONSync(`dist/shared/${file}.json`, docs, {
-    spaces: 2
+    spaces: 2,
   })
 }
 
 console.info('Finished extracting databases.')
-
