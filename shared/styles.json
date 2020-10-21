@@ -232,6 +232,25 @@
     ]
   },
   {
+    "_id": "MPColorScheme:tags",
+    "objectType": "MPColorScheme",
+    "name": "Manuscripts tags colour scheme",
+    "bundled": true,
+    "colors": [
+      "MPColor:lightblue",
+      "MPColor:orange",
+      "MPColor:purple",
+      "MPColor:teagreen",
+      "MPColor:pink",
+      "MPColor:darkpink",
+      "MPColor:green",
+      "MPColor:blue",
+      "MPColor:lightgray",
+      "MPColor:yellow",
+      "MPColor:red"
+    ]
+  },
+  {
     "_id": "MPTableStyle:default",
     "name": "default",
     "title": "Default Table Style",
