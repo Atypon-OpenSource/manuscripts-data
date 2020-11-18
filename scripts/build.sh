@@ -28,3 +28,6 @@ node scripts/extract-databases.js
 # verify extracted data
 node scripts/verify-bundles.js
 node scripts/verify-templates.js
+
+# write bundle index
+node scripts/build-issn-bundle-index.js
