@@ -167,5 +167,44 @@
     "objectType": "MPMandatorySubsectionsRequirement",
     "severity": 0,
     "updatedAt": 1566382174223.0
+  },
+  {
+    "_id": "MPManuscriptTemplate:?",
+    "bundle": "MPBundle:www-zotero-org-styles-nature",
+    "createdAt": 1628589361.249,
+    "desc": "",
+    "maxWordCountRequirement": "MPMaximumManuscriptWordCountRequirement:2ACAE3F9-7321-435D-892A-98E7842F697F",
+    "objectType": "MPManuscriptTemplate",
+    "title": "",
+    "updatedAt": 1628589361.249,
+    "mandatorySectionRequirements": [
+      "MPMandatorySubsectionsRequirement:0B0D70DB-C59C-45F1-83D5-1D490331C7BD"
+    ]
+  },
+  {
+    "_id": "MPMandatorySubsectionsRequirement:0B0D70DB-C59C-45F1-83D5-1D490331C7BD",
+    "createdAt": 1628589361.249,
+    "embeddedSectionDescriptions": [
+      {
+        "_id": "MPSectionDescription:FE0B81EF-0A67-47F0-B972-292C36EE12DB",
+        "maxWordCount": 200,
+        "objectType": "MPSectionDescription",
+        "required": true,
+        "sectionCategory": "MPSectionCategory:abstract"
+      }
+    ],
+    "evaluatedObject": "MPManuscriptTemplate:?",
+    "objectType": "MPMandatorySubsectionsRequirement",
+    "severity": 0,
+    "updatedAt": 1628589361.249
+  },
+  {
+    "_id": "MPMaximumManuscriptWordCountRequirement:2ACAE3F9-7321-435D-892A-98E7842F697F",
+    "count": 15000,
+    "createdAt": 1628589361.249,
+    "evaluatedObject": "MPManuscriptTemplate:?",
+    "objectType": "MPMaximumManuscriptWordCountRequirement",
+    "severity": 0,
+    "updatedAt": 1628589361.249
   }
 ]
