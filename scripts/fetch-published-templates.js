@@ -3,7 +3,7 @@
 const fs = require('fs-extra')
 const got = require('got')
 
-const input = 'https://api.manuscripts.io/api/v1/publishedTemplates'
+const input = 'https://api-test.manuscripts.io/api/v1/publishedTemplates'
 const output = 'dist/shared/published-templates.json'
 
 got(input)
