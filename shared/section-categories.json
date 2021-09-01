@@ -465,5 +465,173 @@
       "response to review comments",
       "response letter"
     ]
+  },
+  {
+    "_id": "MPSectionCategory:con",
+    "name": "Contributed",
+    "desc": "Contributed-by information",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2100,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      "Contributed by information"
+    ]
+  },
+  {
+    "_id": "MPSectionCategory:conflict",
+    "name": "Conflict",
+    "desc": "Conflict of interest statements",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2100,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      "Conflict of interest statements"
+    ]
+  },
+  {
+    "_id": "MPSectionCategory:deceased",
+    "name": "",
+    "desc": "Person has died since the article was written",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2100,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      ""
+    ]
+  },
+  {
+    "_id": "MPSectionCategory:equal",
+    "name": "",
+    "desc": "Contributed equally to the creation of the document",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2100,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      ""
+    ]
+  },
+  {
+    "_id": "MPSectionCategory:financial-disclosure",
+    "name": "",
+    "desc": "Statement of funding or denial of funds received in support of the research on which an article is based",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2100,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      ""
+    ]
+  },
+  {
+    "_id": "MPSectionCategory:present-address",
+    "name": "",
+    "desc": "Contributor’s current address",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2100,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      ""
+    ]
+  },
+  {
+    "_id": "MPSectionCategory:presented-at",
+    "name": "",
+    "desc": "Conference, colloquium, or other occasion at which this paper was presented",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2100,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      ""
+    ]
+  },
+  {
+    "_id": "MPSectionCategory:previously-at",
+    "name": "",
+    "desc": "Contributor’s previous location or affiliation",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2100,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      ""
+    ]
+  },
+  {
+    "_id": "MPSectionCategory:supplementary-material",
+    "name": "",
+    "desc": "Points to or describes supplementary material for the article",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2100,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      ""
+    ]
+  },
+  {
+    "_id": "MPSectionCategory:supported-by",
+    "name": "",
+    "desc": "Research upon which an article is based was supported by some entity",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2100,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      ""
+    ]
+  },
+  {
+    "_id": "MPSectionCategory:com",
+    "name": "Communicated-by information",
+    "desc": "",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2100,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      ""
+    ]
+  },
+  {
+    "_id": "MPSectionCategory:com",
+    "name": "Communicated-by information",
+    "desc": "",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2100,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      ""
+    ]
   }
 ]
