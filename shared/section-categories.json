@@ -607,22 +607,8 @@
     ]
   },
   {
-    "_id": "MPSectionCategory:com",
-    "name": "Communicated-by information",
-    "desc": "",
-    "objectType": "MPSectionCategory",
-    "singular": true,
-    "bundled": true,
-    "priority": 2100,
-    "uniqueInScope": true,
-    "supplementary": true,
-    "titles": [
-      ""
-    ]
-  },
-  {
-    "_id": "MPSectionCategory:com",
-    "name": "Communicated-by information",
+    "_id": "MPSectionCategory:ethics-statement",
+    "name": "",
     "desc": "",
     "objectType": "MPSectionCategory",
     "singular": true,
