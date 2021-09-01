@@ -468,7 +468,7 @@
   },
   {
     "_id": "MPSectionCategory:con",
-    "name": "Contributed",
+    "name": "",
     "desc": "Contributed-by information",
     "objectType": "MPSectionCategory",
     "singular": true,
@@ -482,7 +482,7 @@
   },
   {
     "_id": "MPSectionCategory:conflict",
-    "name": "Conflict",
+    "name": "",
     "desc": "Conflict of interest statements",
     "objectType": "MPSectionCategory",
     "singular": true,
