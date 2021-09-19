@@ -1,68 +1,68 @@
 [
   {
-    "_id": "MPFootnotesCategory:con",
+    "_id": "MPFootnoteCategory:con",
     "name": "Contributed By",
     "desc": "Contributed-by information",
-    "objectType": "MPFootnotesCategory"
+    "objectType": "MPFootnoteCategory"
   },
   {
-    "_id": "MPFootnotesCategory:conflict",
+    "_id": "MPFootnoteCategory:conflict",
     "name": "Conflict",
     "desc": "Conflict of interest statements",
-    "objectType": "MPFootnotesCategory"
+    "objectType": "MPFootnoteCategory"
   },
   {
-    "_id": "MPFootnotesCategory:deceased",
+    "_id": "MPFootnoteCategory:deceased",
     "name": "Deceased",
     "desc": "Person has died since the article was written",
-    "objectType": "MPFootnotesCategory"
+    "objectType": "MPFootnoteCategory"
   },
   {
-    "_id": "MPFootnotesCategory:equal",
+    "_id": "MPFootnoteCategory:equal",
     "name": "Equal",
     "desc": "Contributed equally to the creation of the document",
-    "objectType": "MPFootnotesCategory"
+    "objectType": "MPFootnoteCategory"
   },
   {
-    "_id": "MPFootnotesCategory:financial-disclosure",
+    "_id": "MPFootnoteCategory:financial-disclosure",
     "name": "Financial Disclosure",
     "desc": "Statement of funding or denial of funds received in support of the research on which an article is based",
-    "objectType": "MPFootnotesCategory"
+    "objectType": "MPFootnoteCategory"
   },
   {
-    "_id": "MPFootnotesCategory:present-address",
+    "_id": "MPFootnoteCategory:present-address",
     "name": "Present Address",
     "desc": "Contributor’s current address",
-    "objectType": "MPFootnotesCategory"
+    "objectType": "MPFootnoteCategory"
   },
   {
-    "_id": "MPFootnotesCategory:presented-at",
+    "_id": "MPFootnoteCategory:presented-at",
     "name": "Presented At",
     "desc": "Conference, colloquium, or other occasion at which this paper was presented",
-    "objectType": "MPFootnotesCategory"
+    "objectType": "MPFootnoteCategory"
   },
   {
-    "_id": "MPFootnotesCategory:previously-at",
+    "_id": "MPFootnoteCategory:previously-at",
     "name": "Previously At",
     "desc": "Contributor’s previous location or affiliation",
-    "objectType": "MPFootnotesCategory"
+    "objectType": "MPFootnoteCategory"
   },
   {
-    "_id": "MPFootnotesCategory:supplementary-material",
+    "_id": "MPFootnoteCategory:supplementary-material",
     "name": "Supplementary Material",
     "desc": "Points to or describes supplementary material for the article",
-    "objectType": "MPFootnotesCategory"
+    "objectType": "MPFootnoteCategory"
   },
   {
-    "_id": "MPFootnotesCategory:supported-by",
+    "_id": "MPFootnoteCategory:supported-by",
     "name": "Supported By",
     "desc": "Research upon which an article is based was supported by some entity",
-    "objectType": "MPFootnotesCategory"
+    "objectType": "MPFootnoteCategory"
   },
   {
-    "_id": "MPFootnotesCategory:ethics-statement",
+    "_id": "MPFootnoteCategory:ethics-statement",
     "name": "Ethics Statement",
     "desc": "ethical considerations relating to the conduct of the research that a publication is reporting",
-    "objectType": "MPFootnotesCategory"
+    "objectType": "MPFootnoteCategory"
   }
 ]
