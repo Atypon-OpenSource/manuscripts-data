@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "MPFootnotesCategory:con",
+    "name": "Contributed By",
+    "desc": "Contributed-by information",
+    "objectType": "MPFootnotesCategory"
+  },
+  {
+    "_id": "MPFootnotesCategory:conflict",
+    "name": "Conflict",
+    "desc": "Conflict of interest statements",
+    "objectType": "MPFootnotesCategory"
+  },
+  {
+    "_id": "MPFootnotesCategory:deceased",
+    "name": "Deceased",
+    "desc": "Person has died since the article was written",
+    "objectType": "MPFootnotesCategory"
+  },
+  {
+    "_id": "MPFootnotesCategory:equal",
+    "name": "Equal",
+    "desc": "Contributed equally to the creation of the document",
+    "objectType": "MPFootnotesCategory"
+  },
+  {
+    "_id": "MPFootnotesCategory:financial-disclosure",
+    "name": "Financial Disclosure",
+    "desc": "Statement of funding or denial of funds received in support of the research on which an article is based",
+    "objectType": "MPFootnotesCategory"
+  },
+  {
+    "_id": "MPFootnotesCategory:present-address",
+    "name": "Present Address",
+    "desc": "Contributor’s current address",
+    "objectType": "MPFootnotesCategory"
+  },
+  {
+    "_id": "MPFootnotesCategory:presented-at",
+    "name": "Presented At",
+    "desc": "Conference, colloquium, or other occasion at which this paper was presented",
+    "objectType": "MPFootnotesCategory"
+  },
+  {
+    "_id": "MPFootnotesCategory:previously-at",
+    "name": "Previously At",
+    "desc": "Contributor’s previous location or affiliation",
+    "objectType": "MPFootnotesCategory"
+  },
+  {
+    "_id": "MPFootnotesCategory:supplementary-material",
+    "name": "Supplementary Material",
+    "desc": "Points to or describes supplementary material for the article",
+    "objectType": "MPFootnotesCategory"
+  },
+  {
+    "_id": "MPFootnotesCategory:supported-by",
+    "name": "Supported By",
+    "desc": "Research upon which an article is based was supported by some entity",
+    "objectType": "MPFootnotesCategory"
+  },
+  {
+    "_id": "MPFootnotesCategory:ethics-statement",
+    "name": "Ethics Statement",
+    "desc": "ethical considerations relating to the conduct of the research that a publication is reporting",
+    "objectType": "MPFootnotesCategory"
+  }
+]
