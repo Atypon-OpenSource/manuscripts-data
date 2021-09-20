@@ -465,5 +465,33 @@
       "response to review comments",
       "response letter"
     ]
+  },
+  {
+    "_id": "MPSectionCategory:conflict",
+    "name": "Conflict",
+    "desc": "Conflict of interest statements",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2100,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      "Conflict of interest statement"
+    ]
+  },
+  {
+    "_id": "MPSectionCategory:financial-disclosure",
+    "name": "Financial Disclosure",
+    "desc": "Statement of funding or denial of funds received in support of the research on which an article is based.",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2100,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      "Statement of funding or denial of funds received in support of the research on which an article is based."
+    ]
   }
 ]
