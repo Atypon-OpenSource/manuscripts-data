@@ -469,7 +469,7 @@
   {
     "_id": "MPSectionCategory:conflict",
     "name": "Conflict",
-    "desc": "Conflict of interest statements",
+    "desc": "Conflict of interest",
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
@@ -477,7 +477,7 @@
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
-      "Conflict of interest statement"
+      "Conflict of interest"
     ]
   },
   {
