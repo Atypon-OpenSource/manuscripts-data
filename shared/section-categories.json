@@ -465,5 +465,19 @@
       "response to review comments",
       "response letter"
     ]
+  },
+  {
+    "_id": "MPSectionCategory:abstract-graphical",
+    "name": "Graphical Abstract",
+    "desc": "A visual summary of your work.",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2200,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      "Graphical abstract"
+    ]
   }
 ]
