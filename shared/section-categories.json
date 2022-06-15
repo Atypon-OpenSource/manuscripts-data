@@ -479,5 +479,113 @@
     "titles": [
       "Graphical abstract"
     ]
+  },
+  {
+    "_id": "MPSectionCategory:con",
+    "name": "Contributed-by information",
+    "desc": "A section to indicate a contributed-by information that the authors may have included in their manuscript.",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2300,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": ["Contributed-by information"]
+  },
+  {
+    "_id": "MPSectionCategory:deceased",
+    "name": "Deceased",
+    "desc": "A section to indicate something about a deceased statement related to an author who may have passed since the writing of the manuscript.",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2310,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": ["Deceased"]
+  },
+  {
+    "_id": "MPSectionCategory:equal",
+    "name": "Equal",
+    "desc": "A section to indicate something about a contributed equally statement that the authors may have included in their manuscript.",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2320,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": ["Equal"]
+  },
+  {
+    "_id": "MPSectionCategory:financial-disclosure",
+    "name": "Financial Disclosure",
+    "desc": "A section to indicate the source of funding for the manuscript.",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2330,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": ["Financial disclosure", "financialDisclosure"]
+  },
+  {
+    "_id": "MPSectionCategory:present-address",
+    "name": "Present Address",
+    "desc": "A section that indicate something about a present address statement that the authors may have included in their manuscript.",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2340,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": ["Present address", "presentAddress"]
+  },
+  {
+    "_id": "MPSectionCategory:presented-at",
+    "name": "Presented at",
+    "desc": "A section that indicate something about a presented at statement that the authors may have included in their manuscript.",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2350,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": ["Presented at"]
+  },
+  {
+    "_id": "MPSectionCategory:previously-at",
+    "name": "Previously at",
+    "desc": "A section that indicate something about a previously at statement that the authors may have included in their manuscript.",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2360,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": ["Previously at"]
+  },
+  {
+    "_id": "MPSectionCategory:supplementary-material",
+    "name": "Supplementary Material",
+    "desc": "A section that indicate something about a supplementary material statement that the authors may have included in their manuscript.",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2370,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": ["Supplementary material", "supplementaryMaterial"]
+  },
+  {
+    "_id": "MPSectionCategory:supported-by",
+    "name": "Supported by",
+    "desc": "A section that indicate something about a supported by statement that the authors may have included in their manuscript.",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2380,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": ["Supported by"]
   }
 ]
