@@ -14,9 +14,6 @@ find csl/locales -maxdepth 1 -name '*.xml' -exec cp "{}" dist/csl/locales/ \;
 # build CSL styles files
 node scripts/build-styles.js
 
-# fetch published templates
-node scripts/fetch-published-templates.js
-
 # copy shared data
 mkdir -p dist/shared
 find shared -maxdepth 1 -name '*.json' -exec cp "{}" dist/shared/ \;
