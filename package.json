@@ -1,9 +1,11 @@
 {
   "name": "@manuscripts/data",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "license": "Apache-2.0",
   "files": [
-    "dist/csl/locales/*.json", "dist/shared", "dist/*.json"
+    "dist/csl/locales/*.json",
+    "dist/shared",
+    "dist/*.json"
   ],
   "repository": "gitlab:mpapp-public/manuscripts-data",
   "devDependencies": {
