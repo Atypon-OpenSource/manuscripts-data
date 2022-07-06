@@ -8,9 +8,14 @@ find csl/styles -name '*.csl' -exec cp "{}" dist/csl/styles/ \;
 # TODO: rewrite dependent styles?
 
 # copy CSL locales
-mkdir -p dist/csl/locales
-cp csl/locales/locales.json dist/csl/locales/
+node scripts/build-locales-json.js
 find csl/locales -maxdepth 1 -name '*.xml' -exec cp "{}" dist/csl/locales/ \;
+
+# build CSL styles files
+node scripts/build-styles.js
+
+# fetch published templates
+node scripts/fetch-published-templates.js
 
 # copy shared data
 mkdir -p dist/shared
