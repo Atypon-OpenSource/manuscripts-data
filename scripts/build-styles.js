@@ -9,7 +9,7 @@ const {
 } = require('fontoxpath')
 const { sync, slimdom } = require('slimdom-sax-parser')
 
-const outputDir = __dirname + '/../dist'
+const outputDir = __dirname + '/../dist/csl/styles'
 
 if (fs.existsSync(outputDir)) {
     for (const file of globby.sync(outputDir + '/*.json')) {

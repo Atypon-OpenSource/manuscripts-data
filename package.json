@@ -5,7 +5,7 @@
   "files": [
     "dist/csl/locales/*.json",
     "dist/shared",
-    "dist/*.json"
+    "dist/csl/styles/*.json"
   ],
   "repository": "gitlab:mpapp-public/manuscripts-data",
   "devDependencies": {
