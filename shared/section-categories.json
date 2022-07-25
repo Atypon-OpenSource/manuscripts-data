@@ -319,20 +319,6 @@
     "uniqueInScope": true
   },
   {
-    "_id": "MPSectionCategory:ethicalStatement",
-    "name": "Ethical Statement",
-    "desc": "Statement regarding following relevant ethical guidelines.",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "Ethical Statement",
-      "ethicalStatement"
-    ],
-    "singular": true,
-    "bundled": true,
-    "priority": 1050,
-    "uniqueInScope": true
-  },
-  {
     "_id": "MPSectionCategory:additional-files",
     "name": "Additional Files",
     "desc": "List of supplemental files at the end of a book or document.",
@@ -587,5 +573,19 @@
     "uniqueInScope": true,
     "supplementary": true,
     "titles": ["Supported by"]
+  },
+  {
+    "_id": "MPSectionCategory:ethics-statement",
+    "name": "Ethics Statement",
+    "desc": "Statement regarding following relevant ethical guidelines.",
+    "objectType": "MPSectionCategory",
+    "titles": [
+      "Ethics Statement",
+      "ethicsStatement"
+    ],
+    "singular": true,
+    "bundled": true,
+    "priority": 2390,
+    "uniqueInScope": true
   }
 ]
