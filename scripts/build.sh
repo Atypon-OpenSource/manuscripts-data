@@ -22,7 +22,7 @@ find shared -maxdepth 1 -name '*.json' -exec cp "{}" dist/shared/ \;
 #node scripts/build-journals.js
 
 # fetch published templates
-node scripts/fetch-published-templates.js
+#node scripts/fetch-published-templates.js
 
 # extract shared data from databases
 node scripts/extract-databases.js
