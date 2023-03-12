@@ -10,7 +10,7 @@
     ],
     "singular": true,
     "bundled": true,
-    "priority": 680,
+    "priority": 100,
     "uniqueInScope": true
   },
   {
@@ -24,7 +24,7 @@
       "lead-in"
     ],
     "bundled": true,
-    "priority": 100,
+    "priority": 110,
     "uniqueInScope": true,
     "pageBreakStyle": 2
   },
@@ -38,7 +38,7 @@
       "acknowledgements"
     ],
     "bundled": true,
-    "priority": 600,
+    "priority": 120,
     "uniqueInScope": true
   },
   {
@@ -54,7 +54,7 @@
     ],
     "singular": true,
     "bundled": true,
-    "priority": 1000,
+    "priority": 130,
     "uniqueInScope": true
   },
   {
@@ -67,7 +67,7 @@
       "authorContributions"
     ],
     "bundled": true,
-    "priority": 1150,
+    "priority": 140,
     "uniqueInScope": true
   },
   {
@@ -79,7 +79,7 @@
       "availability"
     ],
     "bundled": true,
-    "priority": 575,
+    "priority": 150,
     "uniqueInScope": true
   },
   {
@@ -93,7 +93,7 @@
     ],
     "singular": true,
     "bundled": true,
-    "priority": 700,
+    "priority": 160,
     "uniqueInScope": true
   },
   {
@@ -108,7 +108,7 @@
     ],
     "singular": true,
     "bundled": true,
-    "priority": 1300,
+    "priority": 170,
     "uniqueInScope": true
   },
   {
@@ -121,7 +121,7 @@
       "conclusions"
     ],
     "bundled": true,
-    "priority": 550,
+    "priority": 180,
     "uniqueInScope": true
   },
   {
@@ -131,7 +131,7 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 2300,
+    "priority": 190,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
@@ -145,7 +145,7 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 2310,
+    "priority": 200,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
@@ -162,7 +162,7 @@
       "discussion and results"
     ],
     "bundled": true,
-    "priority": 500,
+    "priority": 210,
     "uniqueInScope": true
   },
   {
@@ -172,7 +172,7 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 2320,
+    "priority": 220,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
@@ -190,7 +190,7 @@
     ],
     "singular": true,
     "bundled": true,
-    "priority": 2390,
+    "priority": 230,
     "uniqueInScope": true
   },
   {
@@ -200,7 +200,7 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 2330,
+    "priority": 240,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
@@ -215,7 +215,7 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 2200,
+    "priority": 250,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
@@ -232,7 +232,7 @@
       "background"
     ],
     "bundled": true,
-    "priority": 200,
+    "priority": 260,
     "uniqueInScope": true
   },
   {
@@ -245,7 +245,7 @@
       "List of keywords"
     ],
     "bundled": true,
-    "priority": 175,
+    "priority": 270,
     "uniqueInScope": true
   },
   {
@@ -260,7 +260,7 @@
     ],
     "singular": true,
     "bundled": true,
-    "priority": 900,
+    "priority": 280,
     "uniqueInScope": true
   },
   {
@@ -274,7 +274,7 @@
     ],
     "singular": true,
     "bundled": true,
-    "priority": 800,
+    "priority": 290,
     "uniqueInScope": true
   },
   {
@@ -301,7 +301,7 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 2340,
+    "priority": 310,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
@@ -316,7 +316,7 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 2350,
+    "priority": 320,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
@@ -330,7 +330,7 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 2360,
+    "priority": 330,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
@@ -347,7 +347,7 @@
       "results and discussion"
     ],
     "bundled": true,
-    "priority": 400,
+    "priority": 340,
     "uniqueInScope": true
   },
   {
@@ -359,7 +359,7 @@
       "review"
     ],
     "bundled": true,
-    "priority": 250,
+    "priority": 350,
     "uniqueInScope": true
   },
   {
@@ -372,7 +372,7 @@
     ],
     "singular": true,
     "bundled": true,
-    "priority": 1300,
+    "priority": 360,
     "uniqueInScope": true
   },
   {
@@ -385,7 +385,7 @@
     ],
     "singular": true,
     "bundled": true,
-    "priority": 1400,
+    "priority": 370,
     "uniqueInScope": true
   },
   {
@@ -395,7 +395,7 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 2370,
+    "priority": 380,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
@@ -410,7 +410,7 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 2380,
+    "priority": 390,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
@@ -428,7 +428,7 @@
       "Contents"
     ],
     "bundled": true,
-    "priority": 185,
+    "priority": 400,
     "uniqueInScope": true
   }
 ]
