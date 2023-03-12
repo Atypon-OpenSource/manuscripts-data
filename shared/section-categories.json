@@ -1,19 +1,17 @@
 [
   {
-    "_id": "MPSectionCategory:title-page",
-    "name": "Title page",
-    "desc": "A page that shows the title, subtitle and author list of the publication.",
+    "_id": "MPSectionCategory:abbreviations",
+    "name": "Abbreviations",
+    "desc": "List of abbreviations referred to in your manuscript.",
     "objectType": "MPSectionCategory",
     "titles": [
-      "title",
-      "title page",
-      "titlepage"
+      "List of abbreviations",
+      "Abbreviations"
     ],
+    "singular": true,
     "bundled": true,
-    "priority": 50,
-    "uniqueInScope": true,
-    "titleSuppressed": true,
-    "pageBreakStyle": 2
+    "priority": 680,
+    "uniqueInScope": true
   },
   {
     "_id": "MPSectionCategory:abstract",
@@ -31,44 +29,198 @@
     "pageBreakStyle": 2
   },
   {
-    "_id": "MPSectionCategory:author-summary",
-    "name": "Author Summary",
-    "desc": "A non-technical summary of the work, typically immediately follows the abstract.",
+    "_id": "MPSectionCategory:acknowledgement",
+    "name": "Acknowledgments",
+    "desc": "Acknowledge individuals and organizations that were important in making your work possible.",
+    "objectType": "MPSectionCategory",
+    "titles": [
+      "acknowledgement",
+      "acknowledgements"
+    ],
+    "bundled": true,
+    "priority": 600,
+    "uniqueInScope": true
+  },
+  {
+    "_id": "MPSectionCategory:appendices",
+    "name": "Appendices",
+    "desc": "List of additional matters at the end of a book or document.",
+    "objectType": "MPSectionCategory",
+    "titles": [
+      "Appendices",
+      "appendix",
+      "additionalInformation",
+      "additional information"
+    ],
+    "singular": true,
+    "bundled": true,
+    "priority": 1000,
+    "uniqueInScope": true
+  },
+  {
+    "_id": "MPSectionCategory:author-contributions",
+    "name": "Author contributions",
+    "desc": "An account of the author contributions towards this work.",
+    "objectType": "MPSectionCategory",
+    "titles": [
+      "Author contributions",
+      "authorContributions"
+    ],
+    "bundled": true,
+    "priority": 1150,
+    "uniqueInScope": true
+  },
+  {
+    "_id": "MPSectionCategory:availability",
+    "name": "Availability",
+    "desc": "Availability of data and other resources.",
+    "objectType": "MPSectionCategory",
+    "titles": [
+      "availability"
+    ],
+    "bundled": true,
+    "priority": 575,
+    "uniqueInScope": true
+  },
+  {
+    "_id": "MPSectionCategory:bibliography",
+    "name": "Bibliography",
+    "desc": "References cited in your manuscript.",
+    "objectType": "MPSectionCategory",
+    "titles": [
+      "bibliography",
+      "references"
+    ],
+    "singular": true,
+    "bundled": true,
+    "priority": 700,
+    "uniqueInScope": true
+  },
+  {
+    "_id": "MPSectionCategory:competing-interests",
+    "name": "Competing Interests",
+    "desc": "Competing interests (financial etc).",
+    "objectType": "MPSectionCategory",
+    "titles": [
+      "Competing interests",
+      "Competing financial interests",
+      "competingInterests"
+    ],
+    "singular": true,
+    "bundled": true,
+    "priority": 1300,
+    "uniqueInScope": true
+  },
+  {
+    "_id": "MPSectionCategory:conclusions",
+    "name": "Conclusions",
+    "desc": "Summarise and draw conclusions.",
+    "objectType": "MPSectionCategory",
+    "titles": [
+      "conclusion",
+      "conclusions"
+    ],
+    "bundled": true,
+    "priority": 550,
+    "uniqueInScope": true
+  },
+  {
+    "_id": "MPSectionCategory:con",
+    "name": "Contributed-by information",
+    "desc": "A section to indicate a contributed-by information that the authors may have included in their manuscript.",
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 150,
+    "priority": 2300,
+    "uniqueInScope": true,
+    "supplementary": true,
     "titles": [
-      "author summary",
-      "authorSummary"
+      "Contributed-by information"
     ]
   },
   {
-    "_id": "MPSectionCategory:keywords",
-    "name": "Keywords",
-    "desc": "List of keywords relevant to the manuscript.",
+    "_id": "MPSectionCategory:deceased",
+    "name": "Deceased",
+    "desc": "A section to indicate something about a deceased statement related to an author who may have passed since the writing of the manuscript.",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2310,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      "Deceased"
+    ]
+  },
+  {
+    "_id": "MPSectionCategory:discussion",
+    "name": "Discussion",
+    "desc": "Interpret your data and draw conclusions.",
     "objectType": "MPSectionCategory",
     "titles": [
-      "Keywords",
-      "List of keywords"
+      "discussion",
+      "discussion and results"
     ],
     "bundled": true,
-    "priority": 175,
+    "priority": 500,
     "uniqueInScope": true
   },
   {
-    "_id": "MPSectionCategory:toc",
-    "name": "Table of Contents",
-    "desc": "The contents usually includes the headings of top level sections, and often includes second-level and occasionally even third-level headings.",
+    "_id": "MPSectionCategory:equal",
+    "name": "Equal",
+    "desc": "A section to indicate something about a contributed equally statement that the authors may have included in their manuscript.",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2320,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      "Equal"
+    ]
+  },
+  {
+    "_id": "MPSectionCategory:ethics-statement",
+    "name": "Ethics Statement",
+    "desc": "Statement regarding following relevant ethical guidelines.",
     "objectType": "MPSectionCategory",
     "titles": [
-      "Table of Contents",
-      "TOC",
-      "Contents"
+      "Ethics Statement",
+      "ethicsStatement"
     ],
+    "singular": true,
     "bundled": true,
-    "priority": 185,
+    "priority": 2390,
     "uniqueInScope": true
+  },
+  {
+    "_id": "MPSectionCategory:financial-disclosure",
+    "name": "Financial Disclosure",
+    "desc": "A section to indicate the source of funding for the manuscript.",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2330,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      "Financial disclosure",
+      "financialDisclosure"
+    ]
+  },
+  {
+    "_id": "MPSectionCategory:abstract-graphical",
+    "name": "Graphical Abstract",
+    "desc": "A visual summary of your work.",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2200,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      "Graphical abstract"
+    ]
   },
   {
     "_id": "MPSectionCategory:introduction",
@@ -84,15 +236,45 @@
     "uniqueInScope": true
   },
   {
-    "_id": "MPSectionCategory:review",
-    "name": "Review",
-    "desc": "The body of a review article",
+    "_id": "MPSectionCategory:keywords",
+    "name": "Keywords",
+    "desc": "List of keywords relevant to the manuscript.",
     "objectType": "MPSectionCategory",
     "titles": [
-      "review"
+      "Keywords",
+      "List of keywords"
     ],
     "bundled": true,
-    "priority": 250,
+    "priority": 175,
+    "uniqueInScope": true
+  },
+  {
+    "_id": "MPSectionCategory:list-of-figures",
+    "name": "List of Figures",
+    "desc": "List of figures included in your manuscript.",
+    "objectType": "MPSectionCategory",
+    "titles": [
+      "List of figures",
+      "figures",
+      "listOfFigures"
+    ],
+    "singular": true,
+    "bundled": true,
+    "priority": 900,
+    "uniqueInScope": true
+  },
+  {
+    "_id": "MPSectionCategory:list-of-tables",
+    "name": "List of Tables",
+    "desc": "List of tables included in your manuscript.",
+    "objectType": "MPSectionCategory",
+    "titles": [
+      "List of tables",
+      "tables"
+    ],
+    "singular": true,
+    "bundled": true,
+    "priority": 800,
     "uniqueInScope": true
   },
   {
@@ -113,6 +295,49 @@
     "uniqueInScope": true
   },
   {
+    "_id": "MPSectionCategory:present-address",
+    "name": "Present Address",
+    "desc": "A section that indicate something about a present address statement that the authors may have included in their manuscript.",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2340,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      "Present address",
+      "presentAddress"
+    ]
+  },
+  {
+    "_id": "MPSectionCategory:presented-at",
+    "name": "Presented at",
+    "desc": "A section that indicate something about a presented at statement that the authors may have included in their manuscript.",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2350,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      "Presented at"
+    ]
+  },
+  {
+    "_id": "MPSectionCategory:previously-at",
+    "name": "Previously at",
+    "desc": "A section that indicate something about a previously at statement that the authors may have included in their manuscript.",
+    "objectType": "MPSectionCategory",
+    "singular": true,
+    "bundled": true,
+    "priority": 2360,
+    "uniqueInScope": true,
+    "supplementary": true,
+    "titles": [
+      "Previously at"
+    ]
+  },
+  {
     "_id": "MPSectionCategory:results",
     "name": "Results",
     "desc": "Describe the results of your work and include a summary of data found in your tables and figures.",
@@ -126,274 +351,15 @@
     "uniqueInScope": true
   },
   {
-    "_id": "MPSectionCategory:discussion",
-    "name": "Discussion",
-    "desc": "Interpret your data and draw conclusions.",
+    "_id": "MPSectionCategory:review",
+    "name": "Review",
+    "desc": "The body of a review article",
     "objectType": "MPSectionCategory",
     "titles": [
-      "discussion",
-      "discussion and results"
+      "review"
     ],
     "bundled": true,
-    "priority": 500,
-    "uniqueInScope": true
-  },
-  {
-    "_id": "MPSectionCategory:conclusions",
-    "name": "Conclusions",
-    "desc": "Summarise and draw conclusions.",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "conclusion",
-      "conclusions"
-    ],
-    "bundled": true,
-    "priority": 550,
-    "uniqueInScope": true
-  },
-  {
-    "_id": "MPSectionCategory:key-messages",
-    "name": "Key messages",
-    "desc": "Key messages of your work.",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "key message",
-      "key messages",
-      "keymessages"
-    ],
-    "bundled": true,
-    "priority": 570,
-    "uniqueInScope": true
-  },
-  {
-    "_id": "MPSectionCategory:availability",
-    "name": "Availability",
-    "desc": "Availability of data and other resources.",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "availability"
-    ],
-    "bundled": true,
-    "priority": 575,
-    "uniqueInScope": true
-  },
-  {
-    "_id": "MPSectionCategory:acknowledgement",
-    "name": "Acknowledgments",
-    "desc": "Acknowledge individuals and organizations that were important in making your work possible.",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "acknowledgement",
-      "acknowledgements"
-    ],
-    "bundled": true,
-    "priority": 600,
-    "uniqueInScope": true
-  },
-  {
-    "_id": "MPSectionCategory:dedication",
-    "name": "Dedication",
-    "desc": "A dedication is the expression of friendly connection or thank by the author towards another person.",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "dedication",
-      "dedications"
-    ],
-    "bundled": true,
-    "priority": 625,
-    "uniqueInScope": true
-  },
-  {
-    "_id": "MPSectionCategory:blurb",
-    "name": "Blurb",
-    "desc": "Summary of the most important finding of the work.",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "blurb",
-      "impact statement"
-    ],
-    "bundled": true,
-    "priority": 650,
-    "uniqueInScope": true
-  },
-  {
-    "_id": "MPSectionCategory:competing-interests",
-    "name": "Competing Interests",
-    "desc": "Competing interests (financial etc).",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "Competing interests",
-      "Competing financial interests",
-      "competingInterests"
-    ],
-    "singular": true,
-    "bundled": true,
-    "priority": 1300,
-    "uniqueInScope": true
-  },
-  {
-    "_id": "MPSectionCategory:abbreviations",
-    "name": "Abbreviations",
-    "desc": "List of abbreviations referred to in your manuscript.",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "List of abbreviations",
-      "Abbreviations"
-    ],
-    "singular": true,
-    "bundled": true,
-    "priority": 680,
-    "uniqueInScope": true
-  },
-  {
-    "_id": "MPSectionCategory:endnotes",
-    "name": "Endnotes",
-    "desc": "List of endnotes in your manuscript",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "Endnotes",
-      "Notes"
-    ],
-    "singular": true,
-    "bundled": true,
-    "priority": 690,
-    "uniqueInScope": true
-  },
-  {
-    "_id": "MPSectionCategory:bibliography",
-    "name": "Bibliography",
-    "desc": "References cited in your manuscript.",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "bibliography",
-      "references"
-    ],
-    "singular": true,
-    "bundled": true,
-    "priority": 700,
-    "uniqueInScope": true
-  },
-  {
-    "_id": "MPSectionCategory:list-of-tables",
-    "name": "List of Tables",
-    "desc": "List of tables included in your manuscript.",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "List of tables",
-      "tables"
-    ],
-    "singular": true,
-    "bundled": true,
-    "priority": 800,
-    "uniqueInScope": true
-  },
-  {
-    "_id": "MPSectionCategory:list-of-figures",
-    "name": "List of Figures",
-    "desc": "List of figures included in your manuscript.",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "List of figures",
-      "figures",
-      "listOfFigures"
-    ],
-    "singular": true,
-    "bundled": true,
-    "priority": 900,
-    "uniqueInScope": true
-  },
-  {
-    "_id": "MPSectionCategory:appendices",
-    "name": "Appendices",
-    "desc": "List of additional matters at the end of a book or document.",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "Appendices",
-      "appendix",
-      "additionalInformation",
-      "additional information"
-    ],
-    "singular": true,
-    "bundled": true,
-    "priority": 1000,
-    "uniqueInScope": true
-  },
-  {
-    "_id": "MPSectionCategory:additional-files",
-    "name": "Additional Files",
-    "desc": "List of supplemental files at the end of a book or document.",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "Additional files",
-      "supplemental files",
-      "supplements"
-    ],
-    "bundled": true,
-    "priority": 1100,
-    "uniqueInScope": true
-  },
-  {
-    "_id": "MPSectionCategory:author-contributions",
-    "name": "Author contributions",
-    "desc": "An account of the author contributions towards this work.",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "Author contributions",
-      "authorContributions"
-    ],
-    "bundled": true,
-    "priority": 1150,
-    "uniqueInScope": true
-  },
-  {
-    "_id": "MPSectionCategory:consent",
-    "name": "Consent",
-    "desc": "An account describing how consent of study participants was acquired.",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "Consent"
-    ],
-    "bundled": true,
-    "priority": 1175,
-    "uniqueInScope": true
-  },
-  {
-    "_id": "MPSectionCategory:author-information",
-    "name": "Author Information",
-    "desc": "Information about authors.",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "Author information",
-      "authorInformation"
-    ],
-    "bundled": true,
-    "priority": 1150,
-    "uniqueInScope": true
-  },
-  {
-    "_id": "MPSectionCategory:bio",
-    "name": "Biography",
-    "desc": "Biographical information about authors.",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "biography",
-      "biographical sketch"
-    ],
-    "bundled": true,
-    "priority": 1170,
-    "uniqueInScope": true
-  },
-  {
-    "_id": "MPSectionCategory:chapter",
-    "name": "Chapter",
-    "desc": "A main division, for instance in a book or a thesis. Often includes a number or a title.",
-    "objectType": "MPSectionCategory",
-    "titles": [
-      "chapter"
-    ],
-    "singular": true,
-    "bundled": true,
-    "priority": 1200,
+    "priority": 250,
     "uniqueInScope": true
   },
   {
@@ -423,134 +389,6 @@
     "uniqueInScope": true
   },
   {
-    "_id": "MPSectionCategory:cover-letter",
-    "name": "Cover Letter",
-    "desc": "A letter sent along with your manuscript to explain it.",
-    "objectType": "MPSectionCategory",
-    "singular": true,
-    "bundled": true,
-    "priority": 2000,
-    "uniqueInScope": true,
-    "supplementary": true,
-    "titles": [
-      "cover letter",
-      "coverletter"
-    ]
-  },
-  {
-    "_id": "MPSectionCategory:review-response-letter",
-    "name": "Review Response Letter",
-    "desc": "Letter in response to a review.",
-    "objectType": "MPSectionCategory",
-    "singular": true,
-    "bundled": true,
-    "priority": 2100,
-    "uniqueInScope": true,
-    "supplementary": true,
-    "titles": [
-      "response to review comments",
-      "response letter"
-    ]
-  },
-  {
-    "_id": "MPSectionCategory:abstract-graphical",
-    "name": "Graphical Abstract",
-    "desc": "A visual summary of your work.",
-    "objectType": "MPSectionCategory",
-    "singular": true,
-    "bundled": true,
-    "priority": 2200,
-    "uniqueInScope": true,
-    "supplementary": true,
-    "titles": [
-      "Graphical abstract"
-    ]
-  },
-  {
-    "_id": "MPSectionCategory:con",
-    "name": "Contributed-by information",
-    "desc": "A section to indicate a contributed-by information that the authors may have included in their manuscript.",
-    "objectType": "MPSectionCategory",
-    "singular": true,
-    "bundled": true,
-    "priority": 2300,
-    "uniqueInScope": true,
-    "supplementary": true,
-    "titles": ["Contributed-by information"]
-  },
-  {
-    "_id": "MPSectionCategory:deceased",
-    "name": "Deceased",
-    "desc": "A section to indicate something about a deceased statement related to an author who may have passed since the writing of the manuscript.",
-    "objectType": "MPSectionCategory",
-    "singular": true,
-    "bundled": true,
-    "priority": 2310,
-    "uniqueInScope": true,
-    "supplementary": true,
-    "titles": ["Deceased"]
-  },
-  {
-    "_id": "MPSectionCategory:equal",
-    "name": "Equal",
-    "desc": "A section to indicate something about a contributed equally statement that the authors may have included in their manuscript.",
-    "objectType": "MPSectionCategory",
-    "singular": true,
-    "bundled": true,
-    "priority": 2320,
-    "uniqueInScope": true,
-    "supplementary": true,
-    "titles": ["Equal"]
-  },
-  {
-    "_id": "MPSectionCategory:financial-disclosure",
-    "name": "Financial Disclosure",
-    "desc": "A section to indicate the source of funding for the manuscript.",
-    "objectType": "MPSectionCategory",
-    "singular": true,
-    "bundled": true,
-    "priority": 2330,
-    "uniqueInScope": true,
-    "supplementary": true,
-    "titles": ["Financial disclosure", "financialDisclosure"]
-  },
-  {
-    "_id": "MPSectionCategory:present-address",
-    "name": "Present Address",
-    "desc": "A section that indicate something about a present address statement that the authors may have included in their manuscript.",
-    "objectType": "MPSectionCategory",
-    "singular": true,
-    "bundled": true,
-    "priority": 2340,
-    "uniqueInScope": true,
-    "supplementary": true,
-    "titles": ["Present address", "presentAddress"]
-  },
-  {
-    "_id": "MPSectionCategory:presented-at",
-    "name": "Presented at",
-    "desc": "A section that indicate something about a presented at statement that the authors may have included in their manuscript.",
-    "objectType": "MPSectionCategory",
-    "singular": true,
-    "bundled": true,
-    "priority": 2350,
-    "uniqueInScope": true,
-    "supplementary": true,
-    "titles": ["Presented at"]
-  },
-  {
-    "_id": "MPSectionCategory:previously-at",
-    "name": "Previously at",
-    "desc": "A section that indicate something about a previously at statement that the authors may have included in their manuscript.",
-    "objectType": "MPSectionCategory",
-    "singular": true,
-    "bundled": true,
-    "priority": 2360,
-    "uniqueInScope": true,
-    "supplementary": true,
-    "titles": ["Previously at"]
-  },
-  {
     "_id": "MPSectionCategory:supplementary-material",
     "name": "Supplementary Material",
     "desc": "A section that indicate something about a supplementary material statement that the authors may have included in their manuscript.",
@@ -560,7 +398,10 @@
     "priority": 2370,
     "uniqueInScope": true,
     "supplementary": true,
-    "titles": ["Supplementary material", "supplementaryMaterial"]
+    "titles": [
+      "Supplementary material",
+      "supplementaryMaterial"
+    ]
   },
   {
     "_id": "MPSectionCategory:supported-by",
@@ -572,20 +413,22 @@
     "priority": 2380,
     "uniqueInScope": true,
     "supplementary": true,
-    "titles": ["Supported by"]
+    "titles": [
+      "Supported by"
+    ]
   },
   {
-    "_id": "MPSectionCategory:ethics-statement",
-    "name": "Ethics Statement",
-    "desc": "Statement regarding following relevant ethical guidelines.",
+    "_id": "MPSectionCategory:toc",
+    "name": "Table of Contents",
+    "desc": "The contents usually includes the headings of top level sections, and often includes second-level and occasionally even third-level headings.",
     "objectType": "MPSectionCategory",
     "titles": [
-      "Ethics Statement",
-      "ethicsStatement"
+      "Table of Contents",
+      "TOC",
+      "Contents"
     ],
-    "singular": true,
     "bundled": true,
-    "priority": 2390,
+    "priority": 185,
     "uniqueInScope": true
   }
 ]
