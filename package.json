@@ -1,6 +1,6 @@
 {
   "name": "@manuscripts/data",
-  "version": "0.1.13-LEAN-2221",
+  "version": "0.1.13",
   "license": "Apache-2.0",
   "files": [
     "dist/csl/locales/*.json",
