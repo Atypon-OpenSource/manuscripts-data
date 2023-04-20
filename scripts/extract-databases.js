@@ -6,10 +6,6 @@ const path = require('path')
 
 fs.ensureDirSync('dist/shared')
 
-const customBundles = fs.readJSONSync('dist/shared/custom-bundles.json')
-const customTemplates = fs.readJSONSync('dist/shared/custom-templates.json')
-const publishedTemplates = fs.readJSONSync('dist/shared/published-templates.json')
-
 // NOTE: need to extract bundles before templates
 const files = ['bundles', 'templates-v2', 'symbols-v2', 'funders']
 
@@ -29,8 +25,6 @@ for (const file of files) {
 
   // remove bundles that reference missing CSL
   if (file === 'bundles') {
-    docs.push(...customBundles)
-
     docs = docs.filter(doc => {
       if (doc.csl) {
         const id = path.basename(doc.csl.cslIdentifier)
@@ -68,8 +62,6 @@ for (const file of files) {
 
   // remove derived data and invalid bundles from templates JSON
   if (file === 'templates-v2') {
-    docs.push(...customTemplates)
-    docs.push(...publishedTemplates)
 
     // filter out templates with unavailable bundle IDs
     docs = docs.filter(doc => {
