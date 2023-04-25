@@ -15,14 +15,8 @@ find csl/locales -maxdepth 1 -name '*.xml' -exec cp "{}" dist/csl/locales/ \;
 node scripts/build-styles.js
 
 # copy shared data
-#mkdir -p dist/shared
-#find shared -maxdepth 1 -name '*.json' -exec cp "{}" dist/shared/ \;
-
-# build journals list
-#node scripts/build-journals.js
-
-# fetch published templates
-#node scripts/fetch-published-templates.js
+mkdir -p dist/shared
+find shared -maxdepth 1 -name '*.json' -exec cp "{}" dist/shared/ \;
 
 # extract shared data from databases
 node scripts/extract-databases.js
