@@ -7,7 +7,7 @@ const path = require('path')
 fs.ensureDirSync('dist/shared')
 
 // NOTE: need to extract bundles before templates
-const files = ['bundles', 'templates-v2', 'symbols-v2', 'funders']
+const files = ['bundles', 'templates-v2']
 
 const bundleIDs = new Set()
 
