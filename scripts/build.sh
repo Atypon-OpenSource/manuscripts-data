@@ -18,12 +18,6 @@ node scripts/build-styles.js
 mkdir -p dist/shared
 find shared -maxdepth 1 -name '*.json' -exec cp "{}" dist/shared/ \;
 
-# build journals list
-#node scripts/build-journals.js
-
-# fetch published templates
-#node scripts/fetch-published-templates.js
-
 # extract shared data from databases
 node scripts/extract-databases.js
 
