@@ -26,7 +26,16 @@
     "bundled": true,
     "priority": 110,
     "uniqueInScope": true,
-    "pageBreakStyle": 2
+    "pageBreakStyle": 2,
+    "groupIDs": ["MPSectionCategory:abstracts"]
+  },
+  {
+    "_id": "MPSectionCategory:abstracts",
+    "name": "Abstracts",
+    "desc": "Abstracts section for grouping",
+    "objectType": "MPSectionCategory",
+    "titles": [],
+    "priority": 120
   },
   {
     "_id": "MPSectionCategory:acknowledgement",
@@ -38,8 +47,9 @@
       "acknowledgements"
     ],
     "bundled": true,
-    "priority": 120,
-    "uniqueInScope": true
+    "priority": 130,
+    "uniqueInScope": true,
+    "groupIDs": ["MPSectionCategory:backmatter"]
   },
   {
     "_id": "MPSectionCategory:appendices",
@@ -54,7 +64,7 @@
     ],
     "singular": true,
     "bundled": true,
-    "priority": 130,
+    "priority": 140,
     "uniqueInScope": true
   },
   {
@@ -67,7 +77,7 @@
       "authorContributions"
     ],
     "bundled": true,
-    "priority": 140,
+    "priority": 150,
     "uniqueInScope": true
   },
   {
@@ -79,8 +89,17 @@
       "availability"
     ],
     "bundled": true,
-    "priority": 150,
-    "uniqueInScope": true
+    "priority": 160,
+    "uniqueInScope": true,
+    "groupIDs": ["MPSectionCategory:backmatter"]
+  },
+  {
+    "_id": "MPSectionCategory:backmatter",
+    "name": "Backmatter",
+    "desc": "Backmatter section for grouping",
+    "objectType": "MPSectionCategory",
+    "titles": [],
+    "priority": 170
   },
   {
     "_id": "MPSectionCategory:bibliography",
@@ -93,8 +112,16 @@
     ],
     "singular": true,
     "bundled": true,
-    "priority": 160,
+    "priority": 180,
     "uniqueInScope": true
+  },
+  {
+    "_id": "MPSectionCategory:body",
+    "name": "Body",
+    "desc": "Body section for grouping",
+    "objectType": "MPSectionCategory",
+    "titles": [],
+    "priority": 190
   },
   {
     "_id": "MPSectionCategory:competing-interests",
@@ -108,8 +135,9 @@
     ],
     "singular": true,
     "bundled": true,
-    "priority": 170,
-    "uniqueInScope": true
+    "priority": 200,
+    "uniqueInScope": true,
+    "groupIDs": ["MPSectionCategory:backmatter"]
   },
   {
     "_id": "MPSectionCategory:conclusions",
@@ -121,8 +149,9 @@
       "conclusions"
     ],
     "bundled": true,
-    "priority": 180,
-    "uniqueInScope": true
+    "priority": 210,
+    "uniqueInScope": true,
+    "groupIDs": ["MPSectionCategory:body"]
   },
   {
     "_id": "MPSectionCategory:con",
@@ -131,12 +160,13 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 190,
+    "priority": 220,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
       "Contributed-by information"
-    ]
+    ],
+    "groupIDs": ["MPSectionCategory:backmatter"]
   },
   {
     "_id": "MPSectionCategory:deceased",
@@ -145,7 +175,7 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 200,
+    "priority": 230,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
@@ -162,8 +192,9 @@
       "discussion and results"
     ],
     "bundled": true,
-    "priority": 210,
-    "uniqueInScope": true
+    "priority": 240,
+    "uniqueInScope": true,
+    "groupIDs": ["MPSectionCategory:body"]
   },
   {
     "_id": "MPSectionCategory:equal",
@@ -172,7 +203,7 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 220,
+    "priority": 250,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
@@ -190,8 +221,9 @@
     ],
     "singular": true,
     "bundled": true,
-    "priority": 230,
-    "uniqueInScope": true
+    "priority": 260,
+    "uniqueInScope": true,
+    "groupIDs": ["MPSectionCategory:backmatter"]
   },
   {
     "_id": "MPSectionCategory:financial-disclosure",
@@ -200,13 +232,14 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 240,
+    "priority": 270,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
       "Financial disclosure",
       "financialDisclosure"
-    ]
+    ],
+    "groupIDs": ["MPSectionCategory:backmatter"]
   },
   {
     "_id": "MPSectionCategory:abstract-graphical",
@@ -215,12 +248,13 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 250,
+    "priority": 280,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
       "Graphical abstract"
-    ]
+    ],
+    "groupIDs": ["MPSectionCategory:abstracts"]
   },
   {
     "_id": "MPSectionCategory:introduction",
@@ -232,8 +266,9 @@
       "background"
     ],
     "bundled": true,
-    "priority": 260,
-    "uniqueInScope": true
+    "priority": 290,
+    "uniqueInScope": true,
+    "groupIDs": ["MPSectionCategory:body"]
   },
   {
     "_id": "MPSectionCategory:keywords",
@@ -245,7 +280,7 @@
       "List of keywords"
     ],
     "bundled": true,
-    "priority": 270,
+    "priority": 300,
     "uniqueInScope": true
   },
   {
@@ -260,7 +295,7 @@
     ],
     "singular": true,
     "bundled": true,
-    "priority": 280,
+    "priority": 310,
     "uniqueInScope": true
   },
   {
@@ -274,7 +309,7 @@
     ],
     "singular": true,
     "bundled": true,
-    "priority": 290,
+    "priority": 320,
     "uniqueInScope": true
   },
   {
@@ -291,8 +326,9 @@
       "materials & methods"
     ],
     "bundled": true,
-    "priority": 300,
-    "uniqueInScope": true
+    "priority": 330,
+    "uniqueInScope": true,
+    "groupIDs": ["MPSectionCategory:body"]
   },
   {
     "_id": "MPSectionCategory:present-address",
@@ -301,7 +337,7 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 310,
+    "priority": 340,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
@@ -316,7 +352,7 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 320,
+    "priority": 350,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
@@ -330,7 +366,7 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 330,
+    "priority": 360,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
@@ -347,8 +383,9 @@
       "results and discussion"
     ],
     "bundled": true,
-    "priority": 340,
-    "uniqueInScope": true
+    "priority": 370,
+    "uniqueInScope": true,
+    "groupIDs": ["MPSectionCategory:body"]
   },
   {
     "_id": "MPSectionCategory:review",
@@ -359,8 +396,9 @@
       "review"
     ],
     "bundled": true,
-    "priority": 350,
-    "uniqueInScope": true
+    "priority": 380,
+    "uniqueInScope": true,
+    "groupIDs": ["MPSectionCategory:body"]
   },
   {
     "_id": "MPSectionCategory:section",
@@ -372,8 +410,9 @@
     ],
     "singular": true,
     "bundled": true,
-    "priority": 360,
-    "uniqueInScope": true
+    "priority": 390,
+    "uniqueInScope": true,
+    "groupIDs": ["MPSectionCategory:body"]
   },
   {
     "_id": "MPSectionCategory:subsection",
@@ -385,8 +424,9 @@
     ],
     "singular": true,
     "bundled": true,
-    "priority": 370,
-    "uniqueInScope": true
+    "priority": 400,
+    "uniqueInScope": true,
+    "groupIDs": ["MPSectionCategory:body"]
   },
   {
     "_id": "MPSectionCategory:supplementary-material",
@@ -395,13 +435,15 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 380,
+    "priority": 410,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
       "Supplementary material",
       "supplementaryMaterial"
-    ]
+    ],
+    "groupIDs": ["MPSectionCategory:backmatter"]
+
   },
   {
     "_id": "MPSectionCategory:supported-by",
@@ -410,12 +452,14 @@
     "objectType": "MPSectionCategory",
     "singular": true,
     "bundled": true,
-    "priority": 390,
+    "priority": 420,
     "uniqueInScope": true,
     "supplementary": true,
     "titles": [
       "Supported by"
-    ]
+    ],
+    "groupIDs": ["MPSectionCategory:backmatter"]
+
   },
   {
     "_id": "MPSectionCategory:toc",
@@ -428,7 +472,7 @@
       "Contents"
     ],
     "bundled": true,
-    "priority": 400,
+    "priority": 430,
     "uniqueInScope": true
   }
 ]
