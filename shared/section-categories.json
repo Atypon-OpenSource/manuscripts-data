@@ -126,7 +126,9 @@
       "Conflict of Interest",
       "Competing interests",
       "Competing financial interests",
-      "competingInterests"
+      "competingInterests",
+      "Conflict of Interest",
+      "Conflict of Interest Statement"
     ],
     "singular": true,
     "priority": 200,
