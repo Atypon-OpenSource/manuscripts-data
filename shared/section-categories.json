@@ -129,11 +129,11 @@
     "desc": "Conflict of Interest Statement",
     "objectType": "MPSectionCategory",
     "titles": [
+      "Conflict of Interest",
+      "Conflict of Interest Statement",
       "Competing interests",
       "Competing financial interests",
-      "competingInterests",
-      "Conflict of Interest",
-      "Conflict of Interest Statement"
+      "competingInterests"
     ],
     "singular": true,
     "bundled": true,
