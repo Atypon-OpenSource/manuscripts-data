@@ -118,10 +118,12 @@
   },
   {
     "_id": "MPSectionCategory:competing-interests",
-    "name": "Competing Interests",
-    "desc": "Competing interests (financial etc).",
+    "name": "COI Statement",
+    "desc": "Conflict of Interest Statement",
     "objectType": "MPSectionCategory",
     "titles": [
+      "Conflict of Interest Statement",
+      "Conflict of Interest",
       "Competing interests",
       "Competing financial interests",
       "competingInterests"
